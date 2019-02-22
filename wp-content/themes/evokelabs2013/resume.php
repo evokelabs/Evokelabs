@@ -11,7 +11,7 @@ Template Name: Evokelabs Resume
 <body>
         <header>
         <div id="logo" >
-            <a href="http://www.www.evokelabs.dev.cc"><img src="<?php bloginfo('template_url'); ?>/img/evokelabslogo.gif" alt="Evokelabs logo ball"/></a>  
+            <a href="http://www.evokelabs.com"><img src="<?php bloginfo('template_url'); ?>/img/evokelabslogo.gif" alt="Evokelabs logo ball"/></a>  
         </div>
         
         <div id="headerIcons">
@@ -20,7 +20,7 @@ Template Name: Evokelabs Resume
                 <a href="https://github.com/evokelabs" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/icongithub.png" alt="GitHub" /></li></a>
                 <a href="http://www.youtube.com/evokelabs" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/iconyoutube.png" alt="YouTube" /></li></a>
                 <a href="https://www.linkedin.com/in/adrianpikios/" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/iconlinked.png" alt="LinkedIn" /></li></a>
-                <a href="mailto:adrian@www.evokelabs.com"><li><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></li></a>
+                <a href="mailto:adrian@evokelabs.com"><li><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></li></a>
             </ul>
         </div>
             <div id="headertitles">
@@ -43,7 +43,7 @@ Template Name: Evokelabs Resume
                                  
                                  <p>I’m a creative technologist with a diverse skillset across the areas of interactive, digital strategy, design, motion, development and UX. With over 15 years of experience, I work closely with technologies, agencies and clients to help produce their digital campaigns.</p>
                                  <p>My objective is to keep my clients and directors happy. I do this by listening to their needs, understanding their market, and then producing works that meet their objectives; adhering to the best design practices wherever possible.</p>
-                                 <p>My secondary objective is to further my digital and entrepreneur skills as the internet &amp; people continue to grow, with the ultimate goal of becoming an expert full stack developer &amp; application designer.</p>
+                                 <p>My secondary objective is to further my digital and entrepreneur skills as the internet &amp; people continue to grow, with the ultimate goal of becoming a full stack developer &amp; application designer.</p>
 
 
 
@@ -58,7 +58,7 @@ Template Name: Evokelabs Resume
                                    <h2><span class="highlight">Location</span></h2>
                                     <h3>Sydney, Australia</h3>
                                    <h2><span class="highlight">Email</span></h2>
-                                    <h3>adrian@www.evokelabs.dev.cc</h3>
+                                    <h3>adrian@evokelabs.com</h3>
                                    <h2><span class="highlight">ABN</span></h2>
                                     <h3>53 470 501 232</h3>
                                     <h2><span class="highlight">Printable PDF</span></h2>
@@ -92,12 +92,21 @@ Template Name: Evokelabs Resume
                              <li>Owner &amp; Creative Technologist</li>
                              <li>April 2004 - Present</li>
                              <p>I started in animation, Flash and AS2 thinking there would always be a future in Flash and actionscript development. My skill sets were expanded to include development, motion, strategy and production after working in various digital agencies and filling whatever roles that needed to be filled. Since then, I've continued to follow my passions in digital technologies and applied myself broadly across the industry - working as freelancer, full-timer, consultant or one-offs. I've held many job titles, including digital designer, motion designer, 3d designer, front end developer, back end developer, creative technologist and more. I've been involved with some unique and interesting projects in my career, but none have been rewarding as my own personal projects that have been successful in their own way.</p>
-                            <p>As the internet and its technologies continue to evolve, I continually change and evolve with it - with the intention of becoming a full stack developer with strong UX/UI capabilities.</p>
-                            <p>Please visit my <a href="http://www.www.evokelabs.dev.cc">showreel</a> to see my most engaging works, or my <a href="http://www.www.evokelabs.dev.cc">case studies</a> to learn the process of how they were built.</p>
+                            <p>As the internet and its technologies continue to evolve, I continually change and evolve with it - with the desired intention of becoming a full stack developer with strong UX/UI capabilities.</p>
+                            <p>Please visit my <a href="http://www.www.evokelabs.com">showreel</a> to see my most engaging works, or my <a href="http://www.www.evokelabs.com">case studies</a> to learn the process of how they were built.</p>
                             <p>References are available on request.</p>
 
                              
                         </ul>
+
+                        <ul>
+                             <li>University of Sydney</li>
+                             <li>Freelance Digital Designer / Developer</li>
+                             <li>December 2018 - January 2019</li>
+                             <p>I was hired by Dakota Media to work with the University of Sydney on their "Unlearn" Campaign, a collection of innovative discoveries researched by the University. I was responsible for building and developing their HTML5 banner suite, which was to be delivered through Google Doubleclick. A total of 30 banners was built in under two weeks for each of the research creatives and their respective resizes.</p>
+
+                            <p>This HTML5 banner collection can be viewed <a href="http://www.evokelabs.com/works/UniversityOfSydney">here</a></p>
+                         </ul>
 
                         <ul>
                              <li>Richards Rose</li>
@@ -105,7 +114,7 @@ Template Name: Evokelabs Resume
                              <li>July 2015 - November 2018</li>
                              <p>I have a long standing relationship with Richards Rose (priorly AJF Partnership) and was one of their original freelancers when they were just starting out. I've stayed with them for a number of years and have worked on dozens of different digital campaigns. Their jobs typically include motion builds, HTML5 banner builds, minisite builds, eDM builds, and Wordpress builds. Their clients include Stan, Mitsubishi, Wild Turkey, Nivea and Perpetual.</p>
 
-                            <p>Check out the <a href="http://www.evokelabs.dev.cc/works/RichardsRose-Banners/">Richards Rose HTML5 Collection</a> or <a href="http://www.evokelabs.dev.cc/works/RichardsRose-Motion/"">Richards Rose Motion Suite</a> to see some of these works.</p></p>
+                            <p>Check out the <a href="http://www.evokelabs.com/works/RichardsRose-Banners/">Richards Rose HTML5 Collection</a> or <a href="http://www.evokelabs.com/works/RichardsRose-Motion/">Richards Rose Motion Suite</a> to see some of these works.</p></p>
                          </ul>
 
                         <ul>
@@ -124,7 +133,7 @@ Template Name: Evokelabs Resume
                             <!-- <li>November 2013 - January 2014</li>-->
                              <p>AJF Partnership is an independent creative agency that gets their feet wet with digital from time to time. I am one of their creative freelancers that liaises with them whenever their campaigns needs to go digital.</p>
                              <p>The typical jobs that get passed to me are flash builds, eDM builds, HTML builds and motion builds. Some of their complicated banners involve serving videos, incorporating double click functions, fetching dynamic data and more. I also consult their team when it comes to digital projects they are not so experienced in.</p>
-                             <p>Check out the <a href="http://www.www.evokelabs.dev.cc/clients/AJFpartnership/">AJF Partnership Collection</a> to see some of these works.</p>
+                             <p>Check out the <a href="http://www.www.evokelabs.com/clients/AJFpartnership/">AJF Partnership Collection</a> to see some of these works.</p>
 
                          </ul>
 
@@ -135,7 +144,7 @@ Template Name: Evokelabs Resume
                              <li>November 2013 - Late 2014 (freelance)</li>
                              <p>I was hired at Tectonic Digital to do Flash, video, design creative, front end and back end development for their clients. The most notable client of theirs was Google, and I was their go-to-guy for anything Google related.</p>
                              <p>My weekly and daily responsibilities were delegated by our producers and directors. These include responsive builds, edm builds, flash builds, motions builds, wordpress template builds and CSS/HTML front end development.</p>
-                             <p>Most notable responsibilities include some of the art direction and all the flash builds on various <a href="http://www.www.evokelabs.dev.cc/works/google/index.html">Google Banner Campaigns</a>. I was also responsible for HTML/CSS front end and some of the Wordpress back end for <a href="http://www.emma.com.au">Emma's</a> reponsive site. 
+                             <p>Most notable responsibilities include some of the art direction and all the flash builds on various <a href="http://www.www.evokelabs.com/works/google/index.html">Google Banner Campaigns</a>. I was also responsible for HTML/CSS front end and some of the Wordpress back end for <a href="http://www.emma.com.au">Emma's</a> reponsive site. 
                         </ul>
 
                        
@@ -146,7 +155,7 @@ Template Name: Evokelabs Resume
                              <li>2011 - 2012</li>
                              <p>I freelanced for this global agency in Sydney on and off over a period of two years. Working closely with producers and creative directors, I was responsible for flash builds, motion build, edm builds, design and development and anything else they can fit me into.</p>
                              <p>I was placed with clients such as Qantas, Google, Westfield and Woolworths and delivered an impressive amount of digital campaigns.</p>
-                            <p>Notable works include <a href="http://www.www.evokelabs.dev.cc/works/optusmoxa/">Optus Go Places</a> - a 3d motion build for Optus instores, <a href="http://www.www.evokelabs.dev.cc/works/westfield/index.html">Westfield motion builds</a> for their LED displays instore, a large amount of <a href="http://www.www.evokelabs.dev.cc/works/makebanners/index.html">banner builds</a> and <a href="http://www.www.evokelabs.dev.cc/works/optusinbetweeners/index.html">Optus Inbetweeners</a> - a video flash web portal.</p>
+                            <p>Notable works include <a href="http://www.www.evokelabs.com/works/optusmoxa/">Optus Go Places</a> - a 3d motion build for Optus instores, <a href="http://www.www.evokelabs.com/works/westfield/index.html">Westfield motion builds</a> for their LED displays instore, a large amount of <a href="http://www.www.evokelabs.dev.cc/works/makebanners/index.html">banner builds</a> and <a href="http://www.www.evokelabs.dev.cc/works/optusinbetweeners/index.html">Optus Inbetweeners</a> - a video flash web portal.</p>
                         </ul>
 
                          <ul>
@@ -154,7 +163,7 @@ Template Name: Evokelabs Resume
                              <li>Interactive Designer Consultant</li>
                              <li>2004 - 2012</li>
                              <p>Relax Design are mostly a print and branding agency that needed help when they made the jump into digital. I have helped Relax create websites, minisites, edms, motion builds and flash presentations for almost over ten years.</p>
-                             <p>Notable works include <a href="http://www.www.evokelabs.dev.cc/works/travelodge/">Travelodge presentations</a>, <a href="http://www.www.evokelabs.dev.cc/works/adina/">Adina presentations</a>, <a href="http://www.www.evokelabs.dev.cc/works/vibeHotel/">Vibe Hotel presentations</a>, and <a href="http://www.www.evokelabs.dev.cc/works/arras/">Arras minisite.</a></p>
+                             <p>Notable works include <a href="http://www.www.evokelabs.com/works/travelodge/">Travelodge presentations</a>, <a href="http://www.www.evokelabs.com/works/adina/">Adina presentations</a>, <a href="http://www.www.evokelabs.com/works/vibeHotel/">Vibe Hotel presentations</a>, and <a href="http://www.www.evokelabs.dev.cc/works/arras/">Arras minisite.</a></p>
                         </ul>
 
 
@@ -163,7 +172,7 @@ Template Name: Evokelabs Resume
                              <li>Freelance Interactive Designer</li>
                              <li>2006 - 2007</li>
                              <p>I freelanced for this digital and CRM agency over a period of two years. In this time, directors and producers would come to me for their digital creative builds. I was responsible for minisite designs, flash builds, actionscript development and eDM development. I was also dealing with big clients as such Telstra, Microsoft and Career One.</p>
-                             <p>This was my first big break in my career. Notable campaigns include Career One's <a href="http://www.www.evokelabs.dev.cc/works/careerone/">"Find The One"</a> and Telstra's <a href="http://www.www.evokelabs.dev.cc/works/telstra/">"Capman"</a>.</p>
+                             <p>This was my first big break in my career. Notable campaigns include Career One's <a href="http://www.www.evokelabs.com/works/careerone/">"Find The One"</a> and Telstra's <a href="http://www.www.evokelabs.com/works/telstra/">"Capman"</a>.</p>
                         </ul>
 
                      </ul>
@@ -199,6 +208,7 @@ Template Name: Evokelabs Resume
                 <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Clients22.gif" alt ="Jetstar" /></li>
                 <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Clients23.gif" alt ="Perpetual" /></li>
                 <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Clients24.gif" alt ="Mitshbishi" /></li>
+                <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Clients25.gif" alt ="University of Sydney" /></li>
             </ul>
 
 
@@ -264,11 +274,12 @@ Template Name: Evokelabs Resume
                 <ul>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design1.gif" alt ="Photoshop CC" /><p>Photoshop CC</p><div class="rating-four"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design2.gif" alt ="Illustrator CC" /><p>Illustrator CC</p><div class="rating-four"></div></li>
-                    <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design3b.gif" alt ="XD CC" /><p>Experience Design CC</p><div class="rating-two"></div></li>
+                    <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design3b.gif" alt ="XD CC" /><p>Experience Designer CC</p><div class="rating-two"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design3.gif" alt ="Flash CC" /><p>Animate CC</p><div class="rating-four"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design4.gif" alt ="After Effects CC" /><p>After Effects CC</p><div class="rating-four"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design5.gif" alt ="Premiere Pro CC" /><p>Premiere Pro CC</p><div class="rating-four"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design6.gif" alt ="Dreamweaver CC" /><p>Dreamweaver CC</p><div class="rating-four"></div></li>
+                    <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design6.gif" alt ="Indesign CC" /><p>Indesign CC</p><div class="rating-three"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design7.gif" alt ="3dsmax 2013" /><p>3dsmax</p><div class="rating-four"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design8.gif" alt ="Zbrush 4R5" /><p>Zbrush</p><div class="rating-four"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Design9.gif" alt ="Cubase 6.5" /><p>Audition / Cubase </p><div class="rating-three"></div></li>
@@ -280,7 +291,7 @@ Template Name: Evokelabs Resume
                 <ul>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development1.gif" alt ="HTML 5" /><p>HTML 5</p><div class="rating-four"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development2.gif" alt ="CSS 3" /><p>CSS 3</p><div class="rating-four"></div></li>
-                    <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Javascript.gif" alt ="Javascript" /><p>Javascript</p><div class="rating-four"></div></li>
+                    <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Javascript.gif" alt ="Javascript" /><p>Javascript</p><div class="rating-two"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development3.gif" alt ="AS2 / AS3" /><p>AS2 / AS3</p><div class="rating-four"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development4.gif" alt ="JQuery" /><p>JQuery</p><div class="rating-two"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development5.gif" alt ="XML" /><p>XML</p><div class="rating-four"></div></li>
@@ -290,7 +301,7 @@ Template Name: Evokelabs Resume
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development8.gif" alt ="WooCommerce" /><p>WooCommerce</p><div class="rating-two"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development9.gif" alt ="SASS" /><p>SASS</p><div class="rating-two"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development10.gif" alt ="Ajax" /><p>Ajax</p><div class="rating-two"></div></li>
-                    <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development11.gif" alt ="GSAP" /><p>GSAP</p><div class="rating-two"></div></li>
+                    <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development11.gif" alt ="GSAP" /><p>GSAP</p><div class="rating-four"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development12.gif" alt ="Ruby On Rails" /><p>Ruby On Rails</p><div class="rating-one"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development13.gif" alt ="Java" /><p>Java</p><div class="rating-one"></div></li>
                     <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/Development14.gif" alt ="Objective-C" /><p>Objective-C</p><div class="rating-none"></div></li>
@@ -303,6 +314,8 @@ Template Name: Evokelabs Resume
                  <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/WouldLikeToLearn4.gif" alt ="Vue" /><p>Vue.js</p></li>
                  <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/WouldLikeToLearn5.gif" alt ="Python" /><p>Python</p></li>
                  <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/WouldLikeToLearn6.gif" alt ="MongoDB" /><p>MongoDB</p></li>
+                 <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/WouldLikeToLearn7.gif" alt ="ECMAScript 6" /><p>ECMAScript 6</p></li>
+                 <li><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/WouldLikeToLearn8.gif" alt ="GraphQL" /><p>GraphQL</p></li>
                  </div>
 
                 <div id="skills-resume-right">
@@ -337,10 +350,9 @@ Template Name: Evokelabs Resume
             <h1>Get in touch</h1>
             <h2>I'd love to hear from you if you have a project or campaign in the works</h2>
                 <ul>
-                    <a href="mailto:adrian@www.evokelabs.dev.cc"><li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></div>adrian@www.evokelabs.dev.cc</li></a>
+                    <a href="mailto:adrian@evokelabs.com"><li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></div>adrian@evokelabs.com</li></a>
                     <a href="https://twitter.com/evokelabs" target="_blank"><li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/icontwitter.png" alt="Twitter" /></div>evokelabs</li></a>
-                    <li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconphone.png" alt="Phone" /></div>Skype: Evokelabs</li>
-                    <li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconlocation.png" alt="Phone" /></div>Melbourne | Australia</li>
+                    <li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconlocation.png" alt="Phone" /></div>Sydney | Australia</li>
                 </ul>
             <div class="VR"></div>
             <div id="availabilities">

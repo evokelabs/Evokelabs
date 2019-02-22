@@ -5,17 +5,17 @@
 	<meta charset="<?php bloginfo('charset'); ?>" />
 	
 	<?php if (is_search()) { ?>
-	   <meta name="robots" content="noindex, nofollow" /> 
+	   <meta name="robots" content="ALL" /> 
 	<?php } ?>
 
     <title>EVOKE LABS || Sydney Freelancer - Digital Strategy / Design / Development / Wordpress / Motion / UX</title>
 <meta name="author" content="EVOKE LABS" /> 
     <meta name="robots" content="ALL" /> 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.www.evokelabs.dev.cc">
+    <meta property="og:url" content="http://www.www.evokelabs.com">
     <meta property="og:site_name" content="EVOKE LABS">
     <meta property="og:title" content="EVOKE LABS">
-    <meta property="og:image" content="http://www.www.evokelabs.dev.cc/facebook.jpg">
+    <meta property="og:image" content="http://www.www.evokelabs.com/facebook.jpg">
     <meta property="og:description" content="Evokelabs is a portfolio home to Sydney based digital designer, developer and creative technologist, Adrian Pikios">
     <meta name="description" content="Evokelabs is a portfolio home to Sydney based digital designer, developer and creative technologist, Adrian Pikios">
     <meta name="keywords" content="Evoke Labs, EL, Freelance, Freelancer, Adrian Pikios, Pikios, HTML5, HTML5 banners, Flash, Sydney, Australia, Flash, 3D, Animation, Interfaces, Web Site, Web Site Design, Post Production, After Effects, Motion Graphics, New Media, Digital Media, Evolving Media, Evolving Digital Media, Design, Development, Interactive, Interactivite, GUI, Graphic User Interface, Cool Sites, Best Sites, 3d applications, broadband applications, graphic design." />
@@ -53,7 +53,7 @@
 
     
 <script>var __adobewebfontsappname__ = "code"</script>
-<script src="http://use.edgefonts.net/ropa-sans:i4,n4:all.js"></script>
+<script src="https://use.edgefonts.net/ropa-sans:i4,n4:all.js"></script>
     
 	<?php wp_head(); ?>
     
