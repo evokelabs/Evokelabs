@@ -1,0 +1,33 @@
+<?php
+/**
+ * @package WP Simple Booking Calendar
+ *
+ * Copyright (c) 2010 WP Simple Booking Calendar
+ */
+
+if (!function_exists('renderSbcWidgetOption')): function renderSbcWidgetOption(WpSimpleBookingCalendar_View $view, $title, $name, $options = array())
+{
+?>
+	<p>
+		<label for="<?php echo $view->widget->get_field_id($name) ?>"><?php echo $title ?>:</label>
+		<select name="<?php echo $view->widget->get_field_name($name) ?>" id="<?php echo $view->widget->get_field_id($name) ?>">
+			<?php foreach ($options as $value => $label): ?>
+			<option value="<?php esc_attr_e($value) ?>"<?php if ($view->settings[$name] == $value): ?> selected="selected"<?php endif ?>><?php esc_html_e($label) ?></option>
+			<?php endforeach ?>
+		</select>
+	</p>
+<?php
+}
+endif;
+
+$yesNoOptions = array('yes' => __('Yes', 'sbc'), 'no' => __('No', 'sbc'));
+$calendarViewOptions = array(1 => __('1 month', 'sbc'), 2 => __('2 months', 'sbc'), 3 => __('3 months', 'sbc'), 4 => __('4 months', 'sbc'), 5 => __('5 months', 'sbc'), 6 => __('6 months', 'sbc'), 7 => __('7 months', 'sbc'), 8 => __('8 months', 'sbc'), 9 => __('9 months', 'sbc'), 10 => __('10 months', 'sbc'), 11 => __('11 months', 'sbc'), 12 => __('12 months', 'sbc'));
+
+$weekOptions = array('1' => __('Monday', 'sbc'), '2' => __('Tuesday', 'sbc'), '3' => __('Wednesday', 'sbc'), '4' => __('Thursday', 'sbc'), '5' => __('Friday', 'sbc'), '6' => __('Saturday', 'sbc'), '7' => __('Sunday', 'sbc'));
+
+renderSbcWidgetOption($this, __('Select Calendar', 'sbc'), 'id', $this->calendarsList);
+renderSbcWidgetOption($this, __('Show Legend', 'sbc'), 'legend', $yesNoOptions);
+renderSbcWidgetOption($this, __('Show Calendar Title', 'sbc'), 'title', $yesNoOptions);
+renderSbcWidgetOption($this, __('Calendar View', 'sbc'), 'view', $calendarViewOptions);
+renderSbcWidgetOption($this, __('Enable Dropdown', 'sbc'), 'dropdown', $yesNoOptions);
+renderSbcWidgetOption($this, __('Week starts on', 'sbc'), 'weekstart', $weekOptions);

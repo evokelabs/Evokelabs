@@ -1,0 +1,432 @@
+<WORKS>
+  <WorkItem media="design,development,web">
+    <TITLE><![CDATA[Hawker Pacific]]></TITLE>
+    <NAME><![CDATA[Hawker Pacific - Website]]></NAME>
+    <CLIENT><![CDATA[Hawker Pacific]]></CLIENT>
+    <AGENCY><![CDATA[Taylor Consulting]]></AGENCY>
+    <MEDIA><![CDATA[Content HTML & CSS and editing]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/hawker.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/hawker.flv]]></FLV>
+    <LINK><![CDATA[http://www.hawkerpacific.com.au/]]></LINK>
+  </WorkItem>
+  <WorkItem media="web,design,development">
+    <TITLE><![CDATA[Megalighting]]></TITLE>
+    <NAME><![CDATA[MEgalighting - Ecommerce Website]]></NAME>
+    <CLIENT><![CDATA[Megalighting]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[Design, HTML, CSS, Wordpress, Woocommerce]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/megalighting.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/megalighting.flv]]></FLV>
+    <LINK><![CDATA[http://www.evokelabs.com/clients/megalighting/site/index.html]]></LINK>
+  </WorkItem>
+  <WorkItem media="web,design,development">
+    <TITLE><![CDATA[Mel Koutchavlis]]></TITLE>
+    <NAME><![CDATA[Mel Koutchavlis - Portfolio]]></NAME>
+    <CLIENT><![CDATA[Mel Koutchavlis]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[HTML, CSS, Wordpress]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/melly.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/melly.flv]]></FLV>
+    <LINK><![CDATA[http://www.koutchavlis.com/]]></LINK>
+  </WorkItem>
+  <WorkItem media="design, flash">
+    <TITLE><![CDATA[Style Magazine ]]></TITLE>
+    <NAME><![CDATA[Style Magazine Banners]]></NAME>
+    <CLIENT><![CDATA[News Corporation]]></CLIENT>
+    <AGENCY><![CDATA[AJF Partnership]]></AGENCY>
+    <MEDIA><![CDATA[Flash]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/style.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/style.flv]]></FLV>
+    <LINK><![CDATA[works/ajfPartnership]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D,flash,web,motion,design,development">
+    <TITLE><![CDATA[My Time Here]]></TITLE>
+    <NAME><![CDATA[My Time Here - Short Film]]></NAME>
+    <CLIENT><![CDATA[Evoke Labs]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[3dsmax, Zbrush, CAT, After Effects, audio production]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/mytimehere.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/mytimehere.flv]]></FLV>
+    <LINK><![CDATA[http://www.my-time-here.com]]></LINK>
+  </WorkItem>
+  <WorkItem media="motion">
+    <TITLE><![CDATA[Up2You]]></TITLE>
+    <NAME><![CDATA[Up2You Video Builds]]></NAME>
+    <CLIENT><![CDATA[Genotropin | Phizer]]></CLIENT>
+    <AGENCY><![CDATA[Orchard Marketing]]></AGENCY>
+    <MEDIA><![CDATA[After Effects]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/up2you.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/up2you.flv]]></FLV>
+    <LINK><![CDATA[works/up2you]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,web,development">
+    <TITLE><![CDATA[Inbetweeners]]></TITLE>
+    <NAME><![CDATA[Optus Inbetweeners Flash Build]]></NAME>
+    <CLIENT><![CDATA[Optus]]></CLIENT>
+    <AGENCY><![CDATA[Make Agency]]></AGENCY>
+    <MEDIA><![CDATA[Flash, AS3]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/inbetweeners.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/inbetweeners.flv]]></FLV>
+    <LINK><![CDATA[works/optusinbetweeners]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D,flash,motion,design">
+    <TITLE><![CDATA[Westfield Digispecs]]></TITLE>
+    <NAME><![CDATA[Westfield Digital Eyelites Build]]></NAME>
+    <CLIENT><![CDATA[Westfield]]></CLIENT>
+    <AGENCY><![CDATA[Make Agency]]></AGENCY>
+    <MEDIA><![CDATA[3dsmax, After Effects, Photoshop]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/westfielddigi.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/westfield.flv]]></FLV>
+    <LINK><![CDATA[works/westfield]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D, motion,design">
+    <TITLE><![CDATA[Optus Go Places]]></TITLE>
+    <NAME><![CDATA[Optus Go Places Motion Builds]]></NAME>
+    <CLIENT><![CDATA[Optus]]></CLIENT>
+    <AGENCY><![CDATA[Make Agency]]></AGENCY>
+    <MEDIA><![CDATA[3dsmax, After Effects, Photoshop]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/moxa.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/moxa.flv]]></FLV>
+    <LINK><![CDATA[works/optusmoxa]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,web,design,development">
+    <TITLE><![CDATA[Make Banners]]></TITLE>
+    <NAME><![CDATA[Various Banner Builds for Make Agency]]></NAME>
+    <CLIENT><![CDATA[Google, ANZ, Westfield, Optus, Epiquire]]></CLIENT>
+    <AGENCY><![CDATA[Make Agency]]></AGENCY>
+    <MEDIA><![CDATA[Flash, Photoshop, After Effects, 3dsmax]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/makebanners.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/makebanners.flv]]></FLV>
+    <LINK><![CDATA[works/makebanners]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,design">
+    <TITLE><![CDATA[PHP Banners]]></TITLE>
+    <NAME><![CDATA[Powerhouse Productions Banner Collections 2010]]></NAME>
+    <CLIENT><![CDATA[Powerhouse Productions]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[Flash]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/phpBanner.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/phpbanners.flv]]></FLV>
+    <LINK><![CDATA[works/PHPBanners]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,design">
+    <TITLE><![CDATA[Adina]]></TITLE>
+    <NAME><![CDATA[Adina Presentations]]></NAME>
+    <CLIENT><![CDATA[Adina]]></CLIENT>
+    <AGENCY><![CDATA[Relax Design]]></AGENCY>
+    <MEDIA><![CDATA[Flash]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/adina.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/medina.flv]]></FLV>
+    <LINK><![CDATA[works/adina]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,design">
+    <TITLE><![CDATA[Vibe Hotel]]></TITLE>
+    <NAME><![CDATA[Vibe Hotel Presentations]]></NAME>
+    <CLIENT><![CDATA[Vibe Hotel]]></CLIENT>
+    <AGENCY><![CDATA[Relax Design]]></AGENCY>
+    <MEDIA><![CDATA[flash]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/vibe.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/vibe.flv]]></FLV>
+    <LINK><![CDATA[works/vibeHotel/]]></LINK>
+  </WorkItem>
+  <WorkItem media="web,design">
+    <TITLE><![CDATA[C3 Church]]></TITLE>
+    <NAME><![CDATA[C3 Church Website Design Build]]></NAME>
+    <CLIENT><![CDATA[C3 Church]]></CLIENT>
+    <AGENCY><![CDATA[The One Centre]]></AGENCY>
+    <MEDIA><![CDATA[Photoshop]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/C3.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/c3.flv]]></FLV>
+    <LINK><![CDATA[http://www.myc3church.net/]]></LINK>
+  </WorkItem>
+  <WorkItem media="web,development">
+    <TITLE><![CDATA[HITH]]></TITLE>
+    <NAME><![CDATA[Hospital In The Home]]></NAME>
+    <CLIENT><![CDATA[HITH Society Australiasia]]></CLIENT>
+    <AGENCY><![CDATA[Relax Design]]></AGENCY>
+    <MEDIA><![CDATA[HTML, CSS]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/HITH.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/hith.flv]]></FLV>
+    <LINK><![CDATA[http://www.hithsociety.org.au/]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,web,design,development">
+    <TITLE><![CDATA[Utopia Festival]]></TITLE>
+    <NAME><![CDATA[Utopia Festival 2009]]></NAME>
+    <CLIENT><![CDATA[Powerhouse Productions]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[Flash, AS2]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/utopiaFestival.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/utopiafestival.flv]]></FLV>
+    <LINK><![CDATA[works/utopiaFestival]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,web,design,development">
+    <TITLE><![CDATA[Utopia Homegrown]]></TITLE>
+    <NAME><![CDATA[Utopia Homegrown 2008]]></NAME>
+    <CLIENT><![CDATA[Powerhouse Productions]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[flash, as2]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/utopiaHomegrown.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/homegrown09.flv]]></FLV>
+    <LINK><![CDATA[works/homegrown09]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D, motion">
+    <TITLE><![CDATA[Happy Holidays 2008]]></TITLE>
+    <NAME><![CDATA[Happy Holidays 2008]]></NAME>
+    <CLIENT><![CDATA[Evoke Labs]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[3d, zbrush, after effects, flash, as2]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/happyholidays.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/happyholidays.flv]]></FLV>
+    <LINK><![CDATA[xmas08]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D,flash,web,motion,design,development">
+    <TITLE><![CDATA[TRD Aurion]]></TITLE>
+    <NAME><![CDATA[TRD Aurion CDROM]]></NAME>
+    <CLIENT><![CDATA[Toyota Racing Development]]></CLIENT>
+    <AGENCY><![CDATA[Oddfellows]]></AGENCY>
+    <MEDIA><![CDATA[3d, flash, as2, after effects]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/aurion.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/trdAurion.flv]]></FLV>
+    <LINK><![CDATA[works/TRDAurion/]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D,flash,web,motion,design,development">
+    <TITLE><![CDATA[Evoke Labs 2008]]></TITLE>
+    <NAME><![CDATA[Evoke Labs 2008 Portfolio]]></NAME>
+    <CLIENT><![CDATA[Evoke Labs]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[3d, as3, papervision, 3dsmax, after effects]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/el2008.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/evokelabs08.flv]]></FLV>
+    <LINK><![CDATA[works/evokelabs2008]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,design,development">
+    <TITLE><![CDATA[Audiolove]]></TITLE>
+    <NAME><![CDATA[Audiolove Interactive Campaign]]></NAME>
+    <CLIENT><![CDATA[Powerhouse Productions]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[flash, photoshop, as2]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/audiolove.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/audiolove.flv]]></FLV>
+    <LINK><![CDATA[works/audiolove]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,web,design,development">
+    <TITLE><![CDATA[Prophecy 2008]]></TITLE>
+    <NAME><![CDATA[Prophecy Minisite 2008]]></NAME>
+    <CLIENT><![CDATA[Powerhouse Productions]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[flash, photoshop, as2, 3dsmax]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/prophecy.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/prophecy.flv]]></FLV>
+    <LINK><![CDATA[works/prophecy]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,web,design,development">
+    <TITLE><![CDATA[Utopia Homegrown 2]]></TITLE>
+    <NAME><![CDATA[Utopia Homegrown 2009]]></NAME>
+    <CLIENT><![CDATA[Powerhouse Productions]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[flash, as2]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/utopia08.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/utopiahomegrown.flv]]></FLV>
+    <LINK><![CDATA[works/homegrown]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,design">
+    <TITLE><![CDATA[Travelodge]]></TITLE>
+    <NAME><![CDATA[Travelodge Presentations]]></NAME>
+    <CLIENT><![CDATA[Travelodge]]></CLIENT>
+    <AGENCY><![CDATA[Relax Design]]></AGENCY>
+    <MEDIA><![CDATA[Flash]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/travellodge.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/travelodge.flv]]></FLV>
+    <LINK><![CDATA[works/travelodge]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,web,design,development">
+    <TITLE><![CDATA[Utopia 2008]]></TITLE>
+    <NAME><![CDATA[Utopia Minisite 2008]]></NAME>
+    <CLIENT><![CDATA[Powerhouse Productions]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[flash, as2, photoshop]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/utopia.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/utopia.flv]]></FLV>
+    <LINK><![CDATA[works/utopia]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,web,design,development">
+    <TITLE><![CDATA[Manic]]></TITLE>
+    <NAME><![CDATA[Manic Minisite 2007]]></NAME>
+    <CLIENT><![CDATA[Powerhouse Productions]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[flash, as2, after effects]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/manic.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/manic.flv]]></FLV>
+    <LINK><![CDATA[works/manic]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D,flash,web,motion,design,development">
+    <TITLE><![CDATA[Lexus Banners]]></TITLE>
+    <NAME><![CDATA[Lexus Banner Collection]]></NAME>
+    <CLIENT><![CDATA[Lexus]]></CLIENT>
+    <AGENCY><![CDATA[Oddfellows]]></AGENCY>
+    <MEDIA><![CDATA[flash, eyeblaster, as2, 3dsmax]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/lexus.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/lexus.flv]]></FLV>
+    <LINK><![CDATA[works/lexus]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,design,development">
+    <TITLE><![CDATA[Australian Idol]]></TITLE>
+    <NAME><![CDATA[Australian Idol Banners]]></NAME>
+    <CLIENT><![CDATA[Australian Idol]]></CLIENT>
+    <AGENCY><![CDATA[George Patterson Y&R]]></AGENCY>
+    <MEDIA><![CDATA[flash, as2, photoshop]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/australianidol.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/idol.flv]]></FLV>
+    <LINK><![CDATA[works/australianidol]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,design,development">
+    <TITLE><![CDATA[Career One]]></TITLE>
+    <NAME><![CDATA[Career One Banner Collection]]></NAME>
+    <CLIENT><![CDATA[Career One]]></CLIENT>
+    <AGENCY><![CDATA[George Patterson Y&R]]></AGENCY>
+    <MEDIA><![CDATA[flash, as2]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/careerone.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/careerone.flv]]></FLV>
+    <LINK><![CDATA[works/careerone]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,design,development">
+    <TITLE><![CDATA[Telstra]]></TITLE>
+    <NAME><![CDATA[Telstra Banner Collection]]></NAME>
+    <CLIENT><![CDATA[Telstra]]></CLIENT>
+    <AGENCY><![CDATA[George Patterson Y&R]]></AGENCY>
+    <MEDIA><![CDATA[flash, as2]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/telstra.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/telstra.flv]]></FLV>
+    <LINK><![CDATA[works/telstra]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D,flash,web,motion,design,development">
+    <TITLE><![CDATA[Evoke Labs 2006]]></TITLE>
+    <NAME><![CDATA[Evoke Labs 2006 Portfolio]]></NAME>
+    <CLIENT><![CDATA[Evoke Labs]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[flash, 3d, after effects, photoshop, xml]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/evokelabs.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/evokelabs.flv]]></FLV>
+    <LINK><![CDATA[works/version1]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D,flash,web,motion,design,development">
+    <TITLE><![CDATA[Evoke Labs Myspace]]></TITLE>
+    <NAME><![CDATA[Evoke Labs Myspace]]></NAME>
+    <CLIENT><![CDATA[Evoke Labs]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[3d, flash, as2, after effects, css, html]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/myspace.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/myspace.flv]]></FLV>
+    <LINK><![CDATA[http://www.myspace.com/evokelabs]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D">
+    <TITLE><![CDATA[Arachnid Character]]></TITLE>
+    <NAME><![CDATA[Arachnid Character]]></NAME>
+    <CLIENT><![CDATA[Evoke Labs]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[3dsmax, Zbrush, CAT, After Effects]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/arachnid.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/arachnid.flv]]></FLV>
+    <LINK><![CDATA[works/arachnid/]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D">
+    <TITLE><![CDATA[Dalek Character]]></TITLE>
+    <NAME><![CDATA[Dalek Character]]></NAME>
+    <CLIENT><![CDATA[Evoke Labs]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[3dsmax,After Effects]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/dalek.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/dalek.flv]]></FLV>
+    <LINK><![CDATA[works/dalek]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,web,development">
+    <TITLE><![CDATA[Arras]]></TITLE>
+    <NAME><![CDATA[Arras Restaurant Website]]></NAME>
+    <CLIENT><![CDATA[Arras Restaurant]]></CLIENT>
+    <AGENCY><![CDATA[Relax Design]]></AGENCY>
+    <MEDIA><![CDATA[flash, as2]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/arras.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/arras.flv]]></FLV>
+    <LINK><![CDATA[http://www.restaurant-arras.com.au/]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash, development">
+    <TITLE><![CDATA[Organ Donors]]></TITLE>
+    <NAME><![CDATA[Organ Donors Minisite]]></NAME>
+    <CLIENT><![CDATA[Organ Donors]]></CLIENT>
+    <AGENCY><![CDATA[Ben Thomas]]></AGENCY>
+    <MEDIA><![CDATA[flash, as2]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/organdonors.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/organDonors.flv]]></FLV>
+    <LINK><![CDATA[works/organdonors]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,design,development">
+    <TITLE><![CDATA[Suncorp]]></TITLE>
+    <NAME><![CDATA[Suncorp Banner Collection]]></NAME>
+    <CLIENT><![CDATA[Suncorp]]></CLIENT>
+    <AGENCY><![CDATA[George Patterson Y&R]]></AGENCY>
+    <MEDIA><![CDATA[flash,as2]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/backtobasics.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/backtoBasics.flv]]></FLV>
+    <LINK><![CDATA[works/suncorp]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D,flash,sesign,development">
+    <TITLE><![CDATA[AusCert]]></TITLE>
+    <NAME><![CDATA[Microsoft AusCert Game]]></NAME>
+    <CLIENT><![CDATA[Microsoft]]></CLIENT>
+    <AGENCY><![CDATA[Wunderman]]></AGENCY>
+    <MEDIA><![CDATA[flash, as2,3dsmax]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/auscert.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/auscert.flv]]></FLV>
+    <LINK><![CDATA[works/ausCert]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,motion,development">
+    <TITLE><![CDATA[TechEd]]></TITLE>
+    <NAME><![CDATA[TechEd Video Tour]]></NAME>
+    <CLIENT><![CDATA[Microsoft]]></CLIENT>
+    <AGENCY><![CDATA[Wunderman]]></AGENCY>
+    <MEDIA><![CDATA[Flash, AS2, After Effects]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/teched.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/techEd.flv]]></FLV>
+    <LINK><![CDATA[works/techEd]]></LINK>
+  </WorkItem>
+  <WorkItem media="3D,flash,web,design,development">
+    <TITLE><![CDATA[Sombreros]]></TITLE>
+    <NAME><![CDATA[Sombreros Website]]></NAME>
+    <CLIENT><![CDATA[Sombreros]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[Flash, AS2, 3dsmax]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/sombreros.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/sombreros.flv]]></FLV>
+    <LINK><![CDATA[works/sombreros]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash,web,design,development">
+    <TITLE><![CDATA[Scooter]]></TITLE>
+    <NAME><![CDATA[Scooter Minisite]]></NAME>
+    <CLIENT><![CDATA[Scattered Productions]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[Flash, AS2]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/scooter.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/scooter.flv]]></FLV>
+    <LINK><![CDATA[works/scooter]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash">
+    <TITLE><![CDATA[People]]></TITLE>
+    <NAME><![CDATA[People Banner]]></NAME>
+    <CLIENT><![CDATA[People]]></CLIENT>
+    <AGENCY><![CDATA[George Patterson Y&R]]></AGENCY>
+    <MEDIA><![CDATA[Flash]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/people.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/people.flv]]></FLV>
+    <LINK><![CDATA[works/people]]></LINK>
+  </WorkItem>
+  <WorkItem media="flash, design">
+    <TITLE><![CDATA[Hailey's 21st]]></TITLE>
+    <NAME><![CDATA[Hailey's 21s Banner]]></NAME>
+    <CLIENT><![CDATA[Hailey]]></CLIENT>
+    <AGENCY><![CDATA[Evoke Labs]]></AGENCY>
+    <MEDIA><![CDATA[Flash]]></MEDIA>
+    <THUMB><![CDATA[works/thumbs/hailey.jpg]]></THUMB>
+    <FLV><![CDATA[works/flv/haileys.flv]]></FLV>
+    <LINK><![CDATA[works/haileys21]]></LINK>
+  </WorkItem>
+</WORKS>

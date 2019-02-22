@@ -1,0 +1,253 @@
+@CHARSET "UTF-8";
+
+.sbc-calendar-wrapper {
+	font-family: ropa-sans, sans-serif;
+	font-size: 1.2em;
+	clear: both;
+    padding-top:20px;
+    display:inline-block;
+    height:0;
+    width: 550px;
+
+}
+.sbc-calendar-wrapper * {
+    -moz-box-sizing: content-box;   
+    box-sizing: content-box;
+}
+.sbc-calendar-wrapper .sbc-status-free {
+	background-color: #dfc;
+}
+
+.sbc-calendar-wrapper .sbc-status-booked {
+	background-color: #ffc0bd;
+}
+
+.sbc-calendar-wrapper .sbc-status-changeover {
+	background-color: #fee2a0;
+}
+
+.sbc-calendar-wrapper .sbc-status-test { background-color: green;}
+
+.sbc-calendar-wrapper table {
+	border: 1 !important;
+	border-collapse: separate;
+	table-layout: fixed;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.sbc-calendar-wrapper table tr td {
+	border: 0 !important;
+	padding: 0 !important;
+	line-height: 12px;
+	vertical-align: middle;
+}
+
+.sbc-calendar {	
+	margin: 0;
+}
+
+.sbc-calendar-month {
+	float: left;
+	width: 155px;
+	background-color: #ff8c32;
+    margin: 0 5px 2px 5px;    
+	text-align: center;
+	border: 1px solid #e77826;
+}
+
+.sbc-calendar .sbc-navigation {
+	text-align: center;
+}
+
+
+.sbc-calendar .sbc-navigation select {
+	margin: 0;
+    padding: 0;
+	width: 120px;
+    
+}
+
+.sbc-navigation span {
+	left:0px !important;
+	margin-left:20px;
+}
+
+.sbc-calendar .sbc-loader {
+/*
+    position: absolute;
+	left: 73px;
+    margin-top: 88px;*/
+	visibility: hidden; 
+
+	height: 0px;
+	position: relative;
+	top: 88px;
+}
+	
+
+
+.sbc-calendar .sbc-loader-visible {
+	visibility: visible;
+}
+
+.sbc-calendar table {
+	border: 0px solid #000 !important;
+    background-color:#FFF;
+}
+
+.sbc-calendar table thead th,.sbc-calendar tr td {
+	color: #333;
+	font-family: ropa-sans, sans-serif;
+    font-weight:normal;
+	font-size: 12px;
+	text-align: center;
+	line-height: 16px;
+	padding: 8px 0 4px !important;
+	width: 22px;
+	height: 22px;
+    border: 0 !important;
+}
+
+.sbc-calendar table tfoot td {
+	padding-top: 5px;
+	text-align: left;
+}
+
+.sbc-calendar tr td {
+	border: 1px solid #fff;
+	padding: 2px 0;
+}
+
+.sbc-calendar tr td.pad {
+	width: auto;
+}
+
+.sbc-calendar td.sbc-status-free {
+	border-color: #dfc;
+}
+
+.sbc-calendar td.sbc-status-booked {
+	border-color: #ffc0bd;
+}
+
+.sbc-calendar td.sbc-status-changeover {
+	border-color: #fee2a0;
+}
+
+.sbc-calendar td.sbc-today {
+	border-color: #aeaeae
+}
+
+.sbc-legend {
+	border: 1px solid #ccc;
+	background-color: #FFFFFF;
+    margin: 0 5px 10px;
+    float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 10px;
+	width: 100px;
+
+}
+
+.sbc-legend tr td {
+	height: 20px;
+	padding: 2px 0;
+}
+
+.sbc-legend tr td.sbc-legend-status {
+	width: 20px;
+}
+
+.sbc-legend tr td.sbc-legend-label {
+	padding-left: 3px;
+}
+
+#sbc-editor {
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+    width:410px;
+    background-color:#ffffff;
+}
+#sbc-editor input {
+    width:245px;
+}
+
+#sbc-editor td.sbc-editor-day {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	width: 25px;
+}
+
+
+
+#sbc-editor td.sbc-editor-status select {
+	width: 120px;
+}
+
+
+.widget-sbc .sbc-calendar {
+	float: none;
+	margin: 0 0 10px 0;
+}
+
+.widget-sbc .sbc-legend {
+	float: none;
+}
+.alignRight {
+	text-align: right !important;
+}
+.sbc-prev-month {
+	float: left;
+	height: 19px;
+	width: 20px;
+    /*/width: 21px;
+    left: -1px;*/
+    position: relative;
+    visibility:hidden;
+}
+.sbc-next-month {
+	float: right;
+	height: 19px;
+	width: 20px;
+    visibility:hidden;
+    /*width: 21px;*/
+}
+
+.sbc-calendar .sbc-prev-month img {
+	max-width:100%;
+    float:none;
+}
+
+.sbc-calendar .sbc-next-month img {
+	max-width:100%;
+    float:none;
+}
+/*hack*/
+.widget-sbc img {float:none !important;}
+
+.sbcdatepicker {
+	height: 19px;
+	font-size: 12px;
+	position: relative;
+
+
+
+    outline:none;
+	top: -1px;
+}
+
+.sbc-calendar-month form {margin:0;}
+.sbc-calendar-month form div {clear:none; margin:0;height:16px;}
+
+#calendarName {
+    width:97.5%;
+}
+.sbc-calendar .sbc-navigation{line-height:25px;}
+.sbc-calendar .sbc-navigation br {display:none !important;}
+.sbc-calendar .sbc-navigation p {width:0px; height:0px; margin:0px; padding:0px;}
+
+.sbc-calendar .sbc-calendar-month form p {width:0px; height:0px; margin:0px; padding:0px; line-height:0px;}

@@ -1,0 +1,21 @@
+
+.casestudy li{
+
+
+border-radius: 0px !important;
+
+   
+    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
+
+}
+
+.casestudy img {
+
+	border-radius: 0px !important;
+    
+}
+
+.video-reel {
+
+    border-radius: 0px !important;
+}

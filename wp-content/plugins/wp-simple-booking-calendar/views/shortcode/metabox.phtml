@@ -1,0 +1,48 @@
+<?php
+/**
+ * @package WP Simple Booking Calendar
+ *
+ * Copyright (c) 2010 WP Simple Booking Calendar
+ */
+
+function renderTokenOption(WpSimpleBookingCalendar_View $view, $title, $name, $options)
+{
+	?>
+	<tr>
+		<th scope="row">
+			<label for="sbcMetabox_<?php esc_attr_e($name) ?>"><?php echo $title ?>:</label>
+		</th>
+		<td>
+			<select name="sbcMetabox[<?php esc_attr_e($name) ?>]" id="sbcMetabox_<?php esc_attr_e($name) ?>">
+				<?php foreach ((array) $options as $value => $label): ?>
+				<option value="<?php esc_attr_e($value) ?>"><?php esc_html_e($label) ?></option>
+				<?php endforeach ?>
+			</select>
+		</td>
+	</tr>
+	<?php
+}
+
+?>
+<table class="form-table">
+	<tbody>
+		<?php
+			$yesNoOptions = array('yes' => __('Yes', 'sbc'), 'no' => __('No', 'sbc'));
+            $calendarViewOptions = array(1 => __('1 month', 'sbc'), 2 => __('2 months', 'sbc'), 3 => __('3 months', 'sbc'), 4 => __('4 months', 'sbc'), 5 => __('5 months', 'sbc'), 6 => __('6 months', 'sbc'), 7 => __('7 months', 'sbc'), 8 => __('8 months', 'sbc'), 9 => __('9 months', 'sbc'), 10 => __('10 months', 'sbc'), 11 => __('11 months', 'sbc'), 12 => __('12 months', 'sbc'));
+            $weekOptions = array('1' => __('Monday', 'sbc'), '2' => __('Tuesday', 'sbc'), '3' => __('Wednesday', 'sbc'), '4' => __('Thursday', 'sbc'), '5' => __('Friday', 'sbc'), '6' => __('Saturday', 'sbc'), '0' => __('Sunday', 'sbc'));
+            
+			renderTokenOption($this, __('Select Calendar', 'sbc'), 'id', $this->calendarsList);
+			renderTokenOption($this, __('Show Legend', 'sbc'), 'legend', $yesNoOptions);
+			renderTokenOption($this, __('Show Calendar Title', 'sbc'), 'title', $yesNoOptions);
+            renderTokenOption($this, __('Calendar View', 'sbc'), 'view', $calendarViewOptions);
+            renderTokenOption($this, __('Enable Dropdown', 'sbc'), 'dropdown', $yesNoOptions);
+            renderTokenOption($this, __('Week starts on', 'sbc'), 'weekstart', $weekOptions);
+		?>
+	</tbody>
+</table>
+
+<p class="submit">
+	<input type="button" value="<?php esc_attr_e('Send Token to Editor &raquo;', 'sbc') ?>" />
+</p>
+
+<div class="clear"></div>

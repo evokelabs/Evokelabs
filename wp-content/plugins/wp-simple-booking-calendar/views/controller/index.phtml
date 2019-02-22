@@ -1,0 +1,51 @@
+<?php
+/**
+ * @package WP Simple Booking Calendar
+ *
+ * Copyright (c) 2010 WP Simple Booking Calendar
+ */
+?>
+
+<div class="sbc-wrapper wrap">
+	<div id="icon-options-general" class="icon32"><br /></div>
+	<h2><?php esc_html_e('WP Simple Booking Calendar', 'sbc') ?> <a class="button add-new-h2" href="<?php echo esc_url($this->controllerUrl) ?>&amp;action=add"><?php esc_html_e('Add New', 'sbc') ?></a></h2>
+	
+	<?php if (is_array($this->calendars) && count($this->calendars)): ?>
+		<table class="widefat post fixed" cellspacing="0">
+			<thead>
+				<tr class="alt">
+					<th class="manage-column column-name"><?php esc_html_e('Calendar Name', 'sbc') ?></th>
+                    <th class="manage-column column-id"><?php esc_html_e('Calendar ID', 'sbc') ?></th>
+					<th class="manage-column column-created"><?php esc_html_e('Created', 'sbc') ?></th>
+					<th class="manage-column column-modified"><?php esc_html_e('Modified', 'sbc') ?></th>
+				</tr>
+			</thead>
+			<tbody>
+				<?php foreach ($this->calendars as $calendarId => $data): if (!empty($data)): ?>
+				<tr valign="top">
+					<td class="post-title column-title">
+						<strong><a title="<?php esc_attr_e('Edit', 'sbc') ?> ‟<?php echo esc_attr($data['calendarName']) ?>”" href="<?php echo esc_url($this->controllerUrl) ?>&amp;action=edit&amp;id=<?php echo $calendarId ?>" class="row-title"><?php echo esc_html($data['calendarName']) ?></a></strong>
+						<div class="row-actions">
+							<span class="edit"><a title="<?php esc_attr_e('Edit this calendar', 'sbc') ?>" href="<?php echo esc_url($this->controllerUrl) ?>&amp;action=edit&amp;id=<?php echo $calendarId ?>"><?php esc_html_e('Edit', 'sbc') ?></a> | </span>
+							<span class="trash"><a title="<?php esc_attr_e('Are you sure you want to delete this calendar?', 'sbc') ?>" href="<?php echo esc_url($this->controllerUrl) ?>&amp;action=delete&amp;id=<?php echo $calendarId ?>" class="submitdelete"><?php esc_html_e('Delete', 'sbc') ?></a></span>
+						</div>
+					</td>
+                    <td class="street column-id">
+						<?php echo $calendarId ?>
+					</td>
+					<td class="street column-created">
+						<?php echo esc_html(date($this->dateFormat, $data['dateCreated'])) ?><br/>
+						<?php echo esc_html(date($this->timeFormat, $data['dateCreated'])) ?>
+					</td>
+					<td class="street column-modified">
+						<?php echo esc_html(date($this->dateFormat, $data['dateModified'])) ?><br/>
+						<?php echo esc_html(date($this->timeFormat, $data['dateModified'])) ?>
+					</td>
+				</tr>
+				<?php endif; endforeach ?>
+			</tbody>
+		</table>
+	<?php else: ?>
+		<p><?php esc_html_e('No calendars found.', 'sbc') ?></p>
+	<?php endif ?>
+</div>

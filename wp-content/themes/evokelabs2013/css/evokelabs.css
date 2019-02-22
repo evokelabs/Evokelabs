@@ -1,0 +1,1312 @@
+html {
+    margin: 0;
+    background-color:#ff8d33;
+    background-image:url('../img/bgtile.png'),url('../img/gradient.jpg');
+    background-position: left top, center top;
+    background-repeat:repeat,no-repeat;
+    color:#ffffff;
+    width:100%;
+    
+
+
+}
+
+a{
+    color:inherit;
+
+}
+
+#workfeature a {
+    text-decoration: none;
+}
+
+
+body{
+    margin: 0px auto;
+    font-size: 100%;
+    font-family: ropa-sans, sans-serif;
+    
+}
+
+
+
+header{
+    max-width:870px;;
+    height:38%;
+    margin: 0 auto;
+}
+
+
+h1,h2,h3,h4,h5{
+    position:static;
+    text-transform:uppercase;
+    font-family: ropa-sans, sans-serif;
+    margin:0;
+}
+
+
+h1 {
+    position:relative;
+    font-size:9em;
+    letter-spacing:0.12em;
+    width:105%;
+    height: 100%;  
+}
+h2 {
+    position:relative;
+    width:100%; /* 870 870*/
+    font-size:1.5em;
+    letter-spacing:0.085em;
+    color:#ff8c32;
+    background-color:#FFFFFF;
+    text-align:center;
+    }
+
+#headertitles h2{
+    position:relative;
+    bottom:15px;
+    
+}
+
+#logo{
+    position:static;
+    width:16.43%; /*143px;*/
+    height:147px;
+    display:inline;
+}
+#headerIcons{
+    position: relative;
+    text-align: right;
+    top: 30px;
+    float: right;
+    
+}
+#headerIcons li{
+    width: 50px;
+	height: 50px;
+	background: #ffffff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    display:inline-block;
+    margin-right:5px;  
+    text-align:center;
+    line-height:50px;
+    -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08),inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 5px rgba(255, 150, 56, 100);
+    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 5px rgba(255, 150, 56, 100);
+    
+
+
+}	
+#headerIcons li img{
+    vertical-align: middle;
+    position:relative;
+    bottom:1px;
+    overflow:hidden;
+
+}
+
+.darkerUpper{
+    position:static;
+    height: 6px;
+    background-color:#1e1e1e;
+    background-image:url('../img/bgupfill.gif');
+    background-repeat:repeat;
+}
+.darkerBG{
+    
+    background-color:#ff8d33;
+    background-image:url('../img/bgtiledark.gif');
+    background-repeat:repeat;
+    
+}
+#about {
+    max-width:870px;
+    margin: 0 auto;
+    min-height: 440px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+
+h3,h4,h5{
+    text-align:center;
+    font-size:3.5em;
+    letter-spacing:0.0em;
+    width:100%;
+    float:left;
+
+}
+
+#about-resume, .casestudy-resume {
+    max-width:870px;
+    margin: 0 auto;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+#about-resume h3, .casestudy-resume h3 {
+
+    text-align: left;
+    letter-spacing:0.1em;
+
+
+}
+
+
+h4{
+    position:static;
+    color:#ff961a;
+    background-color:#8e0e04;
+    float:left;
+    bottom:590px;
+}
+
+.HR{
+    position:relative;
+    width:100%;
+    height:5px;
+    background-image:url('../img/dots.png');
+    background-repeat:repeat;
+    display:inline-block;
+    margin: 30px 0px 10px;
+
+}
+
+.HR-resume{
+    position:relative;
+   max-width: 450px;
+   width: 100%;
+    height:5px;
+    background-image:url('../img/dots.png');
+    background-repeat:repeat;
+    display:inline-block;
+    margin: 0;
+
+
+}
+
+#aboutdesc{
+    max-width:590px;
+    height:200px; 
+    display:inline-block;
+}
+
+#aboutdesc p{    
+    font-family: ropa-sans, sans-serif;
+    font-weight:bold;
+    font-size:1.4em;
+    letter-spacing:0.05em;
+    line-height:1.3em;
+    position:relative;
+    top:10px;    
+}
+
+#aboutdesc-resume, #experience-resume, #skills-resume{
+
+    max-width:100%;
+    display:inline-block;
+}
+
+#aboutdesc-resume p{    
+    font-family: ropa-sans, sans-serif;
+    font-weight:bold;
+    font-size:1.3em;
+    letter-spacing:0.05em;
+    line-height:1.3em;
+    position:relative;
+    top:0px;    
+}
+
+
+
+#skills-resume-left li{
+
+    max-width: 222px;
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 4px 4px 4px 0px;
+
+
+}
+
+#skills-resume-left li img {
+
+    max-width: 80px;
+    width: 100%;
+    height: 80px;
+    border: 1px solid #e4e4e4;
+    opacity: 0.5;
+    display: inline-block;
+    float: left;
+
+}
+
+#skills-resume-left li p{
+
+
+   vertical-align: top;
+   width: 120px;
+   display: inline-block;
+   margin: 5px 0 0 10px;
+   float: left;
+
+}
+
+.rating-none, .rating-one, .rating-two, .rating-three, .rating-four {
+
+    position: relative;
+    vertical-align: top;
+    background-image:url('/../../../img/resume/filled.gif');
+    width: 68px;
+    height: 16px;
+    display: inline-block;
+    float: left;
+    margin: 5px 0 0 10px;
+
+   }
+
+
+.rating-none {
+
+  background:url('/../../../img/resume/unfilled.gif');
+
+}
+
+.rating-one {
+
+  background:url('/../../../img/resume/filled.gif') no-repeat, url('/../../../img/resume/unfilled.gif');
+
+}
+
+.rating-two {
+
+  background:url('/../../../img/resume/filled.gif') no-repeat, url('/../../../img/resume/filled.gif') no-repeat 17px 0px, url('/../../../img/resume/unfilled.gif');
+
+}
+
+.rating-three {
+
+   background:url('/../../../img/resume/filled.gif') no-repeat, url('/../../../img/resume/filled.gif') no-repeat 17px 0px,url('/../../../img/resume/filled.gif') no-repeat 34px 0px,url('/../../../img/resume/unfilled.gif');
+
+}
+
+
+#aboutdesc-brief-resume-left, #experience-resume-left, #skills-resume-left {
+
+    width: 460px;
+    float: left;
+    display: inline-block;
+
+}
+
+#aboutdesc-brief-resume, #experience-resume-right,  #skills-resume-right {
+
+    float: left;
+    display: inline-block;
+    max-width: 370px;
+    margin-left: 40px;
+
+
+}
+
+#skills-resume-right {
+
+    margin-top:32px;
+
+}
+
+
+
+#aboutdesc-brief-resume h2, #experience-resume-right h2,  #skills-resume-right h2, #skills-resume-left h2 {
+
+    font-size: 2.2em;
+    text-align: left;
+    background-color: transparent;
+
+}
+
+#skills-resume-left h2 {
+
+    color: #ffffff;
+    margin-top: 30px;
+
+}
+
+#aboutdesc-brief-resume h3 {
+
+      font-size: 1.6em;
+      margin: 10px 0;
+
+}
+
+.experience-resume {
+
+    padding: 0;
+}
+
+.experience-resume ul {
+
+    list-style-type: none;
+    margin: 25px 0px;
+    padding: 0;
+
+}
+
+ #experience-resume-right ul, #skills-resume-left ul, #skills-resume-right ul {
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#experience-resume-right li, #skills-resume-right li {
+
+    display: inline-block;
+    vertical-align: top;
+    margin: 3px 2px 3px 0;
+    
+
+}
+
+
+
+#experience-resume-right li img,  #skills-resume-right li img {
+
+    max-width: 110px;
+    width: 100%;
+    height: 110px;
+    display: inline-block;
+    border: 1px solid #e4e4e4;
+}
+
+
+
+.experience-resume li {
+
+    font-size: 1.2em;
+
+}
+
+.experience-resume li:first-child {
+
+    font-size: 2.2em;
+    text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+
+
+.highlight {
+
+    padding: 0px 5px;
+    color:#ff961a;
+    background-color: #8e0e04;
+
+}
+
+#aboutvideo{
+    position:relative;
+    left:280px;
+    bottom:225px;
+    display:inline-block;
+    float:right;
+    width: 220px;
+	height: 220px;
+	background: #151515;
+    -moz-border-radius: 300px;
+-webkit-border-radius: 300px;
+border-radius: 300px;
+    display:inline-block;
+    margin-right:5px;  
+    text-align:center;
+    line-height:50px;
+     -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08),inset 1px 1px 1px 3px rgba(255, 255, 255, 0.3), inset 0px 0px 0px 15px rgba(255, 140, 40, 100);
+    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 3px rgba(255, 255, 255, 0.3), inset 0px 0px 0px 15px rgba(255, 140, 40, 100);
+	
+	
+}
+
+#aboutvideodiv{
+    -moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+    border-radius: 300px;
+    background-color:#151515;
+    width:180px;
+    height:180px;
+    position:relative;
+    left:20px;
+    top:20px;
+    overflow:hidden;
+    -webkit-mask-image: url(../img/videoMask.png); 
+    -webkit-mask-repeat: no-repeat;      
+}
+
+#aboutvideodiv img{
+    display:inline-block;
+    position:relative;
+    left:-8px;
+    top:-11px;
+}
+
+#aboutSlider{
+    position:relative;
+}
+
+.darkerLower{
+    position:relative;
+    width:100%;
+    height: 16px;
+    background-color:#1e1e1e;
+    background-image:url('../img/bgdownfill.gif');
+    background-repeat:repeat;
+   
+}
+
+.casestudy {
+
+   max-width: 910px;
+   margin: 0px auto;
+
+}
+
+
+
+.casestudy h1{
+    font-size:7.6em;
+    letter-spacing:0.14em;
+    height: 100%;  
+    text-align:left;
+}
+.casestudy h2{
+    font-size:1.3em;
+    letter-spacing:0.05em;
+    max-width:880px;
+    text-align:center;
+    height: 30px;
+    line-height:30px;
+    position:relative;
+    bottom:15px;
+    overflow: hidden;
+}
+
+.casestudy .HR{
+    margin: 20px 0px 10px;
+    max-width: 885px;
+
+}
+
+
+.casestudy ul{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.casestudy li{
+    display:inline-block;
+    padding: 0px;
+    background-color:#FFFFFF;
+    max-width:390px;
+    max-height:220px;
+    text-align:left;
+    margin: 0px 65px 80px 0px; 
+    
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+    display:inline-block;
+
+    line-height:50px;
+    -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08),inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
+    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
+}
+
+.casestudy img{
+    position:relative;
+    display:inline-block;
+    left:20px;
+    top:20px;
+    overflow:hidden;
+    max-width:350px;
+    width: 100%;
+    max-height:180px; 
+
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5x;
+    
+}
+
+.casestudy video{
+    position:relative;
+    display:inline-block;
+    left:20px;
+    top:20px;
+    overflow:hidden;
+    width:350px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5x;
+    
+}
+
+.Image-Hide{
+
+    display: none !important;
+
+}
+
+
+.video-reel {
+
+    display:inline-block;
+    padding: 0px;
+    background-color:#FFFFFF;
+
+    text-align:left;
+    margin: 0px 80px 40px 0px; 
+    
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    display:inline-block;
+
+    width: 880px;
+    height: 468px;
+
+    line-height:50px;
+    -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08),inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
+    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
+
+}
+
+.video-reel img {
+    
+    max-width: none;
+    max-height: none;
+    width: 840px;
+    height: auto;
+    overflow: hidden;
+
+}
+
+#showcase {
+    margin-top: 20px;
+    margin-bottom:30px;
+}
+
+#showcase .HR{
+    margin-top:30px;
+    margin-bottom: 25px;
+    height:1px;
+    background-image:url("../img/VR.png");
+    background-repeat:repeat;
+    
+}
+
+#showcase h3,h5{
+    color: #ff961a;
+    background-color: #8e0e04;
+    font-size: 1.0em;
+    text-transform:none;
+    text-align:left;
+    width:auto;
+    height:22px;
+    line-height:22px;
+    margin-bottom:3px;
+    margin-left:28px;
+    position:relative;
+    bottom:80px;
+    padding-left:10px;
+    padding-right:10px;
+    clear:left
+}
+
+
+
+
+
+#showcase p{
+    position:relative;
+    bottom:40px;
+    text-align:left;
+    clear:both;
+    line-height:1.5em;
+    max-width: 360px;
+    width: 100%;
+    left:18px;
+    font-weight:bold;
+    overflow:hidden;
+}
+
+#workfeature p{
+     position:relative;
+     top: 0px;
+    left:0px;
+}
+
+footer{
+    max-width:910px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+footer h1{
+    font-size:8.6em;
+    letter-spacing:0.0598em;
+    text-align:left;
+}
+footer h2{
+    font-size:1.3m;
+    letter-spacing:-0.042em;
+    max-width:880px;
+    height: 30px;
+    line-height:30px;
+    text-align:center;
+    color: #ff8c32;
+    position:relative;
+    bottom:15px;
+}
+footer ul{
+    position:relative;
+    top: 30px;
+    margin:0;
+    width:400px;
+}
+.footericon{
+    width: 50px;
+	height: 50px;
+	background: #ffffff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    display:inline-block;
+    text-align:center;
+    line-height:50px;
+       -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08),inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 7px rgba(255, 150, 56, 100);
+    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 7px rgba(255, 150, 56, 100);
+    float:left;
+    position:relative;
+    bottom:10px;
+    right:14px;
+
+}
+footer img{
+    vertical-align: middle;
+    position:relative;
+    left:1px;
+
+
+}
+footer li{
+     display:block;
+     text-transform:uppercase;
+     font-family: ropa-sans, sans-serif;
+     font-size: 1.0em;
+     font-weight:bold;
+     width:280px;
+     height:30px;
+     line-height:34px;
+     background-color:#ffffff;
+    color:#ff8c32;
+    float:left;
+    letter-spacing:0.1em;
+    margin-bottom:35px;
+    position:relative;
+    left:-30px;
+
+
+
+}
+.VR{
+    width:1px;
+    height:226px;
+    background-image:url("../img/VR.png");
+    background-repeat:repeat;
+    position:relative;
+    left:344px;
+    top:30px;
+}
+
+#availabilities{
+    clear:both;
+    float:none;
+    position:relative;
+    left:382px;
+    width:510px;
+    bottom:236px;
+    padding-bottom:10px;
+   
+}
+
+#availabilities h1{
+    width:auto;
+    clear:both;
+    font-size: 2.5em;  
+    letter-spacing:0.05em;
+}
+#workfeature h1{
+    text-transform:none;
+    letter-spacing:0em;
+    font-size:2.5em;
+}
+#workfeature ul{
+    margin-top:12px;
+}
+
+#workfeature li{
+    margin:0 10px 0 0;
+    padding:0px 10px;
+    display:inline-block;
+    background-color:#8e0e04;
+    color: #ff961a;
+    width:auto;
+    height: 22px;
+    line-height:22px;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+    -moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:0.9em;
+}
+
+
+#workfeature-left {
+    float:left;
+    max-width:540px;
+    padding-right:50px;
+    
+}
+
+
+#workfeature-left p {
+    font-weight:bold;
+    
+}
+
+#workfeature-right{
+    max-width:250px;
+    float:right; 
+    text-align:right;
+}
+
+#workfeature-right h1{
+    text-transform:uppercase;
+    color: #ff961a;
+    background-color:#8e0e04;
+    width:170px;
+    text-align:right;
+    padding-right:10px;
+    padding-left:10px;
+    margin-right:33px;
+    margin-top:30px;
+    display:inline;
+    float:right; 
+
+}
+#workfeature-right img{
+    margin-bottom:30px;
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+    border: 5px solid #ffffff;
+    -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    position:relative;
+    max-width:350px;
+    max-height:180px;
+    left:-30px;
+    top:40px;
+    float:right; 
+
+
+}
+    
+ #workfeature .HR{
+    margin-top:25px;
+    margin-bottom: 25px;
+    background-repeat:repeat;
+
+    
+} 
+
+#workfeature .main-video video {
+
+
+    width: 540px;
+    left: 0;
+    top: 0;
+    border-radius: 20x;
+    border-radius: 20px;
+    border: 5px solid #ffffff;
+
+}
+
+
+.GraphPaperOne{
+    background-image:url("../img/casestudies/graphpaper.png");
+    margin-bottom:40px;
+    height:535px;
+    position:relative;
+}
+.GraphPaperTwo{
+    background-image:url("../img/casestudies/graphpaperB.png");
+    margin-bottom:40px;
+    height:690px;
+    position:relative;
+    width:940px;
+}
+                        
+#workfeature h2{
+    text-transform:uppercase;
+    color: #ff961a;
+    background-color:#8e0e04;
+    width:auto;
+    display:block;
+    padding: 0px 20px;
+    height:64px;
+    line-height:64px;
+    width: 80%;
+    max-width: 450px;
+    font-size:3.5em;
+    text-align:left;
+    margin:10px 0px;
+
+    
+}
+
+.mfp-zoom-in {
+  /* start state */
+  /* animate in */
+  /* animate out */
+}
+.mfp-zoom-in .mfp-with-anim {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.2);
+ -ms-transform: scale(0.2);
+-webkit-transform: scale(0.2);
+}
+.mfp-zoom-in.mfp-bg {
+  opacity: 0;
+ transition: all 0.3s ease-out;
+    
+}
+.mfp-zoom-in.mfp-ready .mfp-with-anim {
+  opacity: 1;
+ transform: scale(1);
+ -ms-transform: scale(1);
+-webkit-transform: scale(1);
+}
+.mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+.mfp-zoom-in.mfp-removing .mfp-with-anim {
+  transform: scale(0.2);
+     -ms-transform: scale(0.2);
+-webkit-transform: scale(0.2);
+  opacity: 0;
+}
+.mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+@media screen and (min-width:0\0) { 
+
+.casestudy li{
+
+    border-radius: 0px !important;  
+    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
+
+}
+
+.casestudy img {
+
+    border-radius: 0px !important;
+    
+}
+
+.casestudy video {
+
+    border-radius: 0px !important;
+    
+}
+
+.video-reel {
+
+    border-radius: 0px !important;
+}
+
+   
+}  
+
+@media all and (max-width: 880px) {
+
+    body{
+
+    font-size: 80%;
+
+    }
+
+
+
+    #showcase { 
+
+        width: 100%;
+        margin: 5px 0 0 0;
+
+    }
+
+    #aboutdesc p {
+
+    font-size: 1.2em;
+
+    }
+
+    #headertitles h2, .casestudy h2 {
+
+        font-size: 1.2em;
+        display: none;
+
+    }
+
+    .casestudy .HR {
+
+        display: none;
+    }
+
+    #about h5{
+    font-size: 3em;
+
+    }
+
+    #about h3,h4{
+
+    font-size: 2em;
+
+    }
+
+    h1 {
+
+        text-align: center;
+        font-size: 4em;
+        letter-spacing: 0.02em;
+        margin: 10px auto;
+        font-weight: bold;
+        width: 100%;
+
+    }
+
+    #aboutvideo {
+
+        display: none;
+
+    }
+
+    .Image-Hide{
+
+    /* display: inline !important; */
+
+}
+
+    #logo {
+
+        text-align: center;
+        width: auto;
+        display: block;
+
+    }
+
+    h1,h2{
+
+        margin-bottom: 10px;
+
+    }
+
+    #headerIcons {
+
+        display: none;
+       
+    }
+
+    #headertitles h2 {
+
+        margin-top: 20px;
+
+
+     }
+
+    #workfeature h2,#workfeature h1{
+
+        visibility: visible;
+
+    }
+
+    #about-resume, .casestudy-resume {
+
+         margin: 0 20px;
+
+    }
+
+    #aboutdesc-brief-resume, #experience-resume-right, #skills-resume-right {
+
+        margin-left: 0px;
+
+    }
+
+    #showcase h3 {
+
+        max-width: 230px;
+
+    }
+
+
+
+
+    #aboutdesc {
+
+        margin: 0 50px;
+
+    }
+
+
+
+    #about {
+
+        min-height: 100%;
+
+    }    
+
+    .casestudy h1 {
+
+        font-size: 3em;
+        padding-top: 5px;
+        margin: 0px 0px 0px 30px;
+
+
+    }
+
+    .casestudy h1 {
+
+        letter-spacing: 1.5px;
+    
+
+    }
+
+     .casestudy li {
+
+                margin-left: 30px;
+        height: 156px;
+        width: 280px;
+        box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 7px rgba(255, 150, 56, 100);
+
+    }
+
+    #showcase p {
+
+        left: 0px;
+        bottom: 56px;
+        padding: 0;
+        margin: 0 0 0 5px;
+
+    }
+
+    #showcase h3 {
+
+        margin-left: 12px;
+        font-size: 0.95em;
+        bottom: 85px;
+        overflow: hidden;
+
+
+    }
+
+    .casestudy img {
+
+        top: 12px;
+        left: 12px;
+        max-width: 255px;
+        max-height: 1133px;
+
+    }
+
+    .casestudy video {
+
+        top: 12px;
+        left: 12px;
+        max-width: 255px;
+        max-height: 133px;
+        background-color: black;
+    
+}
+    .casestudy video {
+ 
+    /* display:none !important; */
+
+    
+}
+
+    #workfeature-left {
+
+        margin-left: 34px;
+
+    }
+
+    #workfeature-left h1 {
+
+        margin: 0;
+
+    }
+
+    #workfeature li {
+
+        margin: 7px 2px;
+
+    }
+
+    #workfeature .main-video video {
+
+        width: 310px;
+        max-width: max-content;
+        max-height: max-content;
+        margin-bottom: 25px;
+
+    }
+
+
+    .video-reel {
+
+    max-width: 280px; 
+    max-height: 175px;  
+    height: auto;
+    padding-bottom: 6px;
+    margin: 0px 0 20px 30px;
+
+    }
+
+    .video-reel img {
+        
+        max-width: 255px;
+        max-height: 160px;
+
+    }
+
+
+   footer h1 {
+
+        text-align: center;
+        font-size: 4em ;
+        letter-spacing: 0.02em;
+        margin: 10px auto 30px;
+        font-weight: bold;
+        width: 100%;
+
+    }
+
+    footer h2 {
+
+        display: none;
+
+    }
+
+
+
+    footer .VR {
+
+         display: none;
+
+
+    }
+
+    footer ul {
+
+            top: 0;
+            margin-left: 55px;
+            width: 40%;
+
+
+    }
+
+    #availabilities {
+
+        display: none;
+
+    }
+
+    #aboutdesc-brief-resume-left, #experience-resume-left, #skills-resume-left {
+
+    max-width: 460px;
+    width: 100%;
+
+    }
+
+
+    #workfeature-right {
+        margin-left: 34px;
+        float: unset;
+        max-width: none;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    #workfeature-right img {
+
+        left: auto;
+        top: auto;
+        float: none;
+        width: 310px;
+        max-width: max-content;
+        max-height: max-content;
+        margin-right: 20px;
+
+    }
+
+    #workfeature-right a h1 {
+
+        display: none;
+
+    }
+
+    #workfeature a h2 { 
+
+        margin-left: 35px;
+        font-size: 2em;
+        height: auto;
+        line-height: normal; 
+        width: 280px;  
+
+    }
+
+    .casestudy {
+
+        margin-left: 20px;
+
+    }
+
+    footer li {
+
+        line-height: 30px;
+
+    }
+
+
+
+}
+
+
+
+
+
+}
+
+

@@ -1,0 +1,27 @@
+<MainMenu>
+  <Settings>
+    <button_width>125</button_width>
+    <button_color>0x2F717A</button_color>
+    <text_color>0xCCCCCC</text_color>
+    <button_spacing><![CDATA[2]]></button_spacing>
+    <logo>config/logo.png</logo>
+  </Settings>
+  <XMLFiles>
+    <File>
+      <title>WELCOME</title>
+      <xmlFile>xml/welcome.xml</xmlFile>
+      <Interface>welcome.swf</Interface>
+      <baseurl/>
+    </File>
+    <File>
+      <title>content.xml</title>
+      <xmlFile>content.xml</xmlFile>
+      <Interface>classicTree.swf</Interface>
+    </File>
+    <File>
+      <title>works.xml</title>
+      <xmlFile>works.xml</xmlFile>
+      <Interface>classicTree.swf</Interface>
+    </File>
+  </XMLFiles>
+</MainMenu>

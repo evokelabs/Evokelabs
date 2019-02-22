@@ -1,0 +1,240 @@
+<?php
+/**
+ * @package WP Simple Booking Calendar
+ *
+ * Copyright (c) 2010 WP Simple Booking Calendar
+ */
+
+global $wp_locale;
+
+
+/**
+ * To change the Calendar legend add another value to the $bookingStatus array below, as $key => $value.
+ * After that go to /css/sbc.css to add the color for the legend, using this code: .sbc-calendar-wrapper .sbc-status-YOUR_KEY { background-color: YOUR_COLOR;}
+ *  
+ * For example, if you want to add a legend option called Unavailable, you have to add ,'unavailable' => __('Unavailable', 'sbc') to the $bookingStatus array, and .sbc-calendar-wrapper .sbc-status-unavailable { background-color: #cc0000;} to sbc.css
+ * 
+ * NOTE: The $key must NOT contain any spaces. Replace spaces with hyphens. eg. 'partially-booked' => __('Partially Booked', 'sbc')
+ * 
+ * NOTE 2: Do not change the 'free' $key. You can change its $value but not the $key. This will be the default legend option.
+ * 
+ */
+
+$bookingStatus = array(
+    'free' => __('Free', 'sbc')
+    ,'booked' => __('Booked', 'sbc') 
+    ,'changeover' => __('Changeover', 'sbc')
+    );
+  
+/**
+ * DO NOT EDIT BELOW THIS LINE
+ */ 
+
+$weekBegins = intval($this->weekStart);
+$months = (isset($calendarView) ? $calendarView : (isset($this->_variables['calendarView']) && $this->_variables['calendarView'])  ? (int)$this->_variables['calendarView'] : 1);
+
+?>
+
+<div class="sbc-calendar">
+
+<?php for($monthI = 0; $monthI < $months; $monthI++): ?>
+	<?php
+		$currentTimestamp = strtotime('15' . date('F Y H:i:s'));        		
+		$currentTime = $this->timestamp ? strtotime('15' . date('F Y H:i:s',$this->timestamp)) : $currentTimestamp;
+	    $currentYear = (int) gmdate('Y', strtotime('+ ' . $monthI . ' months', $currentTime));
+		$currentMonth = (int) gmdate('m', strtotime('+ ' . $monthI . ' months', $currentTime));
+		$unixMonth = mktime(0, 0, 0, $currentMonth, 1, $currentYear);
+		$daysInMonth = intval(date('t', $unixMonth));
+	?>
+    
+  <div class="sbc-calendar-month">
+  <div class="sbc-loader"><img src="<?php echo site_url('wp-content/plugins/wp-simple-booking-calendar/img/spinner.gif'); ?>" /></div>
+	<?php if($monthI === 0): ?>
+		<?php if (!$this->includeCalendarEditor): ?>
+			<?php $url = 'admin-ajax.php';
+				if (function_exists('qtrans_getLanguage')) {
+					$url .= '?lang=' . qtrans_getLanguage();
+				}
+				$url = esc_url(admin_url($url));
+			?>
+			<form action="<?php echo $url; ?>" method="post">
+		<?php endif ?>
+			<div class="sbc-navigation">
+				<div style="float: left;"><a class="sbc-prev-month" href="#"><img src="<?php echo site_url('wp-content/plugins/wp-simple-booking-calendar/img/arrow_left.png'); ?>" /></a></div>
+            	<div style="float:left; margin-left:5px; margin-bottom:9px;">
+                    <?php //remove droprown and add display:none to select ?>
+                    <?php if($this->enableDropdown=='no'):?>
+                    <div style="width: 122px; height:19px;"><?php echo esc_html($wp_locale->get_month($currentMonth)) ?> <?php echo esc_html($currentYear) ?> </div>
+                    <?php endif;?>
+            		<select name="sbcdatepicker" class="sbcdatepicker"<?php if($this->enableDropdown=='no'):?> style="display: none;"<?php endif;?>>
+            			<?php for ($j = -6; $j <= 6; $j++): ?>
+            				<?php $selectDate = strtotime($j . ' months', $currentTime); ?>
+            				<option value="<?php echo gmdate('m/Y', $selectDate); ?>" <?php if ($currentMonth == gmdate('m', $selectDate) && $currentYear == gmdate('Y', $selectDate)) echo 'selected="selected"'; ?>><?php echo esc_html($wp_locale->get_month(gmdate('m', $selectDate))) . ' ' . esc_html(gmdate('Y', $selectDate)); ?></option>
+            			<?php endfor; ?>
+            		</select>
+                </div>
+            	<?php if($months == 1): ?>
+                <div><a class="sbc-next-month" href="#"><img src="<?php echo site_url('wp-content/plugins/wp-simple-booking-calendar/img/arrow_right.png'); ?>" /></a></div>
+               
+		   		<?php endif; ?>
+				<input type="hidden" name="sbcId" value="<?php echo esc_attr($this->calendarId) ?>" />
+	            <input type="hidden" name="view" value="<?php echo $months; ?>" />
+                <input type="hidden" name="dropdown" value="<?php echo $this->enableDropdown; ?>" />
+                <input type="hidden" name="weekstart" value="<?php echo $this->weekStart; ?>" />
+				<input type="hidden" name="sbcMonth" value="<?php echo $currentMonth; ?>" />
+	            <input type="hidden" name="sbcYear" value="<?php echo $currentYear; ?>" />
+			</div>
+		<?php if (!$this->includeCalendarEditor): ?>
+		</form>
+		<?php endif ?>
+	<?php else: ?>
+		<div class="sbc-navigation">
+            <?php if($monthI === $months - 1): ?>
+		        <a class="sbc-next-month" href="#"><img src="<?php echo site_url('wp-content/plugins/wp-simple-booking-calendar/img/arrow_right.png'); ?>" /></a>
+		   <?php endif; ?>
+            <?php if($monthI === $months - 1): ?><span style="left: 12px; position: relative;"><?php endif; ?><?php echo esc_html($wp_locale->get_month($currentMonth)) ?> <?php echo esc_html($currentYear) ?><?php if($monthI === $months - 1): ?></span><?php endif; ?>
+            
+		</div>
+	<?php endif; ?>
+	
+	<table>
+		<thead>
+			<tr>
+				<?php for ($weekDay = 0; $weekDay <= 6; $weekDay++): ?>
+				<th scope="col"><?php echo esc_attr($wp_locale->get_weekday_initial($wp_locale->get_weekday(($weekDay + $weekBegins) % 7))) ?></th>
+				<?php endfor ?>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<?php $pad = calendar_week_mod(date('w', $unixMonth) - $weekBegins); if (0 != $pad): ?>
+				<td colspan="<?php echo esc_attr($pad) ?>" class="pad">&nbsp;</td>
+				<?php endif ?>
+	
+				<?php for ($day = 1; $day <= $daysInMonth; ++$day): ?>
+					<?php if (!empty($newRow)): $newRow = false ?>
+					</tr>
+					<tr>
+					<?php endif ?>
+					
+					<?php $dayStatus = (!empty($this->calendarData->{'year' . $currentYear}->{'month' . $currentMonth}->{'day' . $day}) ? $this->calendarData->{'year' . $currentYear}->{'month' . $currentMonth}->{'day' . $day} : 'free') ?>
+					<?php $isToday = ($day == gmdate('j', time()) && $currentMonth == gmdate('m', time()) && $currentYear == gmdate('Y', time())) ?>
+					<td class="sbc-day<?php echo esc_attr($day) ?> sbc-status-<?php echo esc_attr($dayStatus) ?> <?php if ($isToday): ?> sbc-today<?php endif ?>">
+						<?php echo esc_html($day)  //AICI ?>
+					</td>
+	
+					<?php if (6 == calendar_week_mod(date('w', mktime(0, 0 , 0, $currentMonth, $day, $currentYear)) - $weekBegins)): $newRow = true; endif ?>
+				<?php endfor ?>
+				
+				<?php $pad = 7 - calendar_week_mod(date('w', mktime(0, 0 , 0, $currentMonth, $day, $currentYear)) - $weekBegins); if ($pad != 0 && $pad != 7): ?>
+					<td class="pad" colspan="<?php echo esc_attr($pad) ?>">&nbsp;</td>
+				<?php endif ?>
+			</tr>
+		</tbody>
+	</table>
+  </div>
+<?php endfor; ?>
+
+<?php if ($this->includeCalendarEditor): ?>
+    <div class="sbc-batch-update">
+		<p>
+			<label for="calendarName"><?php esc_html_e('Start Date', 'sbc') ?></label>
+			<select name="startYear" id="startYear">
+                <?php for($i = date("Y"); $i<= date("Y") + 10; $i++):?>
+                <option value="<?php echo $i;?>"><?php echo $i;?></option>
+                <?php endfor?>
+            </select>
+            <select name="startMonth" id="startMonth">
+                <?php for($i = strtotime('1 January 2012'); $i<= strtotime('1 January 2013'); $i = $i + (60*60*24*31)):?>
+                <option value="<?php echo date('F',$i);?>"><?php echo date('M',$i);?></option>
+                <?php endfor?>
+            </select>
+            <select name="startDay" id="startDay">
+                <?php for($i = 1; $i<= 31; $i++):?>
+                <option value="<?php echo $i;?>"><?php echo $i;?></option>
+                <?php endfor?>
+            </select>
+		</p>
+        
+        <p>
+			<label for="calendarName"><?php esc_html_e('End Date', 'sbc') ?></label>
+			<select name="endYear" id="endYear">
+                <?php for($i = date("Y"); $i<= date("Y") + 10; $i++):?>
+                <option value="<?php echo $i;?>"><?php echo $i;?></option>
+                <?php endfor?>
+            </select>
+            <select name="endMonth" id="endMonth">
+                <?php for($i = strtotime('1 January 2012'); $i<= strtotime('1 January 2013'); $i = $i + (60*60*24*31)):?>
+                <option value="<?php echo date('F',$i);?>"><?php echo date('M',$i);?></option>
+                <?php endfor?>
+            </select>
+            <select name="endDay" id="endDay">
+                <?php for($i = 1; $i<= 31; $i++):?>
+                <option value="<?php echo $i;?>"><?php echo $i;?></option>
+                <?php endfor?>
+            </select>
+		</p>
+        
+        <p>
+			<label for="calendarName"><?php esc_html_e('Status', 'sbc') ?></label>
+			<select name="changeStatus" id="changeStatus">
+				<?php foreach ($bookingStatus as $statusKey => $statusName): ?>
+				<option class="sbc-status-<?php echo esc_attr($statusKey) ?>" value="<?php echo esc_attr($statusKey) ?>"><?php echo esc_html($statusName) ?></option>
+				<?php endforeach ?>
+			</select>
+		</p>
+		<p class="submit">
+           <input type="hidden" id="batchCurrentTimestamp" value="<?php echo $unixMonth;?>" />
+	      <input class="button-primary" type="button" id="updateCalendarMultiple" value="<?php esc_attr_e('Apply Status &raquo;', 'sbc') ?>" />
+		</p>
+    </div>	
+<?php endif;?>	
+</div>
+<?php if ($this->includeCalendarEditor): ?>
+
+<div id="sbc-editor">
+	<table>
+		<tbody>
+			<?php for ($day = 1; $day <= $daysInMonth; ++$day): $dayStatus = (!empty($this->calendarData->{'year' . $currentYear}->{'month' . $currentMonth}->{'day' . $day}) ? $this->calendarData->{'year' . $currentYear}->{'month' . $currentMonth}->{'day' . $day} : 'free') ?>
+            
+            
+			<tr>
+				<td class="sbc-editor-day sbc-status-<?php echo esc_attr($dayStatus) ?>"><?php echo esc_html($day) ?></td>
+				<td class="sbc-editor-status">
+					<select name="day<?php echo esc_attr($day) ?>" class="day<?php echo esc_attr($day) ?>">
+						
+                        
+						<?php foreach ($bookingStatus as $statusKey => $statusName): ?>
+						<option class="sbc-status-<?php echo esc_attr($statusKey) ?>" value="<?php echo esc_attr($statusKey) ?>"<?php if ($statusKey == $dayStatus): ?> selected="selected"<?php endif ?>><?php echo esc_html($statusName) ?></option>
+						<?php endforeach ?>
+					</select>
+                    <input type="text" class="title<?php echo esc_attr($day) ?>" name="title<?php echo esc_attr($day) ?>" value="<?php if(!empty($this->calendarData->{'year' . $currentYear}->{'month' . $currentMonth}->{'title' . $day}))
+                echo htmlspecialchars(stripslashes($this->calendarData->{'year' . $currentYear}->{'month' . $currentMonth}->{'title' . $day}),ENT_QUOTES);
+            ?>" />
+				</td>
+                
+			</tr>
+			<?php endfor; ?>
+		</tbody>
+	</table>
+</div>
+
+
+<?php endif ?>
+
+<?php if ($this->showLegend): ?>
+<div class="sbc-legend">
+	<table>
+		<tbody>
+            <?php foreach($bookingStatus as $statusKey => $statusName):?>
+			<tr>
+				<td class="sbc-legend-status sbc-status-<?php echo $statusKey;?>">&nbsp;</td>
+				<td class="sbc-legend-label"><?php echo $statusName;?></td>
+			</tr>
+            <?php endforeach;?>
+		</tbody>
+	</table>
+</div>
+<?php endif ?>
+
+
