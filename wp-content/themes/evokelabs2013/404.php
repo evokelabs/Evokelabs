@@ -8,10 +8,9 @@
         
         <div id="headerIcons">
             <ul>
-                <a href="https://twitter.com/evokelabs" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/icontwitter.png" alt="Twitter" /></li></a>
                 <a href="http://www.youtube.com/evokelabs" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/iconyoutube.png" alt="YouTube" /></li></a>
                 <a href="http://pinterest.com/evokelabs/" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/iconpin.png" alt="Pinterest" /></li></a>
-                <a href="mailto:adrian@www.evokelabs.dev.cc"><li><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></li></a>
+                <a href="mailto:adrian@www.evokelabs.com"><li><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></li></a>
             </ul>
         </div>
             <div id="headertitles">
@@ -37,7 +36,7 @@
             <h1>Get in touch</h1>
             <h2>I'd love to hear from you if you have a project or campaign in the works</h2>
                 <ul>
-                    <a href="mailto:adrian@www.evokelabs.dev.cc"><li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></div>adrian@www.evokelabs.dev.cc</li></a>
+                    <a href="mailto:adrian@www.evokelabs.com"><li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></div>adrian@wvokelabs.com</li></a>
                     <a href="https://twitter.com/evokelabs" target="_blank"><li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/icontwitter.png" alt="Twitter" /></div>evokelabs</li></a>
                     <li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconphone.png" alt="Phone" /></div>Skype: Evokelabs</li>
                     <li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconlocation.png" alt="Phone" /></div>

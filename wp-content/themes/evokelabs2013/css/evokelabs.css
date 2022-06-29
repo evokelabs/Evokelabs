@@ -1,889 +1,886 @@
 html {
-    margin: 0;
-    background-color:#ff8d33;
-    background-image:url('../img/bgtile.png'),url('../img/gradient.jpg');
-    background-position: left top, center top;
-    background-repeat:repeat,no-repeat;
-    color:#ffffff;
-    width:100%;
-    
-
-
+  margin: 0;
+  background-color: #ff8d33;
+  background-image: url('../img/bgtile.png'), url('../img/gradient.jpg');
+  background-position: left top, center top;
+  background-repeat: repeat, no-repeat;
+  color: #ffffff;
+  width: 100%;
 }
 
-a{
-    color:inherit;
-
+a {
+  color: inherit;
 }
 
 #workfeature a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
-body{
-    margin: 0px auto;
-    font-size: 100%;
-    font-family: ropa-sans, sans-serif;
-    
+body {
+  margin: 0px auto;
+  font-size: 100%;
+  font-family: ropa-sans, sans-serif;
 }
 
-
-
-header{
-    max-width:870px;;
-    height:38%;
-    margin: 0 auto;
+header {
+  max-width: 875px;
+  height: 38%;
+  margin: 0 auto;
 }
 
-
-h1,h2,h3,h4,h5{
-    position:static;
-    text-transform:uppercase;
-    font-family: ropa-sans, sans-serif;
-    margin:0;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  position: static;
+  text-transform: uppercase;
+  font-family: ropa-sans, sans-serif;
+  margin: 0;
 }
-
 
 h1 {
-    position:relative;
-    font-size:9em;
-    letter-spacing:0.12em;
-    width:105%;
-    height: 100%;  
+  position: relative;
+  font-size: 9em;
+  letter-spacing: 0.12em;
+  height: 100%;
 }
+
 h2 {
-    position:relative;
-    width:100%; /* 870 870*/
-    font-size:1.5em;
-    letter-spacing:0.085em;
-    color:#ff8c32;
-    background-color:#FFFFFF;
-    text-align:center;
-    }
-
-#headertitles h2{
-    position:relative;
-    bottom:15px;
-    
+  position: relative;
+  width: 100%;
+  /* 870 870*/
+  font-size: 1.5em;
+  letter-spacing: 0.085em;
+  color: #ff8c32;
+  background-color: #ffffff;
+  text-align: center;
 }
 
-#logo{
-    position:static;
-    width:16.43%; /*143px;*/
-    height:147px;
-    display:inline;
-}
-#headerIcons{
-    position: relative;
-    text-align: right;
-    top: 30px;
-    float: right;
-    
-}
-#headerIcons li{
-    width: 50px;
-	height: 50px;
-	background: #ffffff;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-    display:inline-block;
-    margin-right:5px;  
-    text-align:center;
-    line-height:50px;
-    -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08),inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 5px rgba(255, 150, 56, 100);
-    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 5px rgba(255, 150, 56, 100);
-    
-
-
-}	
-#headerIcons li img{
-    vertical-align: middle;
-    position:relative;
-    bottom:1px;
-    overflow:hidden;
-
+#headertitles h2 {
+  position: relative;
+  bottom: 15px;
 }
 
-.darkerUpper{
-    position:static;
-    height: 6px;
-    background-color:#1e1e1e;
-    background-image:url('../img/bgupfill.gif');
-    background-repeat:repeat;
+#logo {
+  position: static;
+  width: 16.43%;
+  /*143px;*/
+  height: 147px;
+  display: inline;
 }
-.darkerBG{
-    
-    background-color:#ff8d33;
-    background-image:url('../img/bgtiledark.gif');
-    background-repeat:repeat;
-    
+
+#headerIcons {
+  position: relative;
+  text-align: right;
+  top: 30px;
+  float: right;
 }
+
+#headerIcons li {
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 50px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.08),
+    inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25),
+    inset 0px 0px 0px 5px rgba(255, 150, 56, 100);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.08),
+    inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25),
+    inset 0px 0px 0px 5px rgba(255, 150, 56, 100);
+}
+
+.video-paragraph {
+  /* position: absolute; */
+}
+
+#headerIcons li img {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+  overflow: hidden;
+}
+
+.darkerUpper {
+  position: static;
+  height: 6px;
+  background-color: #1e1e1e;
+  background-image: url('../img/bgupfill.gif');
+  background-repeat: repeat;
+}
+
+.darkerBG {
+  background-color: #ff8d33;
+  background-image: url('../img/bgtiledark.gif');
+  background-repeat: repeat;
+}
+
 #about {
-    max-width:870px;
-    margin: 0 auto;
-    min-height: 440px;
-    padding-top:15px;
-    padding-bottom: 15px;
+  max-width: 870px;
+  margin: 0 auto;
+  min-height: 440px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-
-h3,h4,h5{
-    text-align:center;
-    font-size:3.5em;
-    letter-spacing:0.0em;
-    width:100%;
-    float:left;
-
+h3,
+h4,
+h5 {
+  text-align: center;
+  font-size: 3.5em;
+  letter-spacing: 0em;
+  width: 100%;
+  float: left;
 }
 
-#about-resume, .casestudy-resume {
-    max-width:870px;
-    margin: 0 auto;
-    padding-top:15px;
-    padding-bottom: 15px;
+#about-resume,
+.casestudy-resume {
+  max-width: 870px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-#about-resume h3, .casestudy-resume h3 {
-
-    text-align: left;
-    letter-spacing:0.1em;
-
-
+#about-resume h3,
+.casestudy-resume h3 {
+  text-align: left;
+  letter-spacing: 0.1em;
 }
 
-
-h4{
-    position:static;
-    color:#ff961a;
-    background-color:#8e0e04;
-    float:left;
-    bottom:590px;
+h4 {
+  position: static;
+  color: #ff961a;
+  background-color: #8e0e04;
+  float: left;
+  bottom: 590px;
 }
 
-.HR{
-    position:relative;
-    width:100%;
-    height:5px;
-    background-image:url('../img/dots.png');
-    background-repeat:repeat;
-    display:inline-block;
-    margin: 30px 0px 10px;
-
+.HR {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background-image: url('../img/dots.png');
+  background-repeat: repeat;
+  display: inline-block;
+  margin: 30px 0px 10px;
 }
 
-.HR-resume{
-    position:relative;
-   max-width: 450px;
-   width: 100%;
-    height:5px;
-    background-image:url('../img/dots.png');
-    background-repeat:repeat;
-    display:inline-block;
-    margin: 0;
-
-
+.HR-resume,
+.HR-resume-black {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background-image: url('../img/dots.png');
+  background-repeat: repeat;
+  display: inline-block;
+  margin: 0;
 }
 
-#aboutdesc{
-    max-width:590px;
-    height:200px; 
-    display:inline-block;
+.HR-resume-black {
+  background-image: url('../img/black-dots.png');
 }
 
-#aboutdesc p{    
-    font-family: ropa-sans, sans-serif;
-    font-weight:bold;
-    font-size:1.4em;
-    letter-spacing:0.05em;
-    line-height:1.3em;
-    position:relative;
-    top:10px;    
+.darker-tone .HR-resume {
+  border-top: 6px dotted #202020;
+  background-image: none;
 }
 
-#aboutdesc-resume, #experience-resume, #skills-resume{
-
-    max-width:100%;
-    display:inline-block;
+#aboutdesc {
+  max-width: 590px;
+  max-height: 200px;
+  display: inline-block;
 }
 
-#aboutdesc-resume p{    
-    font-family: ropa-sans, sans-serif;
-    font-weight:bold;
-    font-size:1.3em;
-    letter-spacing:0.05em;
-    line-height:1.3em;
-    position:relative;
-    top:0px;    
-}
-
-
-
-#skills-resume-left li{
-
-    max-width: 222px;
-    width: 100%;
-    height: 80px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 4px 4px 4px 0px;
-
-
-}
-
-#skills-resume-left li img {
-
-    max-width: 80px;
-    width: 100%;
-    height: 80px;
-    border: 1px solid #e4e4e4;
-    opacity: 0.5;
-    display: inline-block;
-    float: left;
-
-}
-
-#skills-resume-left li p{
-
-
-   vertical-align: top;
-   width: 120px;
-   display: inline-block;
-   margin: 5px 0 0 10px;
-   float: left;
-
-}
-
-.rating-none, .rating-one, .rating-two, .rating-three, .rating-four {
-
-    position: relative;
-    vertical-align: top;
-    background-image:url('/../../../img/resume/filled.gif');
-    width: 68px;
-    height: 16px;
-    display: inline-block;
-    float: left;
-    margin: 5px 0 0 10px;
-
-   }
-
-
-.rating-none {
-
-  background:url('/../../../img/resume/unfilled.gif');
-
-}
-
-.rating-one {
-
-  background:url('/../../../img/resume/filled.gif') no-repeat, url('/../../../img/resume/unfilled.gif');
-
-}
-
-.rating-two {
-
-  background:url('/../../../img/resume/filled.gif') no-repeat, url('/../../../img/resume/filled.gif') no-repeat 17px 0px, url('/../../../img/resume/unfilled.gif');
-
-}
-
-.rating-three {
-
-   background:url('/../../../img/resume/filled.gif') no-repeat, url('/../../../img/resume/filled.gif') no-repeat 17px 0px,url('/../../../img/resume/filled.gif') no-repeat 34px 0px,url('/../../../img/resume/unfilled.gif');
-
-}
-
-
-#aboutdesc-brief-resume-left, #experience-resume-left, #skills-resume-left {
-
-    width: 460px;
-    float: left;
-    display: inline-block;
-
-}
-
-#aboutdesc-brief-resume, #experience-resume-right,  #skills-resume-right {
-
-    float: left;
-    display: inline-block;
-    max-width: 370px;
-    margin-left: 40px;
-
-
-}
-
-#skills-resume-right {
-
-    margin-top:32px;
-
-}
-
-
-
-#aboutdesc-brief-resume h2, #experience-resume-right h2,  #skills-resume-right h2, #skills-resume-left h2 {
-
-    font-size: 2.2em;
-    text-align: left;
-    background-color: transparent;
-
-}
-
-#skills-resume-left h2 {
-
-    color: #ffffff;
-    margin-top: 30px;
-
-}
-
-#aboutdesc-brief-resume h3 {
-
-      font-size: 1.6em;
-      margin: 10px 0;
-
+#aboutdesc p {
+  margin-top: 0;
+  font-family: ropa-sans, sans-serif;
+  font-weight: bold;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+  position: relative;
+  top: 10px;
 }
 
 .experience-resume {
-
-    padding: 0;
+  /* color: #000; */
 }
 
-.experience-resume ul {
-
-    list-style-type: none;
-    margin: 25px 0px;
-    padding: 0;
-
+#aboutdesc-resume,
+#experience-resume,
+#skills-resume {
+  max-width: 100%;
+  display: inline-block;
 }
 
- #experience-resume-right ul, #skills-resume-left ul, #skills-resume-right ul {
-
-    list-style-type: none;
-    padding: 0;
-
+#aboutdesc-resume p {
+  font-family: ropa-sans, sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+  position: relative;
+  top: 0px;
 }
 
-#experience-resume-right li, #skills-resume-right li {
-
-    display: inline-block;
-    vertical-align: top;
-    margin: 3px 2px 3px 0;
-    
-
+#skills-resume-left li {
+  max-width: 222px;
+  width: 100%;
+  height: 80px;
+  display: inline-flex;
+  vertical-align: top;
+  margin: 4px 4px 4px 0px;
+  align-items: center;
 }
 
-
-
-#experience-resume-right li img,  #skills-resume-right li img {
-
-    max-width: 110px;
-    width: 100%;
-    height: 110px;
-    display: inline-block;
-    border: 1px solid #e4e4e4;
+#skills-resume-left li img {
+  max-width: 80px;
+  width: 100%;
+  height: 80px;
+  border: 1px solid #e4e4e4;
+  display: inline-block;
+  float: left;
 }
 
+#skills-resume-left li p {
+  vertical-align: top;
+  width: 120px;
+  display: inline-block;
+  margin: 5px 0 0 10px;
+  float: left;
+  text-align: left;
+}
 
+.rating-none,
+.rating-one,
+.rating-two,
+.rating-three,
+.rating-four {
+  position: relative;
+  vertical-align: top;
+  background-image: url('/../../../img/resume/filled.gif');
+  width: 68px;
+  height: 16px;
+  display: inline-block;
+  float: left;
+  margin: 5px 0 0 10px;
+}
+
+.rating-none {
+  background: url('/../../../img/resume/unfilled.gif');
+}
+
+.rating-one {
+  background: url('/../../../img/resume/filled.gif') no-repeat,
+    url('/../../../img/resume/unfilled.gif');
+}
+
+.rating-two {
+  background: url('/../../../img/resume/filled.gif') no-repeat,
+    url('/../../../img/resume/filled.gif') no-repeat 17px 0px,
+    url('/../../../img/resume/unfilled.gif');
+}
+
+.rating-three {
+  background: url('/../../../img/resume/filled.gif') no-repeat,
+    url('/../../../img/resume/filled.gif') no-repeat 17px 0px,
+    url('/../../../img/resume/filled.gif') no-repeat 34px 0px,
+    url('/../../../img/resume/unfilled.gif');
+}
+
+#aboutdesc-brief-resume-left,
+#experience-resume-left,
+#skills-resume-left {
+  float: left;
+  display: inline-block;
+}
+
+#aboutdesc-brief-resume-left {
+  width: 460px;
+}
+
+#aboutdesc-brief-resume {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#aboutdesc-brief-resume,
+#experience-resume-right,
+#skills-resume-right {
+  float: left;
+  display: inline-block;
+}
+
+#skills-resume-right {
+  margin-top: 32px;
+}
+
+#aboutdesc-brief-resume h2,
+#experience-resume-right h2,
+#skills-resume-right h2,
+#skills-resume-left h2 {
+  font-size: 2.2em;
+  text-align: left;
+  background-color: transparent;
+}
+
+#skills-resume-left h2 {
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+#aboutdesc-brief-resume h3 {
+  font-size: 1.6em;
+  margin: 10px 0;
+}
+
+.experience-resume {
+  padding: 0;
+}
+
+.experience-resume {
+  text-shadow: 1px 1px 1px #462d2d;
+}
+
+.experience-resume p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.darker-tone {
+  color: #202020;
+}
+
+.darker-tone p {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.experience-resume ul,
+.experience-resume-right ul {
+  list-style-type: none;
+  margin: 30px 0 30px 0px;
+  padding: 0;
+}
+
+#experience-resume-right ul {
+  margin: 15px 0 40px 0px;
+}
+
+#experience-resume-right ul,
+#skills-resume-left ul,
+#skills-resume-right ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#experience-resume-right li,
+#skills-resume-right li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 3px 2px 3px 0;
+}
+
+#experience-resume-right li img,
+#skills-resume-right li img {
+  max-width: 110px;
+  width: 100%;
+  height: 110px;
+  display: inline-block;
+  border: 1px solid #e4e4e4;
+}
 
 .experience-resume li {
-
-    font-size: 1.2em;
-
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
-.experience-resume li:first-child {
-
-    font-size: 2.2em;
-    text-transform: uppercase;
-	font-weight: bold;
-
+.client-logo {
+  float: left;
+  padding-right: 30px;
 }
 
+.experience-resume li:nth-child(2) {
+  font-size: 2.2em;
+  line-height: 25pt;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
+.experience-resume li:last-of-type {
+  padding-bottom: 5pt;
+}
+
+.experience-resume ul:last-child {
+  margin-bottom: 50pt;
+}
 
 .highlight {
-
-    padding: 0px 5px;
-    color:#ff961a;
-    background-color: #8e0e04;
-
+  padding: 0px 5px;
+  color: #ff961a;
+  background-color: #8e0e04;
 }
 
-#aboutvideo{
-    position:relative;
-    left:280px;
-    bottom:225px;
-    display:inline-block;
-    float:right;
-    width: 220px;
-	height: 220px;
-	background: #151515;
-    -moz-border-radius: 300px;
--webkit-border-radius: 300px;
-border-radius: 300px;
-    display:inline-block;
-    margin-right:5px;  
-    text-align:center;
-    line-height:50px;
-     -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08),inset 1px 1px 1px 3px rgba(255, 255, 255, 0.3), inset 0px 0px 0px 15px rgba(255, 140, 40, 100);
-    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 3px rgba(255, 255, 255, 0.3), inset 0px 0px 0px 15px rgba(255, 140, 40, 100);
-	
-	
+#aboutvideo {
+  position: relative;
+  left: 280px;
+  bottom: 210px;
+  display: inline-block;
+  float: right;
+  width: 220px;
+  height: 220px;
+  background: #151515;
+  -moz-border-radius: 300px;
+  -webkit-border-radius: 300px;
+  border-radius: 300px;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 50px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.08),
+    inset 1px 1px 1px 3px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 0px 10px rgba(255, 140, 40, 100);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.08),
+    inset 1px 1px 1px 3px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 0px 10px rgba(255, 140, 40, 100);
 }
 
-#aboutvideodiv{
-    -moz-border-radius: 300px;
-    -webkit-border-radius: 300px;
-    border-radius: 300px;
-    background-color:#151515;
-    width:180px;
-    height:180px;
-    position:relative;
-    left:20px;
-    top:20px;
-    overflow:hidden;
-    -webkit-mask-image: url(../img/videoMask.png); 
-    -webkit-mask-repeat: no-repeat;      
+#aboutvideodiv {
+  -moz-border-radius: 300px;
+  -webkit-border-radius: 300px;
+  border-radius: 300px;
+  background-color: #151515;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  overflow: hidden;
+  -webkit-mask-image: url(../img/videoMask.png);
+  -webkit-mask-repeat: no-repeat;
 }
 
-#aboutvideodiv img{
-    display:inline-block;
-    position:relative;
-    left:-8px;
-    top:-11px;
+#aboutvideodiv img {
+  display: inline-block;
+  position: relative;
+  left: -8px;
+  top: -11px;
 }
 
-#aboutSlider{
-    position:relative;
+#aboutSlider {
+  position: relative;
 }
 
-.darkerLower{
-    position:relative;
-    width:100%;
-    height: 16px;
-    background-color:#1e1e1e;
-    background-image:url('../img/bgdownfill.gif');
-    background-repeat:repeat;
-   
+.darkerLower {
+  position: relative;
+  width: 100%;
+  height: 16px;
+  background-color: #1e1e1e;
+  background-image: url('../img/bgdownfill.gif');
+  background-repeat: repeat;
 }
 
 .casestudy {
-
-   max-width: 910px;
-   margin: 0px auto;
-
+  max-width: 910px;
+  margin: 0px auto;
 }
 
-
-
-.casestudy h1{
-    font-size:7.6em;
-    letter-spacing:0.14em;
-    height: 100%;  
-    text-align:left;
-}
-.casestudy h2{
-    font-size:1.3em;
-    letter-spacing:0.05em;
-    max-width:880px;
-    text-align:center;
-    height: 30px;
-    line-height:30px;
-    position:relative;
-    bottom:15px;
-    overflow: hidden;
+.casestudy h1 {
+  font-size: 7.6em;
+  letter-spacing: 0.14em;
+  height: 100%;
 }
 
-.casestudy .HR{
-    margin: 20px 0px 10px;
-    max-width: 885px;
-
+.casestudy h2 {
+  font-size: 1.3em;
+  letter-spacing: 0.05em;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  bottom: 15px;
+  overflow: hidden;
 }
 
-
-.casestudy ul{
-    width:100%;
-    margin: 0;
-    padding: 0;
-    
+.casestudy .HR {
+  margin: 20px 0px 10px;
 }
 
-
-
-.casestudy li{
-    display:inline-block;
-    padding: 0px;
-    background-color:#FFFFFF;
-    max-width:390px;
-    max-height:220px;
-    text-align:left;
-    margin: 0px 65px 80px 0px; 
-    
-    -moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-	border-radius: 20px;
-    display:inline-block;
-
-    line-height:50px;
-    -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08),inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
-    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
+.casestudy ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.casestudy img{
-    position:relative;
-    display:inline-block;
-    left:20px;
-    top:20px;
-    overflow:hidden;
-    max-width:350px;
-    width: 100%;
-    max-height:180px; 
-
-    -moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5x;
-    
+.orange-video-shadow {
+  border-radius: 10px;
+  line-height: 0;
+  display: inline-block;
+  -webkit-box-shadow: 0px 0px 0px 10px #ff8c28, 2px 2px 11px 7px #3a1e1e;
+  box-shadow: 0px 0px 0px 10px #ff8c28, 2px 2px 11px 7px #3a1e1e;
 }
 
-.casestudy video{
-    position:relative;
-    display:inline-block;
-    left:20px;
-    top:20px;
-    overflow:hidden;
-    width:350px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5x;
-    
+.casestudy li {
+  display: inline-block;
+  padding: 0px;
+  max-width: 390px;
+  max-height: 220px;
+  text-align: left;
+  margin: 20px 0 90px 10px;
+  display: inline-block;
+  line-height: 50px;
+  position: relative;
 }
 
-.Image-Hide{
-
-    display: none !important;
-
+.casestudy li:nth-child(odd) {
+  margin-right: 85px;
 }
 
+.showcase-video-caption {
+  position: absolute;
+  top: 125px;
+}
+
+.casestudy img {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 350px;
+  width: 100%;
+  max-height: 180px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5x;
+}
+
+.casestudy video {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.Image-Hide {
+  display: none !important;
+}
 
 .video-reel {
-
-    display:inline-block;
-    padding: 0px;
-    background-color:#FFFFFF;
-
-    text-align:left;
-    margin: 0px 80px 40px 0px; 
-    
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
-    display:inline-block;
-
-    width: 880px;
-    height: 468px;
-
-    line-height:50px;
-    -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08),inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
-    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
-
+  display: inline-block;
+  padding: 0px;
+  background-color: #ffffff;
+  text-align: left;
+  margin: 20px 0px 40px 0px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  line-height: 0;
+  -webkit-box-shadow: 0px 0px 0px 10px #ff8c28, 2px 2px 11px 7px #3a1e1e;
+  box-shadow: 0px 0px 0px 10px #ff8c28, 2px 2px 11px 7px #3a1e1e;
 }
 
 .video-reel img {
-    
-    max-width: none;
-    max-height: none;
-    width: 840px;
-    height: auto;
-    overflow: hidden;
-
+  max-width: none;
+  max-height: none;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
 }
 
 #showcase {
-    margin-top: 20px;
-    margin-bottom:30px;
+  margin-bottom: 30px;
 }
 
-#showcase .HR{
-    margin-top:30px;
-    margin-bottom: 25px;
-    height:1px;
-    background-image:url("../img/VR.png");
-    background-repeat:repeat;
+#showcase .HR {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  height: 1px;
+  background-image: url('../img/VR.png');
+  background-repeat: repeat;
+}
+
+#showcase h3,
+h5 {
+  color: #ff961a;
+  background-color: #8e0e04;
+  font-size: 1em;
+  text-transform: none;
+  text-align: left;
+  width: auto;
+  height: 22px;
+  line-height: 22px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  clear: left;
+}
+
+#showcase p {
+  text-align: left;
+  line-height: 1.5em;
+  font-weight: bold;
+  clear: both;
+  padding-top: 30px;
+
+  /* position: relative;
+    bottom: 40px;
     
-}
-
-#showcase h3,h5{
-    color: #ff961a;
-    background-color: #8e0e04;
-    font-size: 1.0em;
-    text-transform:none;
-    text-align:left;
-    width:auto;
-    height:22px;
-    line-height:22px;
-    margin-bottom:3px;
-    margin-left:28px;
-    position:relative;
-    bottom:80px;
-    padding-left:10px;
-    padding-right:10px;
-    clear:left
-}
-
-
-
-
-
-#showcase p{
-    position:relative;
-    bottom:40px;
-    text-align:left;
-    clear:both;
-    line-height:1.5em;
+    
+    
     max-width: 360px;
     width: 100%;
-    left:18px;
-    font-weight:bold;
-    overflow:hidden;
-}
-
-#workfeature p{
-     position:relative;
-     top: 0px;
-    left:0px;
-}
-
-footer{
-    max-width:910px;
-    width: 100%;
-    margin: 0 auto;
+    left: 18px;
     
-}
-footer h1{
-    font-size:8.6em;
-    letter-spacing:0.0598em;
-    text-align:left;
-}
-footer h2{
-    font-size:1.3m;
-    letter-spacing:-0.0em;
-    max-width:880px;
-    height: 30px;
-    line-height:30px;
-    text-align:center;
-    color: #ff8c32;
-    position:relative;
-    bottom:15px;
-}
-footer ul{
-    position:relative;
-    top: 30px;
-    margin:0;
-    width:400px;
-}
-.footericon{
-    width: 50px;
-	height: 50px;
-	background: #ffffff;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-    display:inline-block;
-    text-align:center;
-    line-height:50px;
-       -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08),inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 7px rgba(255, 150, 56, 100);
-    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 7px rgba(255, 150, 56, 100);
-    float:left;
-    position:relative;
-    bottom:10px;
-    right:14px;
-
-}
-footer img{
-    vertical-align: middle;
-    position:relative;
-    left:1px;
-
-
-}
-footer li{
-     display:block;
-     text-transform:uppercase;
-     font-family: ropa-sans, sans-serif;
-     font-size: 1.0em;
-     font-weight:bold;
-     width:280px;
-     height:30px;
-     line-height:34px;
-     background-color:#ffffff;
-    color:#ff8c32;
-    float:left;
-    letter-spacing:0.1em;
-    margin-bottom:35px;
-    position:relative;
-    left:-30px;
-
-
-
-}
-.VR{
-    width:1px;
-    height:226px;
-    background-image:url("../img/VR.png");
-    background-repeat:repeat;
-    position:relative;
-    left:344px;
-    top:30px;
+    overflow: hidden; */
 }
 
-#availabilities{
-    clear:both;
-    float:none;
-    position:relative;
-    left:382px;
-    width:510px;
-    bottom:236px;
-    padding-bottom:10px;
-   
+#workfeature p {
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
-#availabilities h1{
-    width:auto;
-    clear:both;
-    font-size: 2.5em;  
-    letter-spacing:0.05em;
-}
-#workfeature h1{
-    text-transform:none;
-    letter-spacing:0em;
-    font-size:2.5em;
-}
-#workfeature ul{
-    margin-top:12px;
+footer {
+  max-width: 910px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-#workfeature li{
-    margin:0 10px 0 0;
-    padding:0px 10px;
-    display:inline-block;
-    background-color:#8e0e04;
-    color: #ff961a;
-    width:auto;
-    height: 22px;
-    line-height:22px;
-    -webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-    -moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	border-radius: 0;
-    text-transform:uppercase;
-    font-weight:bold;
-    font-size:0.9em;
+footer h1 {
+  font-size: 8.6em;
+  letter-spacing: 0.0598em;
+  text-align: left;
 }
 
+footer h2 {
+  font-size: 1.3m;
+  letter-spacing: -0em;
+  max-width: 880px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #ff8c32;
+  position: relative;
+  bottom: 15px;
+}
+
+footer ul {
+  position: relative;
+  top: 30px;
+  margin: 0;
+  width: 400px;
+}
+
+.footericon {
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.08),
+    inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25),
+    inset 0px 0px 0px 7px rgba(255, 150, 56, 100);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.08),
+    inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25),
+    inset 0px 0px 0px 7px rgba(255, 150, 56, 100);
+  float: left;
+  position: relative;
+  bottom: 10px;
+  right: 14px;
+}
+
+footer img {
+  vertical-align: middle;
+  position: relative;
+  left: 1px;
+}
+
+footer li {
+  display: block;
+  text-transform: uppercase;
+  font-family: ropa-sans, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  width: 280px;
+  height: 30px;
+  line-height: 34px;
+  background-color: #ffffff;
+  color: #ff8c32;
+  float: left;
+  letter-spacing: 0.1em;
+  margin-bottom: 35px;
+  position: relative;
+  left: -30px;
+}
+
+.VR {
+  width: 1px;
+  height: 226px;
+  background-image: url('../img/VR.png');
+  background-repeat: repeat;
+  position: relative;
+  left: 344px;
+  top: 30px;
+}
+
+#availabilities {
+  clear: both;
+  float: none;
+  position: relative;
+  left: 382px;
+  width: 510px;
+  bottom: 236px;
+  padding-bottom: 10px;
+}
+
+#availabilities h1 {
+  width: auto;
+  clear: both;
+  font-size: 2.5em;
+  letter-spacing: 0.05em;
+}
+
+#workfeature h1 {
+  text-transform: none;
+  letter-spacing: 0em;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#workfeature ul {
+  margin-top: 12px;
+}
+
+#workfeature li {
+  margin: 0 10px 0 0;
+  padding: 0px 10px;
+  display: inline-block;
+  background-color: #8e0e04;
+  color: #ff961a;
+  width: auto;
+  height: 27px;
+  line-height: 27px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4em;
+}
 
 #workfeature-left {
-    float:left;
-    max-width:540px;
-    padding-right:50px;
-    
+  float: left;
+  padding-right: 50px;
 }
 
-
-#workfeature-left p {
-    font-weight:bold;
-    
+#workfeature p {
+  /* font-weight: bold; */
+  font-size: 1.25em;
 }
 
-#workfeature-right{
-    max-width:250px;
-    float:right; 
-    text-align:right;
+#workfeature-right {
+  max-width: 250px;
+  float: right;
+  text-align: right;
 }
 
-#workfeature-right h1{
-    text-transform:uppercase;
-    color: #ff961a;
-    background-color:#8e0e04;
-    width:170px;
-    text-align:right;
-    padding-right:10px;
-    padding-left:10px;
-    margin-right:33px;
-    margin-top:30px;
-    display:inline;
-    float:right; 
-
+.back {
+  text-transform: uppercase;
+  color: #ff961a;
+  background-color: #8e0e04;
+  width: 170px;
+  text-align: right;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 33px;
+  margin-top: 30px;
+  display: inline-block;
+  float: right;
+  margin: 0;
 }
-#workfeature-right img{
-    margin-bottom:30px;
-    -moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-	border-radius: 20px;
-    border: 5px solid #ffffff;
-    -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.2);
-    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.2);
-    position:relative;
-    max-width:350px;
-    max-height:180px;
-    left:-30px;
-    top:40px;
-    float:right; 
 
-
+#workfeature-right img {
+  margin-bottom: 30px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  border: 5px solid #ffffff;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  max-width: 350px;
+  max-height: 180px;
+  left: -30px;
+  top: 40px;
+  float: right;
 }
-    
- #workfeature .HR{
-    margin-top:25px;
-    margin-bottom: 25px;
-    background-repeat:repeat;
 
-    
-} 
+#workfeature .HR {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-repeat: repeat;
+}
 
 #workfeature .main-video video {
-
-
-    width: 540px;
-    left: 0;
-    top: 0;
-    border-radius: 20x;
-    border-radius: 20px;
-    border: 5px solid #ffffff;
-
+  margin: 20px 0;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 20x;
+  border-radius: 20px;
+  border: 5px solid #ffffff;
 }
 
-
-.GraphPaperOne{
-    background-image:url("../img/casestudies/graphpaper.png");
-    margin-bottom:40px;
-    height:535px;
-    position:relative;
+.GraphPaperOne {
+  background-image: url('../img/casestudies/graphpaper.png');
+  margin-bottom: 40px;
+  height: 535px;
+  position: relative;
 }
-.GraphPaperTwo{
-    background-image:url("../img/casestudies/graphpaperB.png");
-    margin-bottom:40px;
-    height:690px;
-    position:relative;
-    width:940px;
-}
-                        
-#workfeature h2{
-    text-transform:uppercase;
-    color: #ff961a;
-    background-color:#8e0e04;
-    width:auto;
-    display:block;
-    padding: 0px 20px;
-    height:64px;
-    line-height:64px;
-    width: 80%;
-    max-width: 450px;
-    font-size:3.5em;
-    text-align:left;
-    margin:10px 0px;
 
-    
+.GraphPaperTwo {
+  background-image: url('../img/casestudies/graphpaperB.png');
+  margin-bottom: 40px;
+  height: 690px;
+  position: relative;
+  width: 940px;
+}
+
+#workfeature h2 {
+  text-transform: uppercase;
+  color: #ff961a;
+  background-color: #8e0e04;
+  display: block;
+  height: 64px;
+  line-height: 64px;
+  font-size: 3.5em;
+  text-align: center;
+  margin: 10px 0px;
 }
 
 .mfp-zoom-in {
@@ -891,422 +888,363 @@ footer li{
   /* animate in */
   /* animate out */
 }
+
 .mfp-zoom-in .mfp-with-anim {
   opacity: 0;
   transition: all 0.2s ease-in-out;
   transform: scale(0.2);
- -ms-transform: scale(0.2);
--webkit-transform: scale(0.2);
+  -ms-transform: scale(0.2);
+  -webkit-transform: scale(0.2);
 }
+
 .mfp-zoom-in.mfp-bg {
   opacity: 0;
- transition: all 0.3s ease-out;
-    
+  transition: all 0.3s ease-out;
 }
+
 .mfp-zoom-in.mfp-ready .mfp-with-anim {
   opacity: 1;
- transform: scale(1);
- -ms-transform: scale(1);
--webkit-transform: scale(1);
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
 }
+
 .mfp-zoom-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
+
 .mfp-zoom-in.mfp-removing .mfp-with-anim {
   transform: scale(0.2);
-     -ms-transform: scale(0.2);
--webkit-transform: scale(0.2);
+  -ms-transform: scale(0.2);
+  -webkit-transform: scale(0.2);
   opacity: 0;
 }
+
 .mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
-@media screen and (min-width:0\0) { 
 
-.casestudy li{
-
-    border-radius: 0px !important;  
-    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
-
-}
-
-.casestudy img {
-
+@media screen and (min-width: 0\0) {
+  .casestudy li {
     border-radius: 0px !important;
-    
-}
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.08),
+      inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25),
+      inset 0px 0px 0px 15px rgba(255, 150, 56, 100);
+  }
 
-.casestudy video {
-
+  .casestudy img {
     border-radius: 0px !important;
-    
-}
+  }
 
-.video-reel {
-
+  .casestudy video {
     border-radius: 0px !important;
+  }
+
+  .video-reel {
+    border-radius: 0px !important;
+  }
 }
 
-   
-}  
-
-@media all and (max-width: 880px) {
-
-    body{
-
+@media all and (max-width: 930px) {
+  body {
     font-size: 80%;
-
-    }
-
-
-
-    #showcase { 
-
-        width: 100%;
-        margin: 5px 0 0 0;
-
-    }
-
-    #aboutdesc p {
-
-    font-size: 1.2em;
-
-    }
-
-    #headertitles h2, .casestudy h2 {
-
-        font-size: 1.2em;
-        display: none;
-
-    }
-
-    .casestudy .HR {
-
-        display: none;
-    }
-
-    #about h5{
-    font-size: 3em;
-
-    }
-
-    #about h3,h4{
-
-    font-size: 2em;
-
-    }
-
-    h1 {
-
-        text-align: center;
-        font-size: 4em;
-        letter-spacing: 0.02em;
-        margin: 10px auto;
-        font-weight: bold;
-        width: 100%;
-
-    }
-
-    #aboutvideo {
-
-        display: none;
-
-    }
-
-    .Image-Hide{
-
-    /* display: inline !important; */
-
-}
-
-    #logo {
-
-        text-align: center;
-        width: auto;
-        display: block;
-
-    }
-
-    h1,h2{
-
-        margin-bottom: 10px;
-
-    }
-
-    #headerIcons {
-
-        display: none;
-       
-    }
-
-    #headertitles h2 {
-
-        margin-top: 20px;
-
-
-     }
-
-    #workfeature h2,#workfeature h1{
-
-        visibility: visible;
-
-    }
-
-    #about-resume, .casestudy-resume {
-
-         margin: 0 20px;
-
-    }
-
-    #aboutdesc-brief-resume, #experience-resume-right, #skills-resume-right {
-
-        margin-left: 0px;
-
-    }
-
-    #showcase h3 {
-
-        max-width: 230px;
-
-    }
-
-
-
-
-    #aboutdesc {
-
-        margin: 0 50px;
-
-    }
-
-
-
-    #about {
-
-        min-height: 100%;
-
-    }    
-
-    .casestudy h1 {
-
-        font-size: 3em;
-        padding-top: 5px;
-        margin: 0px 0px 0px 30px;
-
-
-    }
-
-    .casestudy h1 {
-
-        letter-spacing: 1.5px;
-    
-
-    }
-
-     .casestudy li {
-
-                margin-left: 30px;
-        height: 156px;
-        width: 280px;
-        box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.08), inset 1px 1px 1px 1px rgba(255, 255, 255, 0.25), inset 0px 0px 0px 7px rgba(255, 150, 56, 100);
-
-    }
-
-    #showcase p {
-
-        left: 0px;
-        bottom: 56px;
-        padding: 0;
-        margin: 0 0 0 5px;
-
-    }
-
-    #showcase h3 {
-
-        margin-left: 12px;
-        font-size: 0.95em;
-        bottom: 85px;
-        overflow: hidden;
-
-
-    }
-
-    .casestudy img {
-
-        top: 12px;
-        left: 12px;
-        max-width: 255px;
-        max-height: 1133px;
-
-    }
-
-    .casestudy video {
-
-        top: 12px;
-        left: 12px;
-        max-width: 255px;
-        max-height: 133px;
-        background-color: black;
-    
-}
-    .casestudy video {
- 
-    /* display:none !important; */
-
-    
-}
-
-    #workfeature-left {
-
-        margin-left: 34px;
-
-    }
-
-    #workfeature-left h1 {
-
-        margin: 0;
-
-    }
-
-    #workfeature li {
-
-        margin: 7px 2px;
-
-    }
-
-    #workfeature .main-video video {
-
-        width: 310px;
-        max-width: max-content;
-        max-height: max-content;
-        margin-bottom: 25px;
-
-    }
-
-
-    .video-reel {
-
-    max-width: 280px; 
-    max-height: 175px;  
-    height: auto;
-    padding-bottom: 6px;
-    margin: 0px 0 20px 30px;
-
-    }
-
-    .video-reel img {
-        
-        max-width: 255px;
-        max-height: 160px;
-
-    }
-
-
-   footer h1 {
-
-        text-align: center;
-        font-size: 4em ;
-        letter-spacing: 0.02em;
-        margin: 10px auto 30px;
-        font-weight: bold;
-        width: 100%;
-
-    }
-
-    footer h2 {
-
-        display: none;
-
-    }
-
-
-
-    footer .VR {
-
-         display: none;
-
-
-    }
-
-    footer ul {
-
-            top: 0;
-            margin-left: 55px;
-            width: 40%;
-
-
-    }
-
-    #availabilities {
-
-        display: none;
-
-    }
-
-    #aboutdesc-brief-resume-left, #experience-resume-left, #skills-resume-left {
-
-    max-width: 460px;
+    text-align: center;
+  }
+
+  #about {
+    width: 90%;
+  }
+
+  .HR,
+  .casestudy .HR {
+    margin: 10px 0px 10px;
+  }
+
+  #showcase p {
+    text-align: center;
+  }
+
+  .orange-video-shadow {
     width: 100%;
+  }
 
-    }
+  #aboutdesc p {
+    font-size: 1.2em;
+  }
 
+  .casestudy {
+    width: 90%;
+  }
 
-    #workfeature-right {
-        margin-left: 34px;
-        float: unset;
-        max-width: none;
-        text-align: left;
-        margin-top: 20px;
-    }
+  .casestudy li {
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    text-align: left;
+    margin: 20px 0;
+    display: inline-block;
+    line-height: 50px;
+    position: relative;
+  }
 
-    #workfeature-right img {
+  #headertitles h2,
+  .casestudy h2 {
+    font-size: 1.2em;
+    display: none;
+  }
 
-        left: auto;
-        top: auto;
-        float: none;
-        width: 310px;
-        max-width: max-content;
-        max-height: max-content;
-        margin-right: 20px;
+  #about h5 {
+    font-size: 3em;
+  }
 
-    }
+  #about h3,
+  h4 {
+    font-size: 2em;
+  }
 
-    #workfeature-right a h1 {
+  h1 {
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 0.02em;
+    margin: 10px auto;
+    font-weight: bold;
+    width: 100%;
+  }
 
-        display: none;
+  #aboutvideo {
+    display: none;
+  }
 
-    }
+  .Image-Hide {
+    /* display: inline !important; */
+  }
 
-    #workfeature a h2 { 
+  #logo {
+    text-align: center;
+    width: auto;
+    display: block;
+  }
 
-        margin-left: 35px;
-        font-size: 2em;
-        height: auto;
-        line-height: normal; 
-        width: 280px;  
+  h1,
+  h2 {
+    margin-bottom: 10px;
+  }
 
-    }
+  #headerIcons {
+    display: none;
+  }
 
-    .casestudy {
+  #headertitles h2 {
+    margin-top: 20px;
+  }
 
-        margin-left: 20px;
+  #workfeature {
+    width: 90%;
+    margin: 0 auto;
+  }
 
-    }
+  #workfeature h2,
+  #workfeature h1 {
+    visibility: visible;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+  }
 
-    footer li {
+  #about-resume,
+  .casestudy-resume {
+    margin: 0 20px;
+  }
 
-        line-height: 30px;
+  #aboutdesc-brief-resume,
+  #experience-resume-right,
+  #skills-resume-right {
+    margin-left: 0px;
+  }
 
-    }
+  #aboutdesc {
+    margin: 0 20px;
+  }
 
+  #about {
+    min-height: 100%;
+  }
 
+  .casestudy h1 {
+    font-size: 3em;
+    padding-top: 10px;
+    margin: 0 0 10px 0;
+  }
 
+  .casestudy h1 {
+    margin: 0;
+    letter-spacing: 1.5px;
+  }
+
+  .casestudy li:nth-child(odd) {
+    margin-right: 0px;
+  }
+
+  #showcase p {
+    left: 0px;
+    bottom: 56px;
+    padding: 0;
+    margin: 0 0 0 5px;
+  }
+
+  #showcase h3 {
+    font-size: 0.95em;
+    overflow: hidden;
+  }
+
+  .casestudy video {
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    background-color: black;
+  }
+
+  .casestudy video {
+    /* display:none !important; */
+  }
+
+  .showcase-video-caption {
+    top: inherit;
+    bottom: 28px;
+  }
+
+  .showcase-video-caption p {
+    display: none;
+  }
+
+  #workfeature-left {
+    margin-left: 34px;
+  }
+
+  #workfeature-left h1 {
+    margin: 0;
+  }
+
+  #workfeature li {
+    margin: 7px 2px;
+  }
+
+  #workfeature .main-video video {
+    /* width: 310px; */
+    max-width: max-content;
+    max-height: max-content;
+    margin-bottom: 25px;
+  }
+
+  .video-reel {
+    height: auto;
+    margin: 10px 0 20px 0;
+  }
+
+  .video-reel img {
+    width: 100%;
+    height: auto;
+    max-width: initial;
+    max-height: initial;
+  }
+
+  footer h1 {
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 0.02em;
+    margin: 10px auto 20px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  footer h2 {
+    display: none;
+  }
+
+  footer .VR {
+    display: none;
+  }
+
+  footer ul {
+    top: 0;
+    margin: 0 auto;
+    width: min-content;
+    text-align: left;
+  }
+
+  #availabilities {
+    display: none;
+  }
+
+  #aboutdesc-brief-resume-left,
+  #experience-resume-left,
+  #skills-resume-left {
+    width: 100%;
+  }
+
+  #workfeature-right {
+    margin-left: 34px;
+    float: unset;
+    max-width: none;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  #workfeature-right img {
+    left: auto;
+    top: auto;
+    float: none;
+    width: 310px;
+    max-width: max-content;
+    max-height: max-content;
+    margin-right: 20px;
+  }
+
+  #workfeature-right a h1 {
+    display: none;
+  }
+
+  #workfeature a h2 {
+    padding: 5px 60px;
+    font-size: 2em;
+    height: auto;
+    line-height: normal;
+    width: auto;
+    margin: 10px auto;
+  }
+
+  footer li {
+    line-height: 30px;
+  }
+
+  #about-resume h3,
+  #aboutdesc-brief-resume h2,
+  .casestudy-resume h3,
+  #skills-resume-left h2 {
+    text-align: center;
+    margin: 0;
+  }
+
+  #about-resume h3 {
+    margin-bottom: 10px;
+  }
+
+  #aboutdesc-brief-resume {
+    float: none;
+  }
+
+  .client-logo {
+    float: none;
+    padding: 0;
+  }
 }
 
+@media all and (max-width: 420px) {
+  #skills-resume-left li {
+    height: auto;
+  }
 
-
-
-
+  #skills-resume-left li p {
+    display: inline;
+  }
 }
-
-

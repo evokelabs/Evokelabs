@@ -8,7 +8,6 @@
         
         <div id="headerIcons">
             <ul>
-                <a href="https://twitter.com/evokelabs" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/icontwitter.png" alt="Twitter" /></li></a>
                 <a href="https://github.com/evokelabs" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/icongithub.png" alt="GitHub" /></li></a>
                 <a href="http://www.youtube.com/evokelabs" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/iconyoutube.png" alt="YouTube" /></li></a>
                 <a href="https://www.linkedin.com/in/adrianpikios/" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/iconlinked.png" alt="LinkedIn" /></li></a>
@@ -118,7 +117,7 @@
                         </div>
                         <div class="GraphPaperTwo">
                         </div>
-                        <a href="http://www.www.evokelabs.com" target="_blank"><h2>View this piece</h2></a>
+                        <a href="http://www.evokelabs.com" target="_blank"><h2>View this piece</h2></a>
                         <a href="#"><h2>Back to works</h2></a>
                         
                     </div>   <!-- work feature--> 
@@ -134,7 +133,7 @@
             <h1>Get in touch</h1>
             <h2>I'd love to hear from you if you have a project or campaign in the works</h2>
                 <ul>
-                    <a href="mailto:adrian@www.evokelabs.com"><li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></div>adrian@www.evokelabs.com</li></a>
+                    <a href="mailto:adrian@evokelabs.com"><li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></div>adrian@evokelabs.com</li></a>
                     <a href="https://twitter.com/evokelabs" target="_blank"><li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/icontwitter.png" alt="Twitter" /></div>evokelabs</li></a>
                     <!--<li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconphone.png" alt="Phone" /></div>Skype: Evokelabs</li>-->
                     <li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconlocation.png" alt="Phone" /></div>
