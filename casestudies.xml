@@ -1,4 +1,96 @@
 <caseStudy>
+  <caseStudyItem>            
+                <heading>Evokelabs Flash Portfolios 2003 - 2013</heading>            
+                <client>Evokelabs</client>            
+                <technology>Flash, AS2, AS3, Flex, Papervision, 3d</technology>            
+                <brief>Celebrating 15+ years of Evokelabs and remembering the now gone SWF flash format.</brief>            
+                <desc>                  
+                </desc>
+            
+                <thumb>img/casestudies/evokelabs.jpg</thumb>  
+
+                <video>img/casestudies/evokelabs-front.mp4</video> 
+                <main-video>img/casestudies/video/Flashsites-Evokelabs.mp4</main-video>  
+            
+                <link></link>  
+        </caseStudyItem>
+  <caseStudyItem>            
+                <heading>Flexigroup</heading>            
+                <client>Frontend Developer &amp; Digital Designer</client>            
+                <technology>HTML, CSS, Adobe, Figma, Foundation for Email</technology>            
+                <brief>Video presentation on the time I spent at Flexigroup as their lead eDM developer &amp; digital designer.</brief>            
+                <desc>                  
+                </desc>
+            
+                <thumb>img/casestudies/flexigroup1.jpg</thumb> 
+
+                <video>img/casestudies/Flexigroup-Front.mp4</video> 
+                <main-video>img/casestudies/video/Flexigroup.mp4</main-video>  
+            
+                <link></link>  
+        </caseStudyItem>
+
+          <caseStudyItem>            
+                <heading>Hyland Communication Agency</heading>            
+                <client>Wordpress Specialist &amp; HTML5 Banner Designer</client>            
+                <technology>Wordpress, CSS, PHP, Animate CC, Doubleclick</technology>            
+                <brief>Video presentation on the works I've done for Hyland Communication Agency as their digital freelancer.</brief>            
+                <desc> 
+                </desc>
+            
+                <thumb>img/casestudies/hyland1.jpg</thumb> 
+
+                <video>img/casestudies/Hyland-Front.mp4</video> 
+                <main-video>img/casestudies/video/Hyland.mp4</main-video>  
+            
+                <link>http:///www.siecap.com.au</link>  
+        </caseStudyItem>
+
+          <caseStudyItem>            
+                <heading>Famous Soda Co Website</heading>            
+                <client>Famous Soda Co</client>            
+                <technology>Bootstrap, Jquery, PUG.js, Shopify, HTML, CSS</technology>            
+                <brief>Famous Soda Co Website is a e-commerce site build for an international soda brand.</brief>            
+                <desc>  
+                </desc>
+            
+                <thumb>img/casestudies/famoussodaco.jpg</thumb> 
+
+                <video>img/casestudies/Famoussodaco-Front.mp4</video> 
+                <main-video>img/casestudies/video/FamousSodaCo.mp4</main-video>  
+            
+                <link>http://www.famoussodaco.com</link>  
+        </caseStudyItem>
+
+        <caseStudyItem>            
+                <heading>The Engine Room Website</heading>            
+                <client>Let's Think</client>            
+                <technology>Wordpress, HTML, CSS</technology>            
+                <brief>The Engine Room website is a WordPress site build for a consulting company.</brief>            
+                <desc>  
+                </desc>
+            
+                <thumb>img/casestudies/theengineroom.jpg</thumb> 
+
+                <video>img/casestudies/TheEngineRoom-Front.mp4</video> 
+                <main-video>img/casestudies/video/TheEngineRoom.mp4</main-video>              
+                <link>http://theengineroom.evokelabs.com</link>  
+        </caseStudyItem>
+
+             <caseStudyItem>            
+                <heading>Love Life &amp; Anarchy</heading>            
+                <client>Evokelabs</client>            
+                <technology>Premiere CC, After Effect CC, YouTube, Wordpress</technology>            
+                <brief>Love Life &amp; Anarchy is personal brand where I produce videos on philosophy, history, politics and economics.</brief>            
+                <desc></desc>
+            
+                <thumb>img/casestudies/llaa1.jpg</thumb> 
+
+                <video>img/casestudies/08-LLAA.mp4</video> 
+                <main-video>img/casestudies/video/LoveLifeAnarchy.mp4</main-video>  
+            
+                <link></link>  
+        </caseStudyItem> 
         <caseStudyItem>            
                 <heading>Unlearn Campaign Banner Suite</heading>            
                 <client>University of Sydney</client>            
@@ -19,40 +111,13 @@
                 ]]>
                 </desc>
             
-                <thumb>img/casestudies/university1.jpg, img/casestudies/university2.jpg, img/casestudies/university3.jpg, img/casestudies/university4.jpg</thumb> 
+                <thumb>img/casestudies/university1.jpg</thumb> 
 
                 <video>img/casestudies/14-University.mp4</video> 
                 <main-video>img/casestudies/video/university.mp4</main-video>  
             
                 <link>./works/UniversityOfSydney/index.html</link>  
-        </caseStudyItem>
-
-
-     <caseStudyItem>            
-                <heading>Love Life &amp; Anarchy</heading>            
-                <client>Evokelabs</client>            
-                <technology>Premiere CC, After Effect CC, YouTube, Wordpress</technology>            
-                <brief>Love Life &amp; Anarchy is personal brand that produces videos on philosophy, history, politics and economics.</brief>            
-                <desc>  
-                <![CDATA[
-                <p>Love Life & Anarchy is a personal brand where I produce videos on culture, philosophy, history, politics, and economics. 
-                
-                <p>Using Adobe Premiere, After Effects and Audition - I research, write, voice, edit and export productions that are published across multiple platforms. These videos are designed to be educational, entertaining and inspiring to a wide audience, covering broad topics across pop culture, history and current events.</p>
-                
-                <p>A central website was also created for this brand, which features an ecommerce store that allows users to purchase additional premium content using Google APIs.</p>
-                
-                <p>Love Life & Anarchy has attracted over 1.2 million views and over 20 000 followers, becoming a recognisable content creator across the alternative digital space.</p>
-
-                ]]>
-                </desc>
-            
-                <thumb>img/casestudies/llaa1.jpg, img/casestudies/llaa2.jpg, img/casestudies/llaa3.jpg, img/casestudies/llaa4.jpg</thumb> 
-
-                <video>img/casestudies/08-LLAA.mp4</video> 
-                <main-video>img/casestudies/video/llaa.mp4</main-video>  
-            
-                <link>http://www.lovelifeanarchy.com</link>  
-        </caseStudyItem>  
+        </caseStudyItem> 
 
         <caseStudyItem>            
                 <heading>Richards Rose Website</heading>            
@@ -108,7 +173,7 @@
                 <desc>  
                 <![CDATA[
                 
-               <p>I specialised in creating Flash banners for advertising agencies for most of my career. But when Google killed Flash by implementing a “click-to-play“ feature within Chrome in 2015, it destroyed the Flash banner industry overnight. Fortunately, my skills in animation and AS2 development could be transferred into HTML5 technologies. AJF Partnership and Richards Rose were generous enough to allow me to transition from creating SWF banners, into using HTML5. Below is the banner suite I have made during my freelance career with Richards Rose.</p>
+               <p>I specialised in creating Flash banners for advertising agencies early in my career. But when Google killed Flash by implementing a “click-to-play“ feature within Chrome in 2015, it destroyed the Flash banner industry overnight. Fortunately, my skills in animation and AS2 development could be transferred into HTML5 technologies. AJF Partnership and Richards Rose were generous enough to allow me to transition from creating SWF banners, into using HTML5. Below is the banner suite I have made during my freelance career with Richards Rose.</p>
 
                 <p>Typically, my banners are either built using Animate CC and exported to CanvasJS, or hand coded using traditional front end techniques using HTML5, CSS, JS and GSAP. I still find banner production to be enjoyable, challenging and rewarding, and while I’ll probably never make another SWF banner again, the benefits of correctly using HTML5 outweigh the limitations of SWF.</p>
 
@@ -166,7 +231,7 @@
 
                 <video>img/casestudies/05-Benevolent.mp4</video>   
                 <main-video>img/casestudies/video/benevolent.mp4</main-video>  
-                <link>http://benevolent.evokelabs.com/</link>  
+                <link></link>  
         </caseStudyItem>
 
         <caseStudyItem>            
@@ -246,7 +311,7 @@
                 <technology>3dsmax, Motion, Steam Workshop, Audio</technology>
                 <brief>"Let It Go" with Crystal Maiden is a digital recreation of the Frozen's "Let It Go" sequence.</brief>
                 <desc>  
-                <![CDATA[<p>"Let It Go" with Crystal Maiden is an original 3d cinematic parody of "Let It Go" from Frozen. It was inspired by the past success of Pudge Creek, as well as the YouTube sensation "Let It Go" sequence that peaked in 2014. The character "Rylia the Crystal Maiden", which was taken from a popular MOBA game known as Dota2, shared many similar character qualities with Elsa from Frozen.</p>
+                <![CDATA[<p>"Let It Go" with Crystal Maiden is an original 3d cinematic parody of "Let It Go" from Frozen. It was inspired by the past success of Pudge Creek, as well as the YouTube sensation "Let It Go" sequence that peaked in 2014. The character "Rylai the Crystal Maiden", which was taken from a popular MOBA game known as Dota2, shared many similar character qualities with Elsa from Frozen.</p>
 
                 <p>The actual video was produced and animated by myself, sung by Janice Pan, and was produced between three to six months. It features a large number of digital effects including; custom character rigging, custom particle effects, original character animation, an original score and cloth dynamics that was rendered into a 5 minute film.</p>
 
@@ -778,15 +843,11 @@
                 </technology>
             
                 <brief>
-                A collection of Flash designs and Actionscript development builds done for GPYR agency. 
+                A collection of digital builds and actionscripth development done for GPYR agency. 
                 </brief>
             
                 <desc>  
-                <![CDATA[<p>GPYR was my first big break in my career, working in a major national agency instead of dealing with local businesses or small design studios for the first time. Their Head of Digital noticed my Flash portfolio in the golden days of SWF, right when the demand for Flash designers and developers was at its highest. He recognised my digital talents and I was fortunate enough to be offered a freelance role at GPYR. I worked there for many months, designing eDMs, coding Flash banner minigames, creating minisites, and even solo created an Australia Idol banner campaign from scratch.</p>
-
-                <p>Working at GPYR was a dream come true and an amazing opportunity. Something will I never forget. I’ll always be thankful for the Head of Digital taking a risk when hiring me, considering I didn’t have any real experiences working in an agency environment. </p>
-
-                <p>I eventually left GPYR on good terms once the entrepreneur itch got to me and was ready to move on.</p>
+                <![CDATA[<p>GPYR was my first big break in my career, working in a major international agency instead of dealing with local businesses and small design studios for the first time. Their Head of Digital noticed my Flash portfolio in the golden days of SWF, right when the demand for Flash designers and developers was at its highest. I was recognised for my digital talents and was fortunate enough to be offered a freelance role at GPYR. I worked there for a year, designing eDMs, coding Flash banner minigames, creating minisites, and even solo created an Australia Idol banner campaign from scratch.</p>
 
 ]]>
                 </desc>
@@ -801,9 +862,7 @@
                 img/casestudies/gpyr4.jpg, img/casestudies/gpyr2.jpg, img/casestudies/gpyr3.jpg, img/casestudies/gpyr1.jpg
                 </thumb>
             
-                <link>
-                ./works/GPYR/index.html
-                </link>
+                <link></link>
 
         </caseStudyItem>            
     
