@@ -262,7 +262,8 @@ $(function () {
     'a single man digital agency',
     'a youtube content creator',
     'an animator',
-    'a multi-disciplinary unicorn'
+    'a multi-disciplinary unicorn',
+    'a public speaker'
   ])
 
   const powerArray = randomItemWithNoRepetition([
@@ -270,6 +271,7 @@ $(function () {
     'CSS',
     'typescript',
     'React',
+    'JSON',
     'components',
     'JSX',
     'javascript',

@@ -34,7 +34,7 @@
             <div class="casestudy">
 
                 <h1 style="letter-spacing:0px;">show reel <?php echo date("Y"); ?></h1>
-                <h2 style="color:#ff8c32;">Our favourite evoking works for those short on time</h2>
+                <h2 style="color:#ff8c32;">Our favourite projects and the latest from Evoke Labs</h2>
 
 
                     <div class="video-reel">   
