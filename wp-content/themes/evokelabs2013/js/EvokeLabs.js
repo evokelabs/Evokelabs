@@ -189,7 +189,8 @@ $(function () {
   }
 
   //Change Text
-  var likeArray = [
+
+  const likeArray = randomItemWithNoRepetition([
     'like spicegirls do the 90s',
     'like ufos does xfiles',
     "like that's just your opinion man",
@@ -214,7 +215,7 @@ $(function () {
     'like avengers does marvel',
     'like walking dead does zombies',
     'like creatives do coffee',
-    'like developes do all nighters',
+    'like developers do all nighters',
     'like children do laughter',
     'like jeans do butts',
     'like react does components',
@@ -227,8 +228,9 @@ $(function () {
     'like the internet does memes',
     'like youtube does cat videos',
     'like VR does motion sickness'
-  ]
-  var soloArray = [
+  ])
+
+  const soloArray = randomItemWithNoRepetition([
     'a creative technologist',
     'a motion designer',
     'a frontend developer',
@@ -261,8 +263,9 @@ $(function () {
     'a youtube content creator',
     'an animator',
     'a multi-disciplinary unicorn'
-  ]
-  var powerArray = [
+  ])
+
+  const powerArray = randomItemWithNoRepetition([
     'Figma',
     'CSS',
     'typescript',
@@ -306,8 +309,9 @@ $(function () {
     'the web',
     'motion',
     'strategy'
-  ]
-  var describeArray = [
+  ])
+
+  const describeArray = randomItemWithNoRepetition([
     'elegant',
     'awesome',
     '1337',
@@ -334,7 +338,7 @@ $(function () {
     'memorable',
     'powerful',
     'dynamic'
-  ]
+  ])
 
   function randomItemWithNoRepetition(array) {
     if (!Array.isArray(array) || array.length === 0) return -1
@@ -353,28 +357,6 @@ $(function () {
     return ArrayStringValue[randomNumber]
   }
 
-  const chooser = randomItemWithNoRepetition(['Foo', 'Bar', 'FU', 'FooBar'])
-  // Initiating the selector once and then we can use the returned function to select random none repeatable elements from the array.
-
-  chooser()
-  // Result: Foo
-
-  chooser()
-  // Result: Bar
-
-  chooser()
-  // Result: FU
-
-  chooser()
-  // Result: FooBar
-
-  chooser()
-
-  console.log(chooser())
-  console.log(chooser())
-  console.log(chooser())
-  console.log(chooser())
-
   function replacetext() {
     const timer = 500
     $('#likeText').animate(
@@ -383,7 +365,7 @@ $(function () {
       },
       timer,
       function () {
-        $(this).text(getRandomString(likeArray))
+        $(this).text(likeArray())
         $(this).animate(
           {
             color: '#ff8d34'
@@ -399,7 +381,7 @@ $(function () {
       },
       timer,
       function () {
-        $(this).text(getRandomString(soloArray))
+        $(this).text(soloArray())
         $(this).animate(
           {
             color: '#ff8d34'
@@ -415,7 +397,7 @@ $(function () {
       },
       timer,
       function () {
-        $(this).text(getRandomString(powerArray))
+        $(this).text(powerArray())
         $(this).animate(
           {
             color: '#ff8d34'
@@ -430,7 +412,7 @@ $(function () {
       },
       timer,
       function () {
-        $(this).text(getRandomString(describeArray))
+        $(this).text(describeArray())
         $(this).animate(
           {
             color: '#ff8d34'
@@ -442,10 +424,10 @@ $(function () {
   }
 
   function firstText() {
-    $('#likeText').text(getRandomString(likeArray))
-    $('#soloText').text(getRandomString(soloArray))
-    $('#powerText').text(getRandomString(powerArray))
-    $('#describeText').text(getRandomString(describeArray))
+    $('#likeText').text(likeArray())
+    $('#soloText').text(soloArray())
+    $('#powerText').text(powerArray())
+    $('#describeText').text(describeArray())
   }
 
   function clientsSlider() {
