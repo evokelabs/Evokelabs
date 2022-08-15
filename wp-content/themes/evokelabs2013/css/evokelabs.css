@@ -127,7 +127,7 @@ h2 {
 #about {
   max-width: 870px;
   margin: 0 auto;
-  min-height: 440px;
+  min-height: 500px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -198,7 +198,6 @@ h4 {
 
 #aboutdesc {
   max-width: 590px;
-  max-height: 200px;
   display: inline-block;
 }
 
@@ -210,7 +209,13 @@ h4 {
   letter-spacing: 0.05em;
   line-height: 1.3em;
   position: relative;
-  top: 10px;
+}
+
+#aboutdesc #testimonials {
+  font-weight: normal;
+  letter-spacing: normal;
+  font-size: 1.3em;
+  color: #ff961a;
 }
 
 .experience-resume {
@@ -435,12 +440,11 @@ h4 {
 
 #aboutvideo {
   position: relative;
-  left: 280px;
-  bottom: 210px;
   display: inline-block;
   float: right;
   width: 220px;
   height: 220px;
+  top: 30px;
   background: #151515;
   -moz-border-radius: 300px;
   -webkit-border-radius: 300px;
@@ -997,10 +1001,6 @@ footer li {
     width: 100%;
   }
 
-  #aboutdesc p {
-    font-size: 1.2em;
-  }
-
   .casestudy {
     width: 90%;
   }
@@ -1095,10 +1095,11 @@ footer li {
 
   #aboutdesc {
     margin: 0 20px;
+    min-height: 330px;
   }
 
   #about {
-    min-height: 300px;
+    min-height: 450px;
   }
 
   .casestudy h1 {

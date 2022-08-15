@@ -340,6 +340,16 @@ $(function () {
     'dynamic'
   ])
 
+  const testimonialsArray = randomItemWithNoRepetition([
+    '<i>“BTW, the CD-Rom got a round of applause at Toyota so well done mate.  Appreciated your help on this one!”</i> -Enscape Director',
+    '<i>“I shit you not – your work is great.”</i> -AJFPartnership Digital Project Manager',
+    '<i>“As always, amazing to work with. Thank you.”</i> -Akcelo Senior Project Manager',
+    '<i>“THANK YOU SO MUCH for jumping on this and smashing it so quickly. We really appreciate it. Got us out of a massive hole.”</i> -Akcelo Managing Partner',
+    '<i>“You are amazing Adrian! Seriously – you always impress me by going above and beyond!”</i> -Akcelo Senior Project Manager',
+    '<i>“You’re doing great work and have helped get us out of a jam more than a few times.”</i> -Akcelo Senior Producer',
+    '<i>“Amazing, really appreciate the work on this one – looks great.”</i> -Hyland Senior Manager'
+  ])
+
   function randomItemWithNoRepetition(array) {
     if (!Array.isArray(array) || array.length === 0) return -1
     var copyOfArray = array.slice()
@@ -421,6 +431,21 @@ $(function () {
         )
       }
     )
+    $('#testimonials').animate(
+      {
+        opacity: '0'
+      },
+      timer,
+      function () {
+        $(this).html(testimonialsArray())
+        $(this).animate(
+          {
+            opacity: '1'
+          },
+          timer
+        )
+      }
+    )
   }
 
   function firstText() {
@@ -428,6 +453,7 @@ $(function () {
     $('#soloText').text(soloArray())
     $('#powerText').text(powerArray())
     $('#describeText').text(describeArray())
+    $('#testimonials').html(testimonialsArray())
   }
 
   function clientsSlider() {

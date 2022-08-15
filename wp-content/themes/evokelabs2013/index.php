@@ -8,10 +8,10 @@
                         <div id="aboutdesc">
                         <p>Evokelabs is home to Adrian Pikios, <span class="highlight"><span id="soloText">an one-man army</span></span> that uses the powers of <span class="highlight"><span id="powerText">philosophy</span></span> to design, develop &amp; create <span class="highlight"><span id="describeText">elegant</span></span> digital experiences.</p>
                         <p>When not working on personal projects, I partner with small to medium brands and spend time collaborating with agencies to help produce their digital campaigns.</p>
-                            <div id="aboutvideo">
-                                
-                                <div id="aboutvideodiv">
-                                    
+                        <p id="testimonials"></p>                            
+                </div>
+                <div id="aboutvideo">                                
+                                <div id="aboutvideodiv">                                    
                                     <div id="aboutSlider">
                                         <img src="<?php bloginfo('template_url'); ?>/img/clients/tiktok.gif"/>                                   
                                         <img src="<?php bloginfo('template_url'); ?>/img/clients/google.gif"/>                                   
@@ -23,12 +23,9 @@
                                         <img src="<?php bloginfo('template_url'); ?>/img/clients/georgePatts.gif"/>                                  
                                         <img src="<?php bloginfo('template_url'); ?>/img/clients/wunderman.gif"/>                                    
                                         <img src="<?php bloginfo('template_url'); ?>/img/clients/ajf.gif"/>                                  
-                                    </div>
-                                    
-                                  </div>                         
-                            
-                            </div>
-                </div> <!-- aboutdesc  -->
+                                    </div>                                    
+                                  </div>   
+                            </div> <!-- aboutdesc  -->
             </div>  <!-- about -->
            </div> <!-- darkger bg-->
             <div class="darkerLower"></div>  
