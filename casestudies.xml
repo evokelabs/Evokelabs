@@ -1,5 +1,5 @@
 <caseStudy>
-  <caseStudyItem>            
+           <caseStudyItem>            
                 <heading>Evokelabs Flash Portfolios 2003 - 2013</heading>            
                 <client>Evokelabs</client>            
                 <technology>Flash, AS2, AS3, Flex, Papervision, 3d</technology>            
@@ -14,6 +14,56 @@
             
                 <link></link>  
         </caseStudyItem>
+        <caseStudyItem>            
+                <heading>TikTok Collection 2021 - 2022</heading>            
+                <client>Akcelo &amp; TikTok Australia/NZ + TikTok Canada </client>            
+                <technology>HTML, CSS, Foundation for Email, Mailchimp</technology>            
+                <brief>eDM development and CRM integration for TikTok Australia/NZ + TikTok Canada.</brief>            
+                <desc>                  
+                </desc>
+            
+                <thumb>img/casestudies/tiktok.jpg</thumb>  
+
+                <video>img/casestudies/tiktok.mp4</video> 
+                <main-video>img/casestudies/video/TikTok-EL.mp4</main-video>  
+            
+                <link></link>  
+        </caseStudyItem>
+       
+              
+          <caseStudyItem>            
+                <heading>Petculture eDMs</heading>            
+                <client>Akcelo &amp; Petculture</client>            
+                <technology>HTML, CSS, Foundation for Email, Klaviyo</technology>            
+                <brief>eDM development and CRM integration for Petculture.</brief>            
+                <desc>                  
+                </desc>
+            
+                <thumb>img/casestudies/petculture.jpg</thumb>  
+
+                <video>img/casestudies/petculture.mp4</video> 
+                <main-video>img/casestudies/video/petculture-el.mp4</main-video>  
+            
+                <link></link>  
+        </caseStudyItem>
+
+          <caseStudyItem>            
+                <heading>Wisemans Surf Lodge eDMs</heading>            
+                <client>Akcelo &amp; Wisemans Surf Lodge</client>            
+                <technology>HTML, CSS, Foundation for Email, Hubspot</technology>            
+                <brief>eDM development and CRM integration for Wisemans Surf.</brief>            
+                <desc>                  
+                </desc>
+            
+                <thumb>img/casestudies/wiseman.jpg</thumb>  
+
+                <video>img/casestudies/wiseman.mp4</video> 
+                <main-video>img/casestudies/video/Wiseman-EL.mp4</main-video>  
+            
+                <link></link>  
+        </caseStudyItem>
+
+
   <caseStudyItem>            
                 <heading>Flexigroup</heading>            
                 <client>Frontend Developer &amp; Digital Designer</client>            
@@ -45,52 +95,7 @@
             
                 <link>http:///www.siecap.com.au</link>  
         </caseStudyItem>
-
-          <caseStudyItem>            
-                <heading>Famous Soda Co Website</heading>            
-                <client>Famous Soda Co</client>            
-                <technology>Bootstrap, Jquery, PUG.js, Shopify, HTML, CSS</technology>            
-                <brief>Famous Soda Co Website is a e-commerce site build for an international soda brand.</brief>            
-                <desc>  
-                </desc>
-            
-                <thumb>img/casestudies/famoussodaco.jpg</thumb> 
-
-                <video>img/casestudies/Famoussodaco-Front.mp4</video> 
-                <main-video>img/casestudies/video/FamousSodaCo.mp4</main-video>  
-            
-                <link>http://www.famoussodaco.com</link>  
-        </caseStudyItem>
-
-        <caseStudyItem>            
-                <heading>The Engine Room Website</heading>            
-                <client>Let's Think</client>            
-                <technology>Wordpress, HTML, CSS</technology>            
-                <brief>The Engine Room website is a WordPress site build for a consulting company.</brief>            
-                <desc>  
-                </desc>
-            
-                <thumb>img/casestudies/theengineroom.jpg</thumb> 
-
-                <video>img/casestudies/TheEngineRoom-Front.mp4</video> 
-                <main-video>img/casestudies/video/TheEngineRoom.mp4</main-video>              
-                <link>http://theengineroom.evokelabs.com</link>  
-        </caseStudyItem>
-
-             <caseStudyItem>            
-                <heading>Love Life &amp; Anarchy</heading>            
-                <client>Evokelabs</client>            
-                <technology>Premiere CC, After Effect CC, YouTube, Wordpress</technology>            
-                <brief>Love Life &amp; Anarchy is personal brand where I produce videos on philosophy, history, politics and economics.</brief>            
-                <desc></desc>
-            
-                <thumb>img/casestudies/llaa1.jpg</thumb> 
-
-                <video>img/casestudies/08-LLAA.mp4</video> 
-                <main-video>img/casestudies/video/LoveLifeAnarchy.mp4</main-video>  
-            
-                <link></link>  
-        </caseStudyItem> 
+                           
         <caseStudyItem>            
                 <heading>Unlearn Campaign Banner Suite</heading>            
                 <client>University of Sydney</client>            
@@ -98,24 +103,12 @@
                 <brief>The Unlearn Campaign is a 30+ HTML5 banner suite designed and developed for USYD.</brief>            
                 <desc>  
                 <![CDATA[
-                <p>The University of Sydney has traditionally used its imagery of being a brick and mortar campus in all of their branding. But once they wanted to reach out to the global market, they felt their classical imagery needed to be modernised.</p>
-
-                <p>Sydney agency “The Monkeys” pitched the idea that the University’s branding focus should be based on its research capabilities rather than its campus aesthetics - displaying their innovative discoveries instead of their sandstone buildings. This was the basis of their new “Unlearn” campaign, designed to showcase the innovative discoveries of the campus to the world.</p>
-
-                <p>While the print and TV deliveries were in production, I was contracted to be responsible for the digital execution of the campaign - converting their rich media creatives into light-weight HTML5 banners. These banners were to be served on the DoubleClick platform for mobile and desktop ad spaces.</p>
-
-                <p>In 1-2 weeks, I had designed and developed five banner creatives based on their existing media campaign, each having six different resizes for a total of +30 banners. Originally built using Google’s Web Designer, I transitioned into using Animate CC for its features and output capabilities. The main challenge was to keep the creative direction of the TVCs true to form within the confines of HTML5 technology - whilst being flexible enough to go through the constant tweaks and amends of the USYD team throughout the creative process.</p>
-
-                <p>Once completed, the creative team within USYD was pleased with what I produced and was served in Doubleclick without issue. The campaign is active and live at the time of this writing (between Feb and April 2019).</p> 
-
+              <p>The basis of UNSW’s “Unlearn” campaign was to showcase the university’s innovative discoveries to the world. While the print and TV deliverables were in production, I was responsible for the digital execution of the campaign - converting their rich media creatives into light-weight HTML5 banners. These banners were hosted on the DoubleClick platform for mobile and desktop ad spaces.</p>
                 ]]>
-                </desc>
-            
+                </desc>            
                 <thumb>img/casestudies/university1.jpg</thumb> 
-
                 <video>img/casestudies/14-University.mp4</video> 
-                <main-video>img/casestudies/video/university.mp4</main-video>  
-            
+                <main-video>img/casestudies/video/university.mp4</main-video>              
                 <link>./works/UniversityOfSydney/index.html</link>  
         </caseStudyItem> 
 
@@ -127,18 +120,15 @@
                 <desc>  
                 <![CDATA[
                 
-                <p>When Richards Rose announced its independence from AJF Partnership, they needed a new web presence to supplement their relaunch. I was contacted to build their new agency site since I already had a good relationship & proven track record with AJF Partnership/Richards Rose. I was given a little more than a wireframe & a PSD design file, and with it I was able to turn around a fully fledged responsive and customisable Wordpress site within two weeks.</p> 
+                <p>When Richards Rose announced its independence from AJF Partnership, they needed a new web presence to supplement their relaunch. I was contracted to build their new agency site since I already had a good relationship & proven track record with AJF Partnership/Richards Rose. I was given a little more than a wireframe & a PSD design file, and with it I was able to turn around a fully fledged responsive and customisable Wordpress site within two weeks.</p> 
                 
                 <p>This site was tailored to be easily editable by the staff at Richards Rose, using user-friendly plugins and custom CSS. The agency’s homepage has gone through some updates, client changes and additions since its inception, but it has all been built on the Wordpress foundation that I provided.</p>
 
                 ]]>
-                </desc>
-            
+                </desc>            
                 <thumb>img/casestudies/richardrosewebsite1.jpg, img/casestudies/richardrosewebsite2.jpg, img/casestudies/richardrosewebsite3.jpg</thumb> 
-
                 <video>img/casestudies/01-richardrose.mp4</video>   
-                <main-video>img/casestudies/video/richardsrose.mp4</main-video>  
-            
+                <main-video>img/casestudies/video/richardsrose.mp4</main-video>              
                 <link>http://www.richardsrose.com.au</link>  
         </caseStudyItem>
 
@@ -152,7 +142,7 @@
                 
                 <p>I was contracted by Richards Rose to produce HTML5 banners for the Australian streaming company Stan, which was briefed to have the titles, the show logo, the hero image and the accompanied video to be all dynamically alterable. Originally, it was designed with HTML5 and GSAP in mind, but given the complexity of the animations and the masking effects, it was rebuilt using the robust features found in Animate CC.</p> 
                 
-                <p>Lightweight, customisable and with the ability to export to HTML5 -  these banners were built in a way so any team member with even the most modest experience in Animate CC could replace any element with minimal fuss, creating a customisable dynamic experience without the headaches. The source files I created and were issued are still being used by the inhouse Stan design team, and are published to Google’s DoubleClick to this day.</p>
+                <p>Lightweight, customisable and with the ability to export to HTML5 -  these banners were built in a way so any team member with even the most modest experience in Animate CC could replace any element with minimal fuss, creating a customisable dynamic experience without the headaches.</p>
 
 
                 ]]>
@@ -211,74 +201,6 @@
         </caseStudyItem>
 
         <caseStudyItem>            
-                <heading>The Benevolent Society - Winter Drive Appeal</heading>            
-                <client>The Benevolent Society</client>            
-                <technology>UX, HTML, CSS, JS, Wordpress, Premiere CC</technology>            
-                <brief>The Winter Appeal is a one page Wordpress site built for the charity organisation Benevolent Society.</brief>            
-                <desc>  
-                <![CDATA[
-
-                <p>I was introduced to the Benevolent Society after working with their digital marketing specialist on a prior job. They were looking to put together a landing page for their Winter Appeal on a limited budget - a fundraising campaign designed to help struggling parents who needed financial and educational support.</p>
-                
-                <p>I was given a lackluster wireframe of the desired landing page from Benevolent, and a list of requirements of what they wanted their application to achieve. In short, it had to be responsive, have a data capture form linked to salesforce, work across multiple devices, follow the look and feel of the Benevolent brand, and feature a YouTube video which I was later asked to produce and edit.</p> 
-                
-                <p>In under a week, I transformed their mockup guide into fully functional Wordpress site which met all of their requirements, and was ready to accept donations from the general public. The actual tasks I was responsible for include: the UX/UI design, creating graphical assets for the landing page, front end build, back end build, responsiveness, creating a HTML5 slideshow banner, editing their interview video, creating the footer and deploying it on DigitalOcean. They were very happy with what I had produced for them, and I personally think they were hard pressed to find a web developer who could do what I did in such a limited timeframe and budget.</p>
-
-                ]]>
-                </desc>
-            
-                <thumb>img/casestudies/benevolent1.jpg, img/casestudies/benevolent2.jpg, img/casestudies/benevolent3.jpg, img/casestudies/benevolent4.jpg</thumb> 
-
-                <video>img/casestudies/05-Benevolent.mp4</video>   
-                <main-video>img/casestudies/video/benevolent.mp4</main-video>  
-                <link></link>  
-        </caseStudyItem>
-
-        <caseStudyItem>            
-                <heading>Perpetual Website Responsive HTML</heading>            
-                <client>Perpetual &amp; AJF Partnership</client>            
-                <technology>HTML5, CSS, JS</technology>            
-                <brief>A responsive front end HTML/CSS build for Perpetual's "Diversified Real Return Fund".</brief>            
-                <desc>  
-                <![CDATA[
-                
-                <p>AJF Partnership gave a brief to convert their PSD designs into a front end HTML5 responsive build. Using an older boilerplate template from Perpetual, I reskinned and expanded on the HTML and CSS to create a responsive HTML page which works on a majority of browsers, followed best SEO practices wherever possible, and created web friendly graphical assets from the PSD.</p>
-                
-                <p>While not as exciting as the majority of the other pieces on my portfolio, it does showcase my ability to convert a flat PSD design into a working responsive HTML5 webpage using front end techniques.</p>
-
-                ]]>
-                </desc>
-            
-                <thumb>img/casestudies/peptualResponsive1.jpg</thumb> 
-
-                <video>img/casestudies/06-PeptualResponsive.mp4</video>   
-            
-                <link>./works/Perpetual-Webbuild</link>  
-        </caseStudyItem>
-
-        <caseStudyItem>            
-                <heading>Helga's Website</heading>            
-                <client>Helga &amp; AJF Partnership</client>            
-                <technology>HTML5, CSS, JS</technology>            
-                <brief>Responsive front end updates and website upgrades for Helga's Continental Bakehouse</brief>            
-                <desc>  
-                <![CDATA[
-
-                <p>When the Helga’s Continental Bakehouse account was transferred to AJF Partnership after winning them over in a successful pitch, their main website was also placed under their direction. AJF Partnership inherited a broken and non-responsive Helga’s site, which was then contracted to me to amend. </p>
-                            
-                <p>Since 2015, I have been updating, modifying and increasing the functionality of the helgas.com.au site on an ad-hoc basis. Never having enough budget for complete redesign or rebuild, I’ve been adding to the HTML, CSS and JS whenever they needed an inexpensive expansion. Updates include: inserting media queries to the CSS so the site is responsive, an easily updatable top hero section, additions to the JS carousel, and a data driven recipe module which is driven by XML (Under Gluten Free Gourmet Rolls Traditional White)</p>
-
-                ]]>
-                </desc>
-            
-                <thumb>img/casestudies/helga1.jpg, img/casestudies/helga2.jpg, img/casestudies/helga3.jpg</thumb> 
-                <video>img/casestudies/07-Helgas.mp4</video>   
-                <link>./works/Helgas</link>  
-                <main-video>img/casestudies/video/helgas.mp4</main-video>
-                
-        </caseStudyItem>  
-
-        <caseStudyItem>            
                 <heading>DJ Ravine - Brand Identity</heading>            
                 <client>DJ Ravine</client>            
                 <technology>Illustrator CC, Photoshop CC, Social Media</technology>            
@@ -294,41 +216,36 @@
 
 
                 ]]>
-                </desc>
-            
+                </desc>            
                 <thumb>img/casestudies/ravine1.jpg, img/casestudies/ravine2.jpg, img/casestudies/ravine3.jpg</thumb> 
-
                 <video>img/casestudies/09-Ravine.mp4</video>   
                 <link>./works/DJRavine</link> 
-                <main-video>img/casestudies/video/ravine.mp4</main-video>  
-
+                <main-video>img/casestudies/video/ravine.mp4</main-video> 
         </caseStudyItem>                
 
         <caseStudyItem>
-            
                 <heading>Let It Go with Crystal Maiden</heading>
                 <client>Evokelabs</client>
                 <technology>3dsmax, Motion, Steam Workshop, Audio</technology>
-                <brief>"Let It Go" with Crystal Maiden is a digital recreation of the Frozen's "Let It Go" sequence.</brief>
+                <brief>"Let It Go" with Crystal Maiden is a digital recreation of the Frozen's "Let It Go" sequence. 1.4 million+ views on YouTube.</brief>
                 <desc>  
-                <![CDATA[<p>"Let It Go" with Crystal Maiden is an original 3d cinematic parody of "Let It Go" from Frozen. It was inspired by the past success of Pudge Creek, as well as the YouTube sensation "Let It Go" sequence that peaked in 2014. The character "Rylai the Crystal Maiden", which was taken from a popular MOBA game known as Dota2, shared many similar character qualities with Elsa from Frozen.</p>
+                <![CDATA[
+              <p>"Let It Go" with Crystal Maiden is an original 3d cinematic parody of "Let It Go" from Frozen. The video was produced and animated by myself, sung by Janice Pan, and was produced between three to six months. It features a large number of digital effects including; custom character rigging, custom particle effects, original character animation, an original score and cloth dynamics that was rendered into a 5 minute short.</p>
 
-                <p>The actual video was produced and animated by myself, sung by Janice Pan, and was produced between three to six months. It features a large number of digital effects including; custom character rigging, custom particle effects, original character animation, an original score and cloth dynamics that was rendered into a 5 minute film.</p>
+                <p>A custom cosmetic piece was also crafted for this character which  supplemented the original launch of the video. This was created for the Steam Workshop as a potential revenue stream and was marketed with the "Let It Go" short film.</p>
 
-               <p>Outside of YouTube revenue, I wanted an additional income source for my video production, and found the Steam Workshop to be a potential market for that. Artists can upload original cosmetic items that gamers can buy in the store, to which the profit is shared with the artist who developed the cosmetic piece, and Steam who made the game. I had created an original cosmetic piece for the character Crystal Maiden and marketed it with the "Let It Go" cinematic it was produced for.</p>
+                <p>"Let It Go" has now accumulated over 1.4 million views on YouTube, and has inspired me to make the "The making of Let It Go" documentary that is available to watch for free on the same channel.</p>
 
-               <p>The video achieved over 100K views over the weekend it was uploaded in. In 5 days, it has received over 1.5K likes, been shared on twitter over 50 times and appeared on the front page of youtube when searching for "Let It Go". It has now accumulated over 1 millions views on YouTube, and has inspired me to make the "The making of Let It Go" documentary.</p>
 
                 ]]>
                 </desc>            
                 <thumb>img/casestudies/letitgo1.jpg, img/casestudies/letitgo3.jpg, img/casestudies/letitgo4.jpg, img/casestudies/letitgo5.jpg</thumb> 
                 <video>img/casestudies/letitgo.mp4</video>
-                 <main-video>img/casestudies/video/letitgo.mp4</main-video>  
-                <link>./works/LetItGo/</link> 
+                <main-video>img/casestudies/video/letitgo.mp4</main-video>  
+                <link>https://www.youtube.com/watch?v=veGbtkyoe_Q</link> 
         </caseStudyItem>  
 
-        <caseStudyItem>
-            
+         <caseStudyItem>            
                 <heading>Pudge Creek - YouTube Video</heading>
                 <client>Evokelabs</client>
                 <technology>Concept, 3dsmax, Motion, Social Media</technology>
@@ -336,9 +253,9 @@
                 <desc>  
                 <![CDATA[<p>Pudge Creek is a digital remake of the Wolf Creek trailer. The idea was to replace John Jarratt's character with a 3d game character for the Dota2 community.</p>
 
-                <p>I had to create and rig up a 3d model taken from the Dota2 game files. Assign animation controllers and cloth dynamics to this model. Match the model's animation and lighting to Mick Taylor's. Render it. And then composite those renders into After Effect for more touch ups. There was a total of forty-one 3d effect shots. It also had other assortments of digital effects to create, including: 2d tracking, adding more 3d digital shots into the video, and removing/creating custom sound effects. By the end of it, I had replaced Mick Taylor with Pudge as a high definition video within 1.5 weeks.</p>
+                <p>The work involved creating and rigging a 3d model. Assigning animation controllers and cloth dynamics to the model. Matching the model's animation and lighting to Mick Taylor's. And then compositing these shots into After Effects. There was a total of forty-one 3d effect shots. By the end of it, I had replaced Mick Taylor with Pudge within 1.5 weeks.</p>
 
-                <p>With help of a friend, I had submitted this piece to twitter, reddit and other communities who would be interested in seeing the video. Once a few key players and gate-keepers saw the treading video on social sites and shared it, the video exploded into popularity. Within 24 hours, there was 5K views on the trailer.  Within a week, 40K views. This video is now sitting over 100K views.</p>
+                <p>With help of a friend, I had submitted this piece to Twitter, Reddit and other communities who would be interested in seeing this video. Once a few key players and gate-keepers saw the treading video on social sites and shared it, the video exploded into popularity. Within 24 hours, there was 5K views on the trailer.  Within a week, 40K views. This video is now sitting over 100K views.</p>
 
                 ]]>
                 </desc>
@@ -348,522 +265,114 @@
                 <link>https://www.youtube.com/watch?v=OGpwAhMmhyk</link>
         </caseStudyItem>  
 
-    <caseStudyItem>
-            
-                <heading>
-               Google Banners
-                </heading>
-            
-                <client>
-                Tectonic Digital &amp; Google
-                </client>
-            
-                <technology>
-                Art Direction, Animate CC
-                </technology>
-            
-                <brief>
-                Google banner campaigns for various services including play, insights and chromebook.
-                </brief>
-            
+        <caseStudyItem>
+                <heading>AJF Partnership Collection</heading>
+                <client>AJF Partnership  &amp; and many accounts</client>
+                <technology>Animate CC, After Effects, Front End, HTML, CSS</technology>
+                <brief>A collection of banners, videos, edm and other digital works done for AJF Partnership and their clients.</brief>
                 <desc>  
-                  <![CDATA[<p>I was hired at Tectonic Digital to look after their Google account among their other accounts. Google has a wide range of goods and services they offer to the digital market and I was often responsible in building the promotional campaigns for their marketing team.</p>
+                <![CDATA[<p>I've been a freelance resource for AJF Partnership between 2013 - 2015. During that time, I've worked on multiple digital campaigns and have filled roles such as flash developer, motion designer, front end developer and eDM developer - as well as being a general digital consultant for them. While the creative directors, account holders and their clients came up with the ideas, I was often hired to produce them when their in-house team was either too busy or too inexperienced for digital work.</p>
 
-<p>The chromebook banner rollout was an aggressive online campaign that appeared everywhere online between July/August 2013. I was responsible for the art direction, the build and media specs for dozens of executions. As a result of this campaign, many retailers reported a complete sell out of their chromebook laptops and asked for the slow down the marketing campaign (no joke).</p>
-
-<p>The Google Play banner rollout was an online campaign to inform users of Google Play and its special promotional deal. I was responsible for localising the art direction, the build and making sure the various executions were on spec and built on time. </p>
-
-<p>Our Mobile Planet and Think Insights are hi-def flash presentations shown in LCD enabled media outlets to promote Google Insights. I was responsible for the build, art direction and animation. The Think Insights build in particular contains plenty of animation techniques through the whole presentation to engage users.</p>
-]]>
+                <p>I've done a collection of digital work for AJF Partnership; including banners, videos, email template and front-end development. The clients I've worked for are also plentiful; including News Corp, Helga's Bakehouse, Rams Homeloans, Frangelico, Wild Turkey, Wattyl Paints, Sky Vodka, Donut King, Michel's Patisserie and Mr Men.</p>
+                ]]>
                 </desc>
-            
-                <thumb>
-                img/casestudies/google.jpg,img/casestudies/google1.jpg
-                </thumb>
-
-                 <video>
-                img/casestudies/google.mp4
-                </video>  
-            
-                <link>
-               ./works/google/index.html
-                </link>
-            
-            
-        </caseStudyItem>
-
-         <caseStudyItem>
-            
-                <heading>
-                AJF Partnership Collection
-                </heading>
-            
-                <client>
-                AJF Partnership  &amp; and many accounts
-                </client>
-            
-                <technology>
-                Animate, After Effects, Front End, HTML, CSS
-                </technology>
-            
-                <brief>
-                A collection of banners, videos, edm and other digital works done for AJF Partnership and their clients.
-                </brief>
-            
-                <desc>  
-                <![CDATA[<p>I've been a freelance resource for AJF Partnership for the past few years. During that time, I've worked on many digital campaigns and have filled many digital roles such as flash developer, motion designer, front end developer and eDM developer - as well as being a general digital consultant for them. While the creative directors, account holders and their clients came up with the ideas, I was often hired to produce and develop these ideas when their in-house team was too busy or too inexperienced for digital work.</p>
-
-                <p>I've done a collection of work for AJF Partnership; including banners, videos, email template and front-end development. The clients I've worked for are also plentiful; including News Corp, Helga's Bakehouse, Rams Homeloans, Frangelico, Wild Turkey, Wattyl Paints, Sky Vodka, Donut King, Michel's Patisserie and Mr Men.</p>
-
-]]>
-                </desc>
-
-                <video>
-                img/casestudies/ajf.mp4
-                </video>        
-            
-                <thumb>
-                img/casestudies/ajf1.jpg, img/casestudies/ajf3.jpg,  img/casestudies/ajf4.jpg
-                </thumb>  
-
+                <video>img/casestudies/ajf.mp4</video>        
+                <thumb>img/casestudies/ajf1.jpg, img/casestudies/ajf3.jpg,  img/casestudies/ajf4.jpg</thumb>  
                 <main-video>img/casestudies/video/ajfcollection.mp4</main-video>
-            
-                <link>
-                ./works/AJFpartnership/
-                </link>
-
-            
-
+                <link></link>
         </caseStudyItem>
     
      
-    <caseStudyItem>
-            
-                <heading>
-                My Time Here - Independent CGI Short Film
-                </heading>
-            
-                <client>
-                Evoke Labs
-                </client>
-            
-                <technology>
-                Concept, 3dsmax, Motion, Sound Design
-                </technology>
-            
-                <brief>
-                My Time Here is an independent 11 min short CGI film produced by Evokelabs.
-                </brief>
-            
+        <!-- <caseStudyItem>            
+                <heading>My Time Here - Independent CGI Short Film</heading>
+                <client>Evoke Labs</client>
+                <technology>Concept, 3dsmax, Motion, Sound Design</technology>
+                <brief>My Time Here is an independent 11 min short CGI film produced by Evokelabs.</brief>
                 <desc>  
-                <![CDATA[<p>My Time Here is a 11min CGI short film. It contains realistic 3D characters, Hollywood-like original score, professional voiced dialogue and was written by talent within the industry. I always wanted to put the skills and talents I’ve learnt from motion, 3d, as well as advertising into good use and create a short film to tell a unique and interesting story.</p>
+                <![CDATA[<p>My Time Here is a 11min CGI short film. It contains realistic 3D characters, Hollywood-like original score, professional voiced dialogue and was written by talent within the industry. I always wanted to put the skills and talents I’ve learnt from motion, 3d, as well as advertising into good use and create a short film to tell a unique story.</p>
 
-<p>This project took two years of on and off work to create. It features three 3d animation characters, facial rigs, lots of different props, lighting rigs, clothing sims, FumeFX for smoke and atmosphere effects, matte paintings and plenty of other digital effects that tested my abilities. I hosted hours worth of personal video lectures on how to create 3d short films for any would be cgi director who would like to attempt a project like this but don’t know where to start - which ended up being more popular than the actual movie.</p>
-]]>
+                <p>This project took two years of on and off work to create. It features three 3d animation characters, facial rigs, lots of different props, lighting rigs, clothing sims, FumeFX for smoke and atmosphere effects, matte paintings and plenty of other digital effects that tested my abilities. I hosted hours worth of personal video lectures on how to create 3d short films for any cgi director who would like to attempt a project like this but don’t know where to start - which ended up being more popular than the actual movie.</p>
+                ]]>
                 </desc>
-            
                 <thumb>
                 img/casestudies/mytimehere1.jpg,  img/casestudies/mytimehere2.jpg,  img/casestudies/mytimehere3.jpg, img/casestudies/mytimehere4.jpg
                 </thumb> 
-
-                <video>
-                img/casestudies/mytimehere.mp4
-                </video> 
-
+                <video>img/casestudies/mytimehere.mp4</video> 
                 <main-video>img/casestudies/video/mytimehere.mp4</main-video>   
-            
-                <link>
-                ./works/MyTimeHere/
-                </link>
-
-            
-
-        </caseStudyItem>
+                <link>./works/MyTimeHere/</link>
+        </caseStudyItem> -->
 
 
-    <caseStudyItem>
-            
-                <heading>
-                Optus Go Places – Motion Design
-                </heading>
-            
-                <client>
-               M&amp;C Saatchi &amp; Optus
-                </client>
-            
-                <technology>
-                3dsmax, After Effects CC, Animate CC
-                </technology>
-            
-                <brief>
-                Optus Go Places is glossy video experience shown in Optus dealership stores. 
-                </brief>
-            
+        <caseStudyItem>            
+                <heading>Optus Go Places – Motion Design</heading>
+                <client>M&amp;C Saatchi &amp; Optus</client>            
+                <technology>3dsmax, After Effects CC, Animate CC</technology>            
+                <brief>Optus Go Places is glossy video experience shown in Optus dealership stores.</brief>
                 <desc>  
                 <![CDATA[<p>Optus Go Places was an interactive video experience showcased in Optus dealerships stores. Users were encourage to interact with a touchscreen which showcased various 3d motion pieces informing people of the Optus Go Places services.</p>
 
-<p>These videos were built in After Effect with some elements of 3d brought in from 3dsmax whenever depth was required. There were dozens of motion effects in this 720p hi-def motion design including camera work, masking effects, 3d effects and multiple layers tweens to create an engaging piece of video work.</p>
-]]>
-                </desc>
-            
-                <thumb>
-                img/casestudies/goplaces1.jpg,img/casestudies/goplaces2.jpg,img/casestudies/goplaces3.jpg
-                </thumb>  
-
-                <video>
-                img/casestudies/optusmotion.mp4
-                </video> 
-
-                <main-video>img/casestudies/video/optus.mp4</main-video>   
-            
-                <link>
-                ./works/optusmoxa
-                </link>
-            
- 
-            
+                <p>These videos were built in After Effect with some elements of 3d brought in from 3dsmax whenever depth was required. There were dozens of motion effects in this 720p hi-def motion design including camera work, masking effects, 3d effects and multiple layers tweens to create an engaging piece of video work.</p>
+                ]]>
+                </desc>            
+                <thumb>img/casestudies/goplaces1.jpg,img/casestudies/goplaces2.jpg,img/casestudies/goplaces3.jpg</thumb>  
+                <video>img/casestudies/optusmotion.mp4</video> 
+                <main-video>img/casestudies/video/optus.mp4</main-video>
+                <link></link>
         </caseStudyItem>
 
-
-    <caseStudyItem>
-            
-                <heading>
-                Make Banners - Interactive Flash Banners
-                </heading>
-            
-                <client>
-                M&amp;C Saatchi &amp; Various
-                </client>
-            
-                <technology>
-                Strategy, Art Direction, Animate, After Effects
-                </technology>
-            
-                <brief>
-                Explore a large collection of Make &amp; M&amp;C Saatchi agency digital banners I have built. 
-                </brief>
-            
-                <desc>  
-                <![CDATA[<p>A significant portion of my time over at MC Saatchi was lending my expertise in creating various flash banner builds for clients such as Google, Optus, Qantas and Purina. Because I have experience in motion, animation, flash, and actionscript - these banners were made confidently, within budget and were pushed to the limits of what Flash could achieve.</p>
-<p>Most of these banners were referenced from either drawn storyboards or layer PSD files authored by a creative director. It was my job to reformat them into flash, paying respects to timings, animation, branding, specifications and interactivity.</p>
- 
-]]>
-                </desc>
-            
-                <thumb>
-                img/casestudies/make1.jpg, img/casestudies/make2.jpg
-                </thumb> 
-
-                <video>
-                img/casestudies/make.mp4
-                </video> 
-            
-                <link>
-               ./works/makebanners/index.html
-                </link>
-            
-            
-        </caseStudyItem>
-
-         <caseStudyItem>
-            
-                <heading>
-                Xmas Video Card - 2008 
-                </heading>
-            
-                <client>
-                Evokelabs
-                </client>
-            
-                <technology>
-                3dsmax, After Effects CC, Premiere CC
-                </technology>
-            
-                <brief>
-                A wholesome 3d video created for my clients over Xmas holidays in 2008
-                </brief>
-            
-                <desc>  
-                <![CDATA[
-
-<p>2008 was a great year for me. I was working with new clients and was invoicing as Evoke Labs - a goal I had hoped to achieve when I was younger. Some agencies do promotional Xmas work for their clients, and I was inspired to do something similar to say thanks to mine.</p>
-
-<p>Going back to my original passions (motion and 3d), I wanted to create a short wholesome film. The idea was to create a winter wonderland and reveal that it was set in Sydney during the summer. I also wanted to experiment with new features in 3dsmax and gain real hands-on experience, specifically using fur in render.</p>
-
-<p> Created in 3dsmax in under a week, this untitled project features a number of birds enjoying Xmas festivities.. It was great to play with particle effects, character animation, fur, compositing and 3d modelling. Through this experience, I was able to work on more complex 3d films in future projects, including “My Time Here” and “Let It Go”.</p>
-]]>
-                </desc>
-            
-                <thumb>
-                img/casestudies/xmas1.jpg, img/casestudies/xmas2.jpg
-                </thumb> 
-
-                <video>
-                img/casestudies/16-xmas.mp4
-                </video>  
-            
-                <link>
-                 ./works/xmas
-                </link>
-
-        </caseStudyItem>  
-
-    <caseStudyItem>
-            
-                <heading>
-                Megalighting – Wordpress E-commerce Site
-                </heading>
-            
-                <client>
-                Evokelabs &amp; Megalighting
-                </client>
-            
-                <technology>
-                Strategy, UX, Wordpress, Theming, WooCommerce
-                </technology>
-            
-                <brief>
-                Megalighting is a custom themed online lighting retailer with ecommerce functionality.
-                </brief>
-            
-                <desc>  
-                <![CDATA[
-
-<p>Megalighting is a small business lighting retailer that wanted to explore the online market by displaying their inventory on the world wide web in an engaging way. They wanted me to design, develop and enable a content management system that would allow for online transactions. I found that wordpress and woocommerce used together make for a versatile and powerful application that met each of their criteria.</p>
-
-<p>The design was based on the branding and the identity that already existed on their storefronts and printed materials, extending the brand through a custom wordpress theme built into the CMS.  One of the best features of Wordpress is that it can be used to alter the content, inventory, prices and photos through their admin panels.</p>
-
-<p>There are a lot of inventory in lighting stores. The best way of organising these items through categories sorted by use, brand, and/or location. Woocommerce plugin also made this easy with their intuitive functionality and database integration.</p>
-
-<p>Items can be searched, found through type, and have the option to change its size or its colour on the specific item page. Users can buy products on the site, login and become members. The site also uses breadcrumbs to help navigate across the inventory.</p>]]>
-                </desc>
-            
-                <thumb>
-                img/casestudies/megalighting1.jpg, img/casestudies/megalighting2.jpg, img/casestudies/megalighting3.jpg
-                </thumb> 
-
-                <video>
-                img/casestudies/megalighting.mp4
-                </video>  
-            
-                <link>
-                http://www.megalighting.net/
-                </link>
-
-        </caseStudyItem>  
-
-    <caseStudyItem>
-            
-                <heading>
-                Powerhouse Productions Banners &amp; Minisites
-                </heading>
-            
-                <client>
-                Evokelabs &amp; Powerhouse Productions
-                </client>
-            
-                <technology>
-                Strategy, UX, Design, Animate, After Effects, AS2
-                </technology>
-            
-                <brief>
-                Collection of digital campaigns ranging from banners to minisites for Australian promoter.
-                </brief>
-
-                <video>
-                img/casestudies/php.mp4
-                </video>  
-
+        <caseStudyItem>            
+                <heading>Powerhouse Productions Banners &amp; Minisites</heading>
+                <client>Evokelabs &amp; Powerhouse Productions</client>
+                <technology>Strategy, UX, Design, Animate, After Effects, AS2</technology>
+                <brief>Collection of digital campaigns ranging from banners to minisites for Australian dance event producer.</brief>
+                <video>img/casestudies/php.mp4</video>
                 <main-video>img/casestudies/video/powerhouse.mp4</main-video>  
-            
                 <desc>  
-                <![CDATA[<p>Powerhouse Production promotes and organises all-aged dance party events in Sydney. My client's attractions are marketed to a youthful and energetic demographic, and so I wanted to push their creatives to new and engaging heights. Most of the flash banners created for these events were built to be eye-catching and unique - using particle effects, layer effects, blending capabilities and AS2 driven effects.</p>
+                <![CDATA[
+                <p>Powerhouse Productions was Australia’s largest all-aged dance event producer, and I was responsible for all of their digital marketing campaigns. My client's events are marketed to a youthful and energetic demographic, so I had the opportunity to push their creatives to new and engaging heights. Most of the flash banners created for these events were built to be eye-catching and unique - using particle effects, layer blendings, and AS2 driven effects.</p>
 
-                <p>In additional to these banners, occasionally a Flash minisite would be built to get peeps excited and motivated for the next dance event. They were all uniquely designed, mixed with music, informative and encouraged users to buy tickets online. Built using AS2, no minisite was ever created the same - advancing the awareness of the parties that went way beyond the typical flyer.<p>
+                <p>In additional to these banners, occasionally a Flash minisite would be built for the next dance event. They were all uniquely designed, mixed with music, informative and encouraged users to buy tickets online. Built using AS2, no minisite was ever created the same - advancing the awareness of the parties that went way beyond the typical flyer.<p>
 
-                <p>Ticket sales usually picked up after these sites are were built - leading to their first sell out event at the Acer Arena. It also got my name out there as someone who specialised in doing good work for DJs, promotors and events - earning new clients across Australia and the UK.</p>
+                <p>Ticket sales usually picked up after these sites were built - leading to their first sell out event at the Acer Arena. It also got my name out there as someone who specialised in doing good work for DJs, promotors and events - earning new clients across Australia and the UK.</p>
 
-]]>
-                </desc>
-            
-                <thumb>
-               img/casestudies/ph1.jpg, img/casestudies/ph2.jpg,img/casestudies/ph3.jpg, img/casestudies/ph4.jpg
-                </thumb>  
-            
-                <link>
-                ./works/phpbanners/
-                </link>
-            
-
-            
-        </caseStudyItem>  
-
-    <caseStudyItem>
-            
-                <heading>
-                Optus Inbetweeners – Motion &amp; Flash 
-                </heading>
-            
-                <client>
-                M&amp;C Saatchi &amp; Optus
-                </client>
-            
-                <technology>
-                Design, Animate CC, AS2
-                </technology>
-            
-                <brief>
-                Optus Business TVC converted into a functional interactive digital portal.  
-                </brief>
-            
-                <desc>  
-                <![CDATA[<p>The Optus In-Betweeners is a television campaign created to help promote Optus’ Business Mobile Broadband services. It features six different scenarios where a unique character would be doing something related to an Optus service to help inform and inspire the audience to try it out. </p>
-
-<p>Optus wanted an online digital portal that would express to its users the same values it showed in the television campaign. I was allocated the man for the job seeing I have motion experience, flash experience and actionscript experience – all things necessary to make this project a reality. </p>
-
-<p>I created a flash application that would sit on their webpage and host all six videos, with the option of captioning, with low/high versions of video broadband, streaming capabilities, and a load more additional features on the back end.</p>
-
-<p>This application required many functions of AS2 to operate seamlessly, including video objects, loader objects, and a way to let the flash player know what video is being watched and where in the playhead they are.</p>
-
-]]>
-                </desc>
-            
-                <thumb>
-               img/casestudies/inbetween1.jpg, img/casestudies/inbetween2.jpg
-                </thumb> 
-
-                <video>
-                img/casestudies/inB.mp4
-                </video>   
-            
-                <link>
-               ./works/optusinbetweeners/index.html
-                </link>
-
-            
-        </caseStudyItem>  
-
-    <caseStudyItem>
-            
-                <heading>
-                Westfield– Motion Builds
-                </heading>
-            
-                <client>
-                M&amp;C Saatchi &amp; Westfield
-                </client>
-            
-                <technology>
-               After Effects CC, Animate CC
-                </technology>
-            
-                <brief>
-                A collection of video builds appearing inside Westfield shopping centres. 
-                </brief>
-            
-                <desc>  
-                <![CDATA[<p>Westfield displays visual content on their LCD displays throughout their malls. While at MC Saatchi, I was often responsible for the creation of Westfield media campaigns, converting their briefs and storyboards into published video files, which was then distributed and displayed all across Westfield Australia via the oOh! media platform.</p>
-
-                <p>My experience in traditional motion and animation gave me the opportunity to add exaggeration, secondary movements and various effects that often extended works beyond its brief. These would include subtle bounces, tweening exaggerations, tasteful 3d and various motion effects that raised the visual bar. According to the producers, Westfield was impressed with both the quality and the quick turnaround of these video works since I had become their resource.</p>
-
-                <p>Also included in my portfolio is a video pitch presented to Westfield that I created with After Effects. This was used by M&C Saatchi to help present Westfield’s potentially new UX/UI site. It features a breakdown of the divs blocks in 3d space, with interesting camera pannings and walk-throughs of the hierarchical nature of the proposed site.</p>
-
-
-]]>
+                ]]>
                 </desc>
 
-                <video>
-                img/casestudies/westfield.mp4
-                </video>  
-            
-                <thumb>
-
-                img/casestudies/westfield1.jpg, img/casestudies/westfield2.jpg,img/casestudies/westfield3.jpg
-                </thumb>
-            
-                <link>
-                ./works/westfield/index.html
-                </link>
-
-        </caseStudyItem>
-
-        <caseStudyItem>
-            
-                <heading>
-                Lexus 2007 Banners
-                </heading>
-            
-                <client>
-                Lexus &amp; Oddfellows
-                </client>
-            
-                <technology>
-                Flash CC, AS2, 3D, Eyeblaster
-                </technology>
-            
-                <brief>
-                A series of banners made for Lexus on behalf of independent agency Oddfellows
-                </brief>
-            
-                <desc>  
-                <![CDATA[<p>I was contracted by Oddfellows in 2007 to create a series of banners for Lexus cars and their events. “Stunningly beautiful, sadly short-lived” was the tag used to reflect the limited timing on their promotional deals, using the blue butterfly as a metaphor. This butterfly was created in 3d and outputted as sprites for the flash banner.</p>
-
-<p>There was also some interactivity in the additional banner. The mouse cursor would be hijacked in order to mimic a hand reaching for the car before it drives away. This was created using AS2, Greensock within Flash and timing intervals.</p>  
-
-
-]]>
-                </desc>
-
-                <video>
-                img/casestudies/17-lexus.mp4
-                </video>  
-
-                <thumb>
-                img/casestudies/lexus1.jpg, img/casestudies/lexus2.jpg
-                </thumb>
-            
-                <link>
-                ./works/lexus/index.html
-                </link>
-
+                <thumb>img/casestudies/ph1.jpg, img/casestudies/ph2.jpg,img/casestudies/ph3.jpg, img/casestudies/ph4.jpg</thumb>  
+                <link></link>
         </caseStudyItem>     
 
-<caseStudyItem>
-            
-                <heading>
-                GPYR / Y&amp;R ANZ COLLECTION
-                </heading>
-            
-                <client>
-                GPYR / Y&amp;R ANZ and many accounts
-                </client>
-            
-                <technology>
-               Art Direction, Flash CC, HTML, CSS, AS2
-                </technology>
-            
-                <brief>
-                A collection of digital builds and actionscripth development done for GPYR agency. 
-                </brief>
-            
+        <!-- <caseStudyItem>
+                <heading>Westfield – Motion Builds</heading>
+                <client>M&amp;C Saatchi &amp; Westfield</client>
+                <technology>After Effects CC, Animate CC </technology>
+                <brief>A collection of video builds appearing inside Westfield shopping centres.</brief>
                 <desc>  
-                <![CDATA[<p>GPYR was my first big break in my career, working in a major international agency instead of dealing with local businesses and small design studios for the first time. Their Head of Digital noticed my Flash portfolio in the golden days of SWF, right when the demand for Flash designers and developers was at its highest. I was recognised for my digital talents and was fortunate enough to be offered a freelance role at GPYR. I worked there for a year, designing eDMs, coding Flash banner minigames, creating minisites, and even solo created an Australia Idol banner campaign from scratch.</p>
+                <![CDATA[<p>Westfield displays visual content on their LCD displays throughout their malls. While at MC Saatchi, I was often responsible for the creation of Westfield media campaigns, converting their briefs and storyboards into published video files, which was then distributed and displayed all across Westfield Australia via oOh! media platforms.</p>
 
-]]>
+                <p>My experience in traditional motion and animation gave me the opportunity to add exaggeration, secondary movements and various effects that often extended beyond the brief. These would include subtle bounces, tweening exaggerations, tasteful 3d and various motion effects that raised the visual bar. According to the producers, Westfield was impressed with both the quality and the quick turnaround of these video works since I had become their resource.</p>
+
+                <p>Also included in my portfolio is a video pitch presented to Westfield that I created with After Effects. This was used by M&C Saatchi to help present Westfield’s potentially new UX/UI site. It features a breakdown of the divs blocks in 3d space, with interesting camera pannings and walk-throughs of the hierarchical nature of the proposed site.</p>
+                ]]>
                 </desc>
+                <video>img/casestudies/westfield.mp4</video> 
+                <main-video>works/westfield/westfieldPitch/Westfieldpitch.mp4</main-video> 
+                <thumb>img/casestudies/westfield1.jpg, img/casestudies/westfield2.jpg,img/casestudies/westfield3.jpg</thumb>
+                <link>./works/westfield/index.html</link>
 
-                <video>
-                img/casestudies/15-gpyr.mp4
-                </video>  
-
-                <main-video>img/casestudies/video/gpyr.mp4</main-video>   
-            
-                <thumb>
-                img/casestudies/gpyr4.jpg, img/casestudies/gpyr2.jpg, img/casestudies/gpyr3.jpg, img/casestudies/gpyr1.jpg
-                </thumb>
-            
+        </caseStudyItem> -->
+        <caseStudyItem>            
+                <heading>GPYR / Y&amp;R ANZ COLLECTION</heading>
+                <client>GPYR / Y&amp;R ANZ and many accounts</client>            
+                <technology>Art Direction, Flash CC, HTML, CSS, AS2</technology>
+                <brief>A collection of digital builds and flash jobs done for GPYR agency.</brief>
+                <desc>  
+                <![CDATA[<p>GPYR was my first big break in my digital career, contracting for a major international agency. Their Head of Digital noticed my Flash portfolio in the golden days of SWF, where the demand for Flash designers and developers was at its highest. I was recognised for my digital talents and was fortunate enough to be offered a freelance role at GPYR. I worked there for around a year, designing eDMs, coding Flash banner minigames, creating minisites, and even solo created an Australia Idol banner campaign from scratch for a national wide audience.</p>]]>
+                </desc>
+                <video>img/casestudies/15-gpyr.mp4</video>
+                <main-video>img/casestudies/video/gpyr.mp4</main-video>
+                <thumb>img/casestudies/gpyr4.jpg, img/casestudies/gpyr2.jpg, img/casestudies/gpyr3.jpg, img/casestudies/gpyr1.jpg</thumb>            
                 <link></link>
-
         </caseStudyItem>            
     
 </caseStudy>

@@ -58,9 +58,9 @@ Template Name: Evokelabs Resume
                         <ul>
                             <li class="client-logo"><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/evokelabs.gif" alt ="Evokelabs" /></li>
                             <li>Evoke Labs</li>
-                            <li>Owner &amp; Creative Technologist</li>
+                            <li>Creative Technologist</li>
                             <li>April 2004 - Present</li>
-                            <p>Under Evokelabs, I have contracted/freelanced for Australia’s top agencies, including GPYR, M&C Saatchi, Akcelo, Ogilvy, Big Red Group, AJF Partnership & Richards Rose. My work has been outsourced to world renowned brands, including TikTok, Google, Telstra, Optus & Qantas. The projects I work on are typical for the digital space, such as website builds, social media posts, mobile apps, public displays, digital advertising, email campaigns, and YouTube mastheads/features.</p>
+                            <p>Under Evokelabs, I have contracted/freelanced for Australia’s top agencies, including VMLY&R, M&C Saatchi, Akcelo, Ogilvy, Big Red Group, AJF Partnership & Richards Rose. My work has been outsourced to world renowned brands, including TikTok, Google, Telstra, Optus & Qantas. The projects I work on are typical for the digital space, such as website builds, social media posts, mobile apps, public displays, digital advertising, email campaigns, and YouTube mastheads/features.</p>
                             <p>I also deal with my own clients through Evokelabs - looking after small to medium businesses and other entrepreneurs.  I interface with clients face to face whilst being responsible for admin, management, design, development & delivery of each project.</p>                             
                         </ul>
 
@@ -124,10 +124,10 @@ Template Name: Evokelabs Resume
                         <ul>
                             <li class="client-logo"><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/bigred.gif" alt ="Big Red Group" /></li>
                              <li>Big Red Group</li>
-                             <li>Freelance Digital Designer</li>
+                             <li>Freelance Digital Designer / Developer</li>
                              <li>May 2015 - June 2015</li>
                             <!-- <li>November 2013 - January 2014</li>-->
-                             <p>I was contracted for Big Red Communication in Melbourne for a few weeks covering for someone who was on leave. The jobs I got were typically flash builds, social media design builds, eDM builds, motion builds and other digital advertising assortments for brands such as Jetstar, Renault and Bupa.</p>
+                             <p>Flash builds, social media design builds, eDM builds, motion builds and other digital advertising assortments for brands such as Jetstar, Renault and Bupa.</p>
                          </ul>
 
          <div class="HR-resume"></div> 
@@ -137,9 +137,7 @@ Template Name: Evokelabs Resume
                              <li>Freelance Digital Designer / Developer</li>
                              <li>February 2013 - July 2015</li>
                             <!-- <li>November 2013 - January 2014</li>-->
-                             <p>AJF Partnership was a new independent creative agency in Sydney who were inexperienced in dealing with interactive campaigns. I was one of the first digital freelancers that liaised with them whenever their traditional print/video creatives needed to go digital.</p>
                              <p>The typical jobs that were passed to me were flash builds, eDM builds, HTML builds and motion builds. Some of their more complicated banners involved serving video, incorporating double click functions, fetching dynamic data and more. I also consulted their inhouse team when it came to digital projects they were not so comfortable with, as I had the most experience dealing with digital within their agency.</p>
-                             <p>Check out the <a href="http://www.evokelabs.com/works/AJFpartnership/">AJF Partnership Collection</a> to see some of these works.</p>
 
                          </ul>
 <div class="HR-resume"></div> 
@@ -149,9 +147,7 @@ Template Name: Evokelabs Resume
                              <li>Digital Designer / Developer</li>
                              <li>July 2013 - November 2013 (fulltime)</li>
                              <li>November 2013 - Late 2014 (freelance)</li>
-                             <p>I was hired by Tectonic Digital as a perm to look after their flash, video, art direction, frontend and backend work for their clients. Their most notable one was Google, and so I was their go-to-guy for anything Google related.</p>
-                             <p>My daily responsibilities were delegated to me by Tectonic producers and directors. My responsibilities included responsive HTML builds, flash builds, motions builds, wordpress template builds and CSS/HTML frontend development.</p>
-                             <p>Most notable responsibilities include some of the art direction and all the flash builds on various <a href="http://www.evokelabs.com/works/google/index.html">Google Banner Campaigns</a>. I was also responsible for HTML/CSS front end and some of the Wordpress back end for <a href="http://www.emma.com.au">Emma's</a> reponsive site. 
+                             <p>My daily responsibilities included responsive HTML builds, flash builds, motions builds, wordpress template builds and CSS/HTML frontend development. Most notable works include some of the art direction and all the flash builds for various Google Banner Campaigns.</p>
                         </ul>
 <div class="HR-resume"></div> 
                        
@@ -159,11 +155,11 @@ Template Name: Evokelabs Resume
                          <ul>
                              <li class="client-logo"><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/mc.gif" alt ="M&C Saatchi" /></li>
                              <li>M&amp;C Saatchi</li>
-                             <li>Freelance Senior Digital Designer</li>
+                             <li>Freelance Senior Digital Designer / Developer</li>
                              <li>2011 - 2012</li>
-                             <p>I contracted and was a freelance resource for this global agency in Sydney for roughly a year. Working closely with producers and creative directors, I was responsible for flash builds, motion builds, edm builds, digital design and HTML development within their day to day operations.</p>
-                             <p>My work was done for clients such as Qantas, Optus, Google, Westfield and Woolworths. I delivered a large number of digital campaigns for them on Saatchi’s behalf.</p>
-                            <p>Notable works include <a href="http://www.evokelabs.com/works/optusmoxa/">Optus Go Places</a> - a 3d motion build for Optus instores, <a href="http://www.evokelabs.com/works/westfield/index.html">Westfield motion builds</a> for their LED displays instore, a large amount of <a href="http://www.evokelabs.com/works/makebanners/index.html">banner builds</a> and <a href="http://www.evokelabs.com/works/optusinbetweeners/index.html">Optus Inbetweeners</a> - a video flash web portal.</p>
+                             <p>Working closely with producers and creative directors, I was responsible for flash builds, motion builds, edm builds, digital design and HTML development within their day to day operations.
+
+My work was done for clients such as Qantas, Optus, Google, Westfield and Woolworths. I delivered a large number of digital campaigns for them on Saatchi’s behalf.</p>
                         </ul>
 <div class="HR-resume"></div> 
                          <ul>
@@ -171,18 +167,16 @@ Template Name: Evokelabs Resume
                              <li>Relax Design</li>
                              <li>Freelance Digital Designer / Developer</li>
                              <li>2004 - 2012</li>
-                             <p>Relax Design is a print and branding agency that need help whenever they produce digital campaigns. I have helped Relax create websites, minisites, edms, motion builds and flash presentations for almost ten years.</p>
-                             <p>Notable works include <a href="http://www.evokelabs.com/works/travelodge/">Travelodge presentations</a>, <a href="http://www.evokelabs.com/works/adina/">Adina presentations</a>, <a href="http://www.evokelabs.com/works/vibeHotel/">Vibe Hotel presentations</a>, and <a href="http://www.evokelabs.com/works/arras/">Arras minisite.</a></p>
+                             <p>Relax Design is a print and branding agency that need help whenever they produce digital campaigns. I have helped Relax create websites, minisites, edms, motion builds and flash presentations for almost ten years.</p>                            
                         </ul>
 
 <div class="HR-resume"></div> 
                          <ul>
-                             <li class="client-logo"><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/wunderman.gif" alt ="Wunderman" /></li>
-                             <li>Wunderman &amp; GPYR</li>
-                             <li>Freelance Digital Designer</li>
+                             <li class="client-logo"><img src="<?php bloginfo('template_url'); ?>/../../../img/resume/vmly.gif" alt ="VMLY&R" /></li>
+                             <li>VMLY&R</li>
+                             <li>Freelance Digital Designer / Developer</li>
                              <li>2006 - 2007</li>
-                             <p>Responsible for minisites, designs, flash builds, actionscript development and edm development that was managed by producers & art directors. I was also dealing with big clients as such Telstra, Microsoft and Career One.</p>
-                             <p>This was my first big break in my career. Notable campaigns include Career One's <a href="http://www.evokelabs.com/works/careerone/">"Find The One"</a> and Telstra's <a href="http://www.evokelabs.com/works/telstra/">"Capman"</a>.</p>
+                             <p>Responsible for minisites, designs, flash builds, actionscript development and edm development that was managed by producers & art directors. I was also dealing with big clients as such Telstra, Microsoft and Career One.</p>                            
                         </ul>
 
                      </ul>

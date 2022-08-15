@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
 html {
   margin: 0;
   background-color: #ff8d33;
@@ -19,7 +21,7 @@ a {
 body {
   margin: 0px auto;
   font-size: 100%;
-  font-family: ropa-sans, sans-serif;
+  font-family: 'Ropa Sans', sans-serif;
 }
 
 header {
@@ -35,8 +37,9 @@ h4,
 h5 {
   position: static;
   text-transform: uppercase;
-  font-family: ropa-sans, sans-serif;
+  font-family: 'Ropa Sans', sans-serif;
   margin: 0;
+  text-align: center;
 }
 
 h1 {
@@ -159,6 +162,8 @@ h4 {
   background-color: #8e0e04;
   float: left;
   bottom: 590px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .HR {
@@ -199,7 +204,7 @@ h4 {
 
 #aboutdesc p {
   margin-top: 0;
-  font-family: ropa-sans, sans-serif;
+  font-family: 'Ropa Sans', sans-serif;
   font-weight: bold;
   font-size: 1.4em;
   letter-spacing: 0.05em;
@@ -220,7 +225,7 @@ h4 {
 }
 
 #aboutdesc-resume p {
-  font-family: ropa-sans, sans-serif;
+  font-family: 'Ropa Sans', sans-serif;
   font-weight: bold;
   font-size: 1.3em;
   letter-spacing: 0.05em;
@@ -351,6 +356,7 @@ h4 {
 .experience-resume p {
   font-size: 1.2em;
   font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 .darker-tone {
@@ -570,6 +576,29 @@ h4 {
   box-sizing: border-box;
 }
 
+.showreel {
+  max-width: 100%;
+  display: flex;
+  background-color: #000;
+  overflow: hidden;
+  max-height: 940px;
+}
+
+.video-reel video {
+  width: 100%;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.showreel-heading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 100;
+}
+
 .Image-Hide {
   display: none !important;
 }
@@ -719,7 +748,7 @@ footer img {
 footer li {
   display: block;
   text-transform: uppercase;
-  font-family: ropa-sans, sans-serif;
+  font-family: 'Ropa Sans', sans-serif;
   font-size: 1em;
   font-weight: bold;
   width: 280px;
@@ -1000,6 +1029,8 @@ footer li {
   #about h3,
   h4 {
     font-size: 2em;
+    overflow: hidden;
+    white-space: nowrap;
   }
 
   h1 {
@@ -1067,7 +1098,7 @@ footer li {
   }
 
   #about {
-    min-height: 100%;
+    min-height: 300px;
   }
 
   .casestudy h1 {

@@ -11,21 +11,20 @@
     <title>EVOKE LABS || Sydney Freelancer - Digital Strategy / Design / Development / Wordpress / Motion / UX</title>
 <meta name="author" content="EVOKE LABS" /> 
     <meta name="robots" content="ALL" /> 
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.www.evokelabs.com">
-    <meta property="og:site_name" content="EVOKE LABS">
-    <meta property="og:title" content="EVOKE LABS">
-    <meta property="og:image" content="http://www.www.evokelabs.com/facebook.jpg">
-    <meta property="og:description" content="Evokelabs is a portfolio home to Sydney based digital designer, developer and creative technologist, Adrian Pikios">
-    <meta name="description" content="Evokelabs is a portfolio home to Sydney based digital designer, developer and creative technologist, Adrian Pikios">
-    <meta name="keywords" content="Evoke Labs, EL, Freelance, Freelancer, Adrian Pikios, Pikios, HTML5, HTML5 banners, Flash, Sydney, Australia, Flash, 3D, Animation, Interfaces, Web Site, Web Site Design, Post Production, After Effects, Motion Graphics, New Media, Digital Media, Evolving Media, Evolving Digital Media, Design, Development, Interactive, Interactivite, GUI, Graphic User Interface, Cool Sites, Best Sites, 3d applications, broadband applications, graphic design." />
+    <meta property="og:title" content="EVOKE LABS"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.evokelabs.com" />    
+    <meta property="og:site_name" content="EVOKE LABS" />
+    <meta property="og:image" content="https://www.evokelabs.com/evokelabs.jpg" />
+    <meta property="og:description" content="Adrian Pikios - Sydney based Creative Technologist" />
+    <meta name="description" content="Evokelabs is portfolio home to Sydney based creative technologist, Adrian Pikios." />
+    <meta name="keywords" content="Evoke Labs, EL, Freelance, Freelancer, Adrian Pikios, Pikios, creative technologist, HTML5, HTML5 banners, Flash, Sydney, Australia, Flash, 3D, Animation, Interfaces, Web Site, Web Site Design, Post Production, After Effects, Motion Graphics, New Media, Digital Media, Evolving Media, Evolving Digital Media, Design, Development, Interactive, Interactivite, GUI, Graphic User Interface, Cool Sites, Best Sites, 3d applications, broadband applications, graphic design." />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
     
  <script type="text/javascript">
               var _gaq = _gaq || [];
               _gaq.push(['_setAccount', 'UA-5951636-1']);
               _gaq.push(['_trackPageview']);
-            a
               (function() {
                 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
                 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
@@ -53,7 +52,6 @@
 
     
 <script>var __adobewebfontsappname__ = "code"</script>
-<script src="https://use.edgefonts.net/ropa-sans:i4,n4:all.js"></script>
     
 	<?php wp_head(); ?>
     
@@ -62,6 +60,8 @@
     <script src="<?php bloginfo('template_url'); ?>/js/EvokeLabs.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.magnific-popup.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/jsmagnific.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile"></script>
+   
 
     <script>
       $(document).ready(function() {
@@ -77,6 +77,27 @@
 </script>
     
 </head>
+<body>
+        <header>
+        <div id="logo" >
+            <a href="http://www.evokelabs.com"><img src="<?php bloginfo('template_url'); ?>/img/evokelabslogo.gif" alt="Evokelabs logo ball"/></a>
+        </div>
+        
+        <div id="headerIcons">
+            <ul>
+                <a href="https://github.com/evokelabs" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/icongithub.png" alt="GitHub" /></li></a>
+                <a href="http://www.youtube.com/evokelabs" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/iconyoutube.png" alt="YouTube" /></li></a>
+                <a href="https://www.linkedin.com/in/adrianpikios/" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/iconlinked.png" alt="LinkedIn" /></li></a>
+                <a href="mailto:adrian@evokelabs.com"><li><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></li></a>
+            </ul>
+        </div>
+            <div id="headertitles">
+                <h1>Evoke Labs</h1>
+                <h2>Digital Strategy • Design • Development • Wordpress • Motion • UX</h2>
+            </div>
+        </header>
+           <div class="darkerUpper"></div>
+           <div class="darkerBG">
     
 
 

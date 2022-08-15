@@ -1,28 +1,8 @@
 <?php get_header(); ?>
 
-<body>
-        <header>
-        <div id="logo" >
-            <img src="<?php bloginfo('template_url'); ?>/img/evokelabslogo.gif" alt="Evokelabs logo ball"/>  
-        </div>
-        
-        <div id="headerIcons">
-            <ul>
-                <a href="https://github.com/evokelabs" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/icongithub.png" alt="GitHub" /></li></a>
-                <a href="http://www.youtube.com/evokelabs" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/iconyoutube.png" alt="YouTube" /></li></a>
-                <a href="https://www.linkedin.com/in/adrianpikios/" target="_blank"><li><img src="<?php bloginfo('template_url'); ?>/img/iconlinked.png" alt="LinkedIn" /></li></a>
-                <a href="mailto:adrian@evokelabs.com"><li><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></li></a>
-            </ul>
-        </div>
-            <div id="headertitles">
-                <h1>Evoke Labs</h1>
-                <h2>Digital Strategy • Design • Development • Wordpress • Motion • UX</h2>
-            </div>
-        </header>
-           <div class="darkerUpper"></div>
-           <div class="darkerBG">
+
             <div id="about">
-                <h3>Evokelabs does digital</h3><br/>
+                <h3>Evoke labs does digital</h3><br/>
                 <h4><span id="likeText">like spacegirls do the 90's</span></h4>
                     <div class="HR"></div>
                         <div id="aboutdesc">
@@ -33,6 +13,7 @@
                                 <div id="aboutvideodiv">
                                     
                                     <div id="aboutSlider">
+                                        <img src="<?php bloginfo('template_url'); ?>/img/clients/tiktok.gif"/>                                   
                                         <img src="<?php bloginfo('template_url'); ?>/img/clients/google.gif"/>                                   
                                         <img src="<?php bloginfo('template_url'); ?>/img/clients/yesoptus.gif"/> 
                                         <img src="<?php bloginfo('template_url'); ?>/img/clients/newsAustralia.gif"/>
@@ -56,12 +37,11 @@
             <div class="casestudy">
 
                 <h1 style="letter-spacing:0px;">show reel <?php echo date("Y"); ?></h1>
-                <h2 style="color:#ff8c32;">Our favourite eye-catching notable works for those short on time</h2>
+                <h2 style="color:#ff8c32;">Our favourite evoking works for those short on time</h2>
 
 
                     <div class="video-reel">   
-
-                    <a href="/img/casestudies/video/Evokelabs2019.mp4" class="popup-vimeo"><img src="<?php bloginfo('template_url'); ?>/img/reel.jpg" /></a>
+                    <video src="/img/casestudies/video/Evokelabs2019.mp4" autoplay muted controls></video>
 
                     </div>
 
@@ -97,56 +77,20 @@
                                 <li></li>
                             </ul>
                         <p></p>
+                        <a href="#"><h1>Back X</h1></a>                       
 
-                        
 
-
-                        </div> <!--workfeature-left-->
-
+                        </div> <!--workfeature-left-->                        
                         
                         
-                        <div id="workfeature-right">
-                            
-                         <a href="#"><h1>Back X</h1></a>
-                            <img src="" />
-                            <img src="" />
-                        
-                        </div><!--workfeature-right-->
-                        <div class="HR"></div>
-                        <div class="GraphPaperOne">
-                        </div>
-                        <div class="GraphPaperTwo">
-                        </div>
-                        <a href="http://www.evokelabs.com" target="_blank"><h2>View this piece</h2></a>
+                        <div class="HR"></div>                        
+                        <a href="http://www.evokelabs.com" target="_blank" class="view-this-piece"><h2>View this piece</h2></a>
                         <a href="#"><h2>Back to works</h2></a>
                         
                     </div>   <!-- work feature--> 
                 </div> <!-- work feature--> 
                 <div class="darkerLower"></div>
             </div>  <!-- darkerBG -->
-
-
-             
-
-    
-        <footer>
-            <h1>Get in touch</h1>
-            <h2>I'd love to hear from you if you have a project or campaign in the works</h2>
-                <ul>
-                    <a href="mailto:adrian@evokelabs.com"><li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconmail.png" alt="Email" /></div>adrian@evokelabs.com</li></a>
-                    <a href="https://twitter.com/evokelabs" target="_blank"><li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/icontwitter.png" alt="Twitter" /></div>evokelabs</li></a>
-                    <!--<li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconphone.png" alt="Phone" /></div>Skype: Evokelabs</li>-->
-                    <li><div class="footericon"><img src="<?php bloginfo('template_url'); ?>/img/iconlocation.png" alt="Phone" /></div>
-                    Sydney | Australia</li>
-                </ul>
-            <div class="VR"></div>
-            <div id="availabilities">
-                <h1>Up coming availabilities</h1>
-                <?php echo do_shortcode('[sbc id="1" legend="no" title="no" view="3" dropdown="no" weekstart="1"]') ?>
-            </div>
-        </footer>
-               
-    
-
+<?php get_footer(); ?>
 </body>
 </html>
