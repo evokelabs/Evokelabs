@@ -986,6 +986,12 @@ footer li {
 
   #about {
     width: 90%;
+    min-height: 320px;
+  }
+
+  #aboutdesc {
+    margin: 0 20px;
+    min-height: auto;
   }
 
   .HR,
@@ -1091,15 +1097,6 @@ footer li {
   #experience-resume-right,
   #skills-resume-right {
     margin-left: 0px;
-  }
-
-  #aboutdesc {
-    margin: 0 20px;
-    min-height: 330px;
-  }
-
-  #about {
-    min-height: 450px;
   }
 
   .casestudy h1 {
@@ -1271,7 +1268,16 @@ footer li {
   }
 }
 
+@media all and (max-width: 580px) {
+  #about {
+    min-height: 350px;
+  }
+}
+
 @media all and (max-width: 420px) {
+  #about {
+    min-height: 470px;
+  }
   #skills-resume-left li {
     height: auto;
   }

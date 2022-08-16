@@ -38,7 +38,7 @@
 
 
                     <div class="video-reel">   
-                    <video src="/img/casestudies/video/Evokelabs2019.mp4" autoplay muted controls></video>
+                    <video src="/img/casestudies/video/Evokelabs2019.mp4" autoplay muted controls loop></video>
 
                     </div>
 
