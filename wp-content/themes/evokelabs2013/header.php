@@ -57,10 +57,11 @@
     
     <script src="<?php bloginfo('template_url'); ?>/js/jquery-1.10.1.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.animate-colors-min.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/EvokeLabs.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/EvokeLabs.js" defer></script>
     <script src="<?php bloginfo('template_url'); ?>/js/jquery.magnific-popup.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/jsmagnific.min.js"></script>
     <script src="//cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile"></script>
+    <meta name="color-scheme" content="light only">
    
 
     <script>
