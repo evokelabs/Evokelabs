@@ -8,7 +8,7 @@
 	   <meta name="robots" content="ALL" /> 
 	<?php } ?>
 
-    <title>EVOKE LABS || Sydney based Creative Technologist</title>
+    <title>EVOKE LABS || Sydney Creative Technologist</title>
 <meta name="author" content="EVOKE LABS" /> 
     <meta name="robots" content="ALL" /> 
     <meta property="og:title" content="EVOKE LABS"/>
