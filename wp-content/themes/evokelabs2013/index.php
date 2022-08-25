@@ -38,7 +38,7 @@
 
 
                     <div class="video-reel">   
-                    <video src="/img/casestudies/video/Evokelabs2022-Reel.mp4" controls loop poster="/img/casestudies/video/Evokelabs2022-Reel.jpg"></video>
+                    <video src="/img/casestudies/video/Evokelabs2022-Reel.mp4" autoplay muted controls loop poster="/img/casestudies/video/Evokelabs2022-Reel.jpg"></video>
 
                     </div>
 
