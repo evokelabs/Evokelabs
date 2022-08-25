@@ -2,11 +2,11 @@
 
 
             <div id="about">
-                <h3>Evoke labs does digital</h3><br/>
+                <h3>Evoke Labs does digital</h3><br/>
                 <h4><span id="likeText">like spacegirls do the 90's</span></h4>
                     <div class="HR"></div>
                         <div id="aboutdesc">
-                        <p>Evokelabs is home to Adrian Pikios, <span class="highlight"><span id="soloText">an one-man army</span></span> that uses the powers of <span class="highlight"><span id="powerText">philosophy</span></span> to design, develop &amp; create <span class="highlight"><span id="describeText">elegant</span></span> digital experiences.</p>
+                        <p>Evokelabs is home to Adrian Pikios, <span class="highlight"><span id="soloText">a creative technologist</span></span> who uses the powers of <span class="highlight"><span id="powerText">digital tech</span></span> to design, develop &amp; create <span class="highlight"><span id="describeText">evoking</span></span> digital experiences.</p>
                         <p>When not working on personal projects, I partner with small to medium brands and spend time collaborating with agencies to help produce their digital campaigns.</p>
                         <p id="testimonials"></p>                            
                 </div>
@@ -38,7 +38,7 @@
 
 
                     <div class="video-reel">   
-                    <video src="/img/casestudies/video/Evokelabs2019.mp4" autoplay muted controls loop></video>
+                    <video src="/img/casestudies/video/Evokelabs2022-Reel.mp4" controls loop poster="/img/casestudies/video/Evokelabs2022-Reel.jpg"></video>
 
                     </div>
 
