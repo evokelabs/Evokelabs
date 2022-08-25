@@ -310,7 +310,9 @@ $(function () {
     'responsive design',
     'the web',
     'motion',
-    'strategy'
+    'strategy',
+    'technology',
+    'computers'
   ])
 
   const describeArray = randomItemWithNoRepetition([
@@ -339,7 +341,8 @@ $(function () {
     'engaging',
     'memorable',
     'powerful',
-    'dynamic'
+    'dynamic',
+    'evoking'
   ])
 
   const testimonialsArray = randomItemWithNoRepetition([
