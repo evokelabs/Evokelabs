@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-
+    <div id="about-container">
             <div id="about">
                 <h3>Evoke Labs does digital</h3><br/>
                 <h4><span id="likeText">like night follows day</span></h4>
@@ -27,6 +27,7 @@
                                   </div>   
                             </div> <!-- aboutdesc  -->
             </div>  <!-- about -->
+</div> <!-- about-container -->
            </div> <!-- darkger bg-->
             <div class="darkerLower"></div>  
 

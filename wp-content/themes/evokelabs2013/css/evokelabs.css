@@ -146,11 +146,19 @@ h2 {
   background-repeat: repeat;
 }
 
+#about-container {
+  position: relative;
+  height: 470px;
+  overflow: hidden;
+}
+
 #about {
   max-width: 870px;
   margin: 0 auto;
-  min-height: 465px;
   padding-top: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 h3,
@@ -1004,10 +1012,12 @@ footer li {
     font-size: 80%;
     text-align: center;
   }
+  #about-container {
+    height: 300px;
+  }
 
   #about {
     width: 90%;
-    min-height: 300px;
   }
 
   #aboutdesc {
@@ -1289,22 +1299,7 @@ footer li {
   }
 }
 
-@media all and (max-width: 590px) {
-  #about {
-    min-height: 340px;
-  }
-}
-
-@media all and (max-width: 580px) {
-  #about {
-    min-height: 370px;
-  }
-}
-
 @media all and (max-width: 430px) {
-  #about {
-    min-height: 420px;
-  }
   #skills-resume-left li {
     height: auto;
   }
@@ -1314,32 +1309,8 @@ footer li {
   }
 }
 
-@media all and (max-width: 400px) {
-  #about {
-    min-height: 450px;
-  }
-}
-
-@media all and (max-width: 360px) {
-  #about {
-    min-height: 470px;
-  }
-}
-
-@media all and (max-width: 340px) {
-  #about {
-    min-height: 490px;
-  }
-}
-
-@media all and (max-width: 300px) {
-  #about {
-    min-height: 570px;
-  }
-}
-
-@media all and (max-width: 280px) {
-  #about {
-    min-height: 620px;
+@media all and (max-width: 530px) {
+  #about-container {
+    height: 450px;
   }
 }
