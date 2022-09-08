@@ -19,9 +19,9 @@ Template Name: Evokelabs Resume
                         <div id="aboutdesc-resume">
 
                              <div id="aboutdesc-brief-resume-left">
-                                <p>I’m a creative technologist with a diverse skillset across the areas of digital strategy, digital design, web development, UX, WordPress, motion and 3D.</p>
+                                <p>I’m a creative technologist with a diverse skillset across the areas of digital strategy, digital design, web development, UX, WordPress, motion, and 3D.</p>
                                 <p>With over 15 years of experience, I work closely with advertising agencies, creative studios, multinational corporations and my own clients - to help produce digital campaigns in both team and solo environments.</p>
-                                <p>I excel in digital hybrid roles and particularly focused in furthering my skills in frontend technologies and VR/AR.</p>
+                                <p>I excel in digital hybrid roles and am particularly focused on furthering my skills in frontend technologies and VR/AR.</p>
                              </div>
 
 
