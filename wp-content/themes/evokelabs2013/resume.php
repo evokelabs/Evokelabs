@@ -18,9 +18,10 @@ Template Name: Evokelabs Resume
                     <div class="HR-resume"></div>
                         <div id="aboutdesc-resume">
 
-                             <div id="aboutdesc-brief-resume-left">                                 
-                                 <p>I’m a creative technologist with a diverse skillset across the areas of digital strategy, digital design, development (frontend & backend), UX, WordPress, motion and 3D.</p>
-                                 <p>With over 15 years of experience, I work closely with advertising agencies, creative studios, multinational corporations and my own clients - to help produce digital campaigns in both team and solo environments.</p>
+                             <div id="aboutdesc-brief-resume-left">
+                                <p>I’m a creative technologist with a diverse skillset across the areas of digital strategy, digital design, web development, UX, WordPress, motion and 3D.</p>
+                                <p>With over 15 years of experience, I work closely with advertising agencies, creative studios, multinational corporations and my own clients - to help produce digital campaigns in both team and solo environments.</p>
+                                <p>I excel in digital hybrid roles and particularly focused in furthering my skills in frontend technologies and VR/AR.</p>
                                 <p>Visit my <a href="http://www.evokelabs.com">portfolio</a> to see case studies of selected works.</p>
                              </div>
 
@@ -71,13 +72,12 @@ Template Name: Evokelabs Resume
                              <li>Freelance Frontend Developer</li>
                              <li>February 2021 - January 2022</li>
                              <p>Specialising in eDM development and CRM integration for Akcelo's various clients.</p>
-                             <p><strong>TikTok Canada | Mailchimp CRM </strong><br/> 50+ eDM builds for "TikTok for Creators" ongoing marketing campaign + landing page builds + custom Mailchimp template builds.</p>
-                             <p><strong>TikTok Australia/NZ | Mailchimp CRM</strong><br/> Bi-Monthly eDM builds for "What's Trending" marketing campaign + custom Mailchimp template builds.</p>
-                            <p><strong>PetCulture.com.au | Klaviyo CRM</strong><br/> 40+ dynamic eDM builds integrated with shopify.</p>
-                            <p><strong>Wiseman Surf Lodge | Hubspot CRM</strong><br/> 18 customer journey eDM builds.</p>
-                            <p><strong>Flave.com | Marsello CRM</strong><br/> 9 customer journey eDM builds.</p>
-                            <p><strong>Paramount+</strong><br/> HTML5/ES6 Landing Page build with frontend API integration</p>
-                            <p>+ several other frontend builds & digital design assortments</p>                         
+                             <p><strong>• TikTok Canada | Mailchimp CRM </strong><br/> 50+ eDM builds for "TikTok for Creators" ongoing marketing campaign + landing page builds + custom Mailchimp template builds.</p>
+                             <p><strong>• TikTok Australia/NZ | Mailchimp CRM</strong><br/> Bi-Monthly eDM builds for "What's Trending" marketing campaign + custom Mailchimp template builds.</p>
+                            <p><strong>• PetCulture.com.au | Klaviyo CRM</strong><br/> 40+ dynamic eDM builds integrated with shopify.</p>
+                            <p><strong>• Wiseman Surf Lodge | Hubspot CRM</strong><br/> 18 customer journey eDM builds.</p>
+                            <p><strong>• Flave.com | Marsello CRM</strong><br/> 9 customer journey eDM builds.</p>
+                            <p><strong>• Paramount+</strong><br/> HTML5/ES6 Landing Page build with frontend API integration</p>                      
                          </ul>
 
                         <div class="HR-resume"></div> 
@@ -86,10 +86,10 @@ Template Name: Evokelabs Resume
                              <li>FlexiGroup Limited (FXL)</li>
                              <li>Freelance Frontend Developer / Digital Designer</li>
                              <li>March 2019 - March 2021</li>
-                             <p>Contracted as Flexigroup's lead eDM developer - responsible for converting their daily designed email builds into usable HTML/CSS code viewable in every major email client.</p>
-                             <p>I handcoded over a hundred different responsive eDMs. Tested in Litmus before sent through multiple email marketing platforms, including MailChimp, Melon Mail and Microsoft’s Dynamics 365 - to hundreds of thousands of email listings.</p>
+                             <p>Contracted as Flexigroup's lead eDM developer - responsible for converting their daily Figma designs into CRM integrated eDM campaigns - viewable in every major email client and device setup.</p>
+                             <p>I handcoded over a hundred different responsive eDMs. They were tested in Litmus before sent through multiple CRM platforms, including MailChimp, Melon Mail and Microsoft’s Dynamics 365 - to hundreds of thousands of email listings.</p>
                              <p>Additional frontend jobs, such as developing websites and Wordpress templates builds for Flexigroup's partners, was also looked after by myself.</p>
-                             <p>I also supplemented their design team in day to day marketing operations. Including designing additional eDM builds in Figma, styling PowerPoint sales decks used in external presentations, designing and developing HTML5 banners, creating graphical tilesets and GIFs for mobile advertising, and producing animations in After Effects for video advertising.</p>
+                             <p>Being a digital designer, I also supplemented their design team in day to day marketing operations. Including designing additional eDM builds in Figma, styling PowerPoint sales decks used in external presentations, designing and developing HTML5 banners, creating graphical tilesets and GIFs for mobile advertising, and producing animations in After Effects for video advertising.</p>
                          
                          </ul>
                   <div class="HR-resume"></div> 
@@ -98,8 +98,7 @@ Template Name: Evokelabs Resume
                              <li>HYLAND</li>
                              <li>Freelance Digital Designer / Developer</li>
                              <li>July 2019 - March 2020</li>
-                             <p>Built a responsive CMS enabled WordPress site from flat Indesigns files in house.</p>
-                             <p>Built HTML5 banners for their various clients, including Deliveroo, Nair and Batiste remotely.</p>
+                             <p>Responsible for developing a responsive CMS enabled WordPress site from flat Indesigns files inhouse. Also built HTML5 banners for their various clients, including Deliveroo, Nair and Batiste remotely.</p>
                          </ul>
 <div class="HR-resume"></div> 
                         <ul>
@@ -107,8 +106,8 @@ Template Name: Evokelabs Resume
                              <li>University of Sydney</li>
                              <li>Freelance Digital Designer / Developer</li>
                              <li>December 2018 - January 2019</li>
-                             <p>Contracted by Dakota Media to work with the University of Sydney on their "Unlearn" Campaign.</p>
-                             <p>I was responsible for building and developing their HTML5 banner suite, which was to be delivered through Google Doubleclick. A total of 30 banners were built in under two weeks for each of their research creatives and their respective resizes in house.</p>
+                             <p>Responsible for the design and development of UNSW HTML5 banner suites.</p>
+                             <p>I created PSD designs and their respective resizes for each creative concept. Once approved, these designs were developed into interactive HTML5 banners along with their resizes. They were then integrated into Google Doubleclick, were successfully tested and pushed live.</p>
                             <p>This HTML5 banner collection can be viewed <a href="http://www.evokelabs.com/works/UniversityOfSydney">here</a></p>
                          </ul>
 <div class="HR-resume"></div> 
@@ -117,7 +116,7 @@ Template Name: Evokelabs Resume
                              <li>Richards Rose</li>
                              <li>Freelance Digital Designer / Developer</li>
                              <li>July 2015 - November 2018</li>
-                             <p>I have a long-standing relationship with Richards Rose (priorly AJF Partnership Sydney) and was one of their first freelancers when they were just starting out. I've stayed with them for a number of years and have worked with them on dozens of different digital campaigns. Their jobs typically include motion builds, HTML5 banner builds, minisite builds, eDM builds, and Wordpress builds. Their clients include Stan, Mitsubishi, Wild Turkey, Nivea and Perpetual.</p>
+                             <p>Designed & developed dozens of digital campaigns - including motion builds, HTML5 banner builds, minisite builds, eDM builds, and Wordpress builds. Clients include Stan, Mitsubishi, Wild Turkey, Nivea and Skyy Vodka.</p>
                             <p>Check out the <a href="http://www.evokelabs.com/works/RichardsRose-Banners/">Richards Rose HTML5 Collection</a> or <a href="http://www.evokelabs.com/works/RichardsRose-Motion/">Richards Rose Motion Suite</a> to see some of these works.</p></p>
                          </ul>
 <div class="HR-resume"></div> 
@@ -127,7 +126,7 @@ Template Name: Evokelabs Resume
                              <li>Freelance Digital Designer / Developer</li>
                              <li>May 2015 - June 2015</li>
                             <!-- <li>November 2013 - January 2014</li>-->
-                             <p>Flash builds, social media design builds, eDM builds, motion builds and other digital advertising assortments for brands such as Jetstar, Renault and Bupa.</p>
+                             <p>Responsible for flash builds, social media design builds, eDM builds, motion builds and other digital assets for brands such as Jetstar, Renault and Bupa.</p>
                          </ul>
 
          <div class="HR-resume"></div> 
@@ -137,7 +136,8 @@ Template Name: Evokelabs Resume
                              <li>Freelance Digital Designer / Developer</li>
                              <li>February 2013 - July 2015</li>
                             <!-- <li>November 2013 - January 2014</li>-->
-                             <p>The typical jobs that were passed to me were flash builds, eDM builds, HTML builds and motion builds. Some of their more complicated banners involved serving video, incorporating double click functions, fetching dynamic data and more. I also consulted their inhouse team when it came to digital projects they were not so comfortable with, as I had the most experience dealing with digital within their agency.</p>
+                             <p>Digital consultant for their inhouse team relating to interactive campaigns. Responsible for flash builds, eDM builds, HTML builds and motion builds. Clients include News Corp Australia, Mr Men, Rams Home Loans and Perpetual Limited.
+</p>
 
                          </ul>
 <div class="HR-resume"></div> 
@@ -147,7 +147,7 @@ Template Name: Evokelabs Resume
                              <li>Digital Designer / Developer</li>
                              <li>July 2013 - November 2013 (fulltime)</li>
                              <li>November 2013 - Late 2014 (freelance)</li>
-                             <p>My daily responsibilities included responsive HTML builds, flash builds, motions builds, wordpress template builds and CSS/HTML frontend development. Most notable works include some of the art direction and all the flash builds for various Google Banner Campaigns.</p>
+                             <p>Daily responsibilities include responsive HTML builds, flash builds, motion builds, wordpress template builds and CSS/HTML frontend development. Most notable works include the art direction and flash builds across official Google products and services.</p>
                         </ul>
 <div class="HR-resume"></div> 
                        
@@ -157,9 +157,7 @@ Template Name: Evokelabs Resume
                              <li>M&amp;C Saatchi</li>
                              <li>Freelance Senior Digital Designer / Developer</li>
                              <li>2011 - 2012</li>
-                             <p>Working closely with producers and creative directors, I was responsible for flash builds, motion builds, edm builds, digital design and HTML development within their day to day operations.
-
-My work was done for clients such as Qantas, Optus, Google, Westfield and Woolworths. I delivered a large number of digital campaigns for them on Saatchi’s behalf.</p>
+                             <p>Working closely with producers and creative directors, I was responsible for flash builds, motion builds, edm builds, digital design and HTML development. Clients include Qantas, Optus, Google, Westfield and Woolworths.</p>
                         </ul>
 <div class="HR-resume"></div> 
                          <ul>
@@ -176,7 +174,7 @@ My work was done for clients such as Qantas, Optus, Google, Westfield and Woolwo
                              <li>VMLY&R</li>
                              <li>Freelance Digital Designer / Developer</li>
                              <li>2006 - 2007</li>
-                             <p>Responsible for minisites, designs, flash builds, actionscript development and edm development that was managed by producers & art directors. I was also dealing with big clients as such Telstra, Microsoft and Career One.</p>                            
+                             <p>Responsible for minisites, designs, flash builds, actionscript development and edm development for clients such as such Telstra, Microsoft and Career One.</p>                            
                         </ul>
 
                      </ul>
